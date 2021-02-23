@@ -1,0 +1,227 @@
+%%%%%% Run at command line, run
+%%%%%% xelatex grad-sample.tex 
+%%%%%% for a few times to generate the output pdf file
+\documentclass[12pt,oneside,openright,a4paper]{cpe-thai-project}
+
+
+\defaultfontfeatures{Mapping=tex-text,Scale=1.23,LetterSpace=0.0}
+\setmainfont[Scale=1.23,LetterSpace=0,WordSpace=1.0,FakeStretch=1.0]{TH Sarabun New}
+%\setmathfont(Digits)[Scale=1.0,LetterSpace=0,FakeStretch=1.0]{Times New Roman}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Customize below to suit your needs 
+% The ones that are optional can be left blank. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First line of title
+\def\disstitleone{Project No. 67}   
+% Second line of title
+\def\disstitletwo{ระบบจัดเก็บและจัดการเอกสารภายในหอบรรณสารสนเทศ }  
+% Three line of title
+\def\disstitlethree{(KMUTT Archives Management Platform) }   
+
+% Your first name and lastname
+\def\dissauthor{Mr.Akarapon Boonsermsakul}   % 1st member
+%%% Put other group member names here ..
+\def\dissauthortwo{Ms.Thanaporn Pitianusorn}   % 2nd member (optional)
+\def\dissauthorthree{Mr.Annop Kongsombatcharoen}   % 3rd member (optional)
+
+
+% The degree that you're persuing..
+\def\dissdegree{Bachelor of Engineering} % Name of the degree
+\def\dissdegreeabrev{B.Eng} % Abbreviation of the degree
+\def\dissyear{2020}                   % Year of submission
+\def\thaidissyear{2563}               % Year of submission (B.E.)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Your project and independent study committee..
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\dissadvisor{Asst.Prof. Suthathip Manee, Ph.D.}  % Advisor
+%%% Leave it empty if you have no Co-advisor
+\def\disscoadvisor{}  % Co-advisor
+\def\disscommitteetwo{Dr.Prapong Prechaprapranwong, Ph.D.}  % 3rd committee member (optional)
+\def\disscommitteethree{Asst.Prof.Sanan Srakaew}   % 4th committee member (optional) 
+\def\disscommitteefour{Asst.Prof.Surapont Toomnark}    % 5th committee member (optional) 
+
+\def\worktype{Project} %%  Project or Independent study
+\def\disscredit{3}   %% 3 credits or 6 credits
+
+
+\def\fieldofstudy{Computer Engineering} 
+\def\department{Computer Engineering} 
+\def\faculty{Engineering}
+
+\def\thaifieldofstudy{วิศวกรรมคอมพิวเตอร์} 
+\def\thaidepartment{วิศวกรรมคอมพิวเตอร์} 
+\def\thaifaculty{วิศวกรรมศาสตร์}
+ 
+\def\appendixnames{Appendix} %%% Appendices or Appendix
+
+\def\thaiworktype{ปริญญานิพนธ์} %  Project or research project % 
+\def\thaidisstitleone{ระบบจัดเก็บและจัดการเอกสารภายในหอบรรณสารสนเทศ}
+\def\thaidisstitletwo{KMUTT Archives Management Platform}
+\def\thaidissauthor{นายอัครพล บุญเสริมศักดิ์กุล}
+\def\thaidissauthortwo{นางสาวธนพร ปิติอนุสรณ์} %Optional
+\def\thaidissauthorthree{นายอรรณพ กองสมบัติเจริญ} %Optional
+
+\def\thaidissadvisor{ผศ.ดร.สุธาทิพย์ มณีวงศ์วัฒนา}
+%% Leave this empty if you have no co-advisor
+\def\thaidissdegree{วิศวกรรมศาสตรบัณฑิต}
+
+% Change the line spacing here...
+\linespread{1.15}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of personal customization.  Do not modify from this part 
+% to \begin{document} unless you know what you are doing...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%% Dissertation style %%%%%%%%%%%
+%\linespread{1.6} % Double-spaced  
+%%\oddsidemargin    0.5in
+%%\evensidemargin   0.5in
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\subfigtopskip}{10pt}
+%\renewcommand{\subfigbottomskip}{-5pt} 
+%\renewcommand{\subfigcapskip}{-6pt} %vertical space between caption
+%                                    %and figure.
+%\renewcommand{\subfigcapmargin}{0pt}
+
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+\def\QED{\mbox{\rule[0pt]{1.5ex}{1.5ex}}}
+\def\proof{\noindent\hspace{2em}{\itshape Proof: }}
+\def\endproof{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
+%\newenvironment{proof}{{\sc Proof:}}{~\hfill \blacksquare}
+%% The hyperref package redefines the \appendix. This one 
+%% is from the dissertation.cls
+%\def\appendix#1{\iffirstappendix \appendixcover \firstappendixfalse \fi \chapter{#1}}
+%\renewcommand{\arraystretch}{0.8}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\makesignaturepage 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% English abstract %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abstract
+
+KMUTT's library have collected the archive of valued documents. 
+Because these document have not transformed into digital form, 
+there is vital problem in searching for information in these 
+document for librarian and patrons. In this project, we developed 
+web platform to digitize these document into digital format 
+and implement the search function that facilitate the librarian 
+and patron to search for information. The platform consists of 
+2 components. The first part is importing documents and 
+digitization. In this step, we applied image processing 
+techniques such as Morphology Transformation to preprocess
+the images of documents and transform the images to full text 
+data by using Tesseract. After getting the text files, we tokenize 
+the text into words by using the Deepcut library and find the 
+significant words of the document by using the TF-IDF algorithm. 
+In the second part, we start by getting the input from the user 
+and use the word2Vec model to find a similar word. And take 
+input and similar words to get the TF-IDF score that we 
+generate at first to find the best document for the input word.  
+
+\begin{flushleft}
+\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+\textbf{Keywords}: & Natural language processing / RESTful Service / Optical character recognition / Image Processing / Information retrieval / Term Frequency-Inverse Document Frequency / Word2Vec / Word Embedded 
+\end{tabular*}
+\end{flushleft}
+\endabstract
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Thai abstract here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\newfontfamily\thaifont{TH Sarabun New:script=thai}[Scale=1.3]
+\XeTeXlinebreaklocale "th_TH"	
+\thaifont
+\thaiabstract
+
+การจะสืบค้นข้อมูลจากเอกสารหรือชั้นหนังสือที่มีการรวบรวมข้อมูลไว้ตั้งแต่อดีตนั้นเป็น
+ปัญหาอย่างหนึ่งของเจ้าหน้าที่บรรณารักษ์ที่ต้องทำการดูแลเอกสารเหล่านี้ เนื่องจาก
+การที่ยังไม่มีการเก็บหนังสือและเอกสารให้อยู่ในรูปแบบของข้อมูลดิจิตอลทำให้ต้อง
+สืบค้นโดยการค้นหาเอกสารและหนังสือแต่ละเล่มโดยการดูจากเนื้อหาสารบัญเพื่อให้
+ได้หนังสือที่ตรงกับข้อมูลที่ต้องการมากที่สุด ซึ่งการที่ค้นหาจากหน้าสารบัญของ
+หนังสือแต่ละเล่มก็จะทำให้การค้นหาเป็นไปอย่างล่าช้า และบางครั้งการดูเพียง
+แค่สารบัญก็อาจจะทำให้ได้หนังสือที่ไม่ตรงกับความต้องการของผู้ที่เข้ามายืมหนังสือ 
+ในโครงการนี้เราได้ทำการพัฒนาการระบบจัดเก็บและค้นหาเอกสารอิเล็กทรินิกส์ 
+โดยแบ่งออกเป็น 2 ขั้นตอนคือ การนำเข้าข้อมูล  และการสร้างระบบค้นหา 
+โดยขั้นตอนการนำเข้าข้อมูล เราจะเริ่มจากการทำ image processing 
+เพื่อเตรียมข้อมูลรูปภาพที่ได้มา ก่อนจะนำไปผ่านกระบวนการ OCR 
+เพื่อแปลงรูปภาพเหล่านี้ให้อยู่ในรูปของข้อมูลดิจิตอล โดยการเก็บข้อมูลในรูปแบบของ 
+Information Retrieval เพื่อช่วยให้ความเร็วการค้นหามีประสิทธิภาพมากยิ่งขึ้น 
+และนำข้อมูลมาทำการตัดคำ และเช็คคำผิด จากนั้นจะนำมาหาคำสำคัญของหนังสือหรือเอกสารนั้น ๆ
+โดยการใช้การหาคะแนนแบบ TF-IDF ส่วนการสร้างระบบการค้นหาจะเริ่มจากรับคำค้นหามาจากผู้
+ใช้และทำการนำคำที่ได้ไปเข้าโมเดล word2Vec เพื่อหาคำที่ใกล้เคียง 
+จากนั้นนำคำใกล้เคียงและคำค้นหาไปดึงคะแนน TF-IDF ที่เก็บไว้เพื่อค้นหาว่า
+มีเอกสารหรือหนังสือเล่มไหนที่มีคะแนนที่ตรงและใกล้เคียงกับคำค้นหามากที่สุด
+
+\begin{flushleft}
+\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+ & \\
+
+\textbf{คำสำคัญ}: & Natural language processing / RESTful Service / Optical character recognition / Image Processing / Information retrieval / Term Frequency-Inverse Document Frequency / Word2Vec / Word Embedded 
+\end{tabular*}
+\end{flushleft}
+\endabstract
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% Acknowledgments %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\preface
+ขอขอบคุณนางสาวอารยา ศรีบัวบาน เจ้าหน้าที่หอบรรณสารสนเทศและ ผศ.ดร.สุธาทิพย์ มณีวงศ์วัฒนา อาจารย์ที่ปรึกษารวมทั้งเจ้าหน้าที่ภายในหอสมุดมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีที่เสียสละเวลาให้ความรู้ความเข้าใจ ทั้งในเรื่องการเก็บข้อมูลและคอยแนะนำวิธีการจัดการกับปัญหาต่างๆที่เกิดขึ้น นำมาสู่การทำหัวข้อปริญญานิพนธ์ฉบับนี้ให้สำเร็จตามที่ต้องการ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% ToC, List of figures/tables %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The three commands below automatically generate the table 
+% of content, list of tables and list of figures
+\tableofcontents                    
+\listoftables
+\listoffigures                      
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% List of symbols page %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You have to add this manually..
+\listofsymbols
+\begin{flushleft}
+\begin{tabular}{@{}p{0.07\textwidth}p{0.7\textwidth}p{0.1\textwidth}}
+\textbf{SYMBOL}  & & \textbf{UNIT} \\[0.2cm]
+$\alpha$ & Test variable\hfill & m$^2$ \\
+$\lambda$ & Interarival rate\hfill &  jobs/second\\
+$\mu$ & Service rate\hfill & jobs/second\\
+\end{tabular}
+\end{flushleft}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% List of vocabs & terms %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You also have to add this manually..
+\listofvocab
+\begin{flushleft}
+\begin{tabular}{@{}p{1in}@{=\extracolsep{0.5in}}l}
+ABC & Adaptive Bandwidth Control \\
+MANET & Mobile Ad Hoc Network 
+\end{tabular}
+\end{flushleft}
+
+%\setlength{\parskip}{1.2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% Main body %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{Chapter1}
+
+\end{document}
