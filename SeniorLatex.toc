@@ -11,10 +11,10 @@
 \contentsline {section}{\numberline {1.2}ความสำคัญของปัญหา}{1}{}%
 \contentsline {section}{\numberline {1.3}ประเภทของโครงงาน}{1}{}%
 \contentsline {section}{\numberline {1.4}วิธีการที่นำเสนอ}{1}{}%
-\contentsline {section}{\numberline {1.5}วัตถุประสงค์}{1}{}%
-\contentsline {section}{\numberline {1.6}ขอบเขตของงานวิจัย}{1}{}%
-\contentsline {section}{\numberline {1.7}เนื้อหาทางวิศวกรรมที่เป็นต้นฉบับ}{1}{}%
-\contentsline {section}{\numberline {1.8}การแยกย่อยงาน และร่างแผนการดำเนินงาน}{1}{}%
-\contentsline {section}{\numberline {1.9}ตารางการดำเนินงาน}{1}{}%
-\contentsline {subsection}{\numberline {1.9.1}ผลการดำเนินงานในภาคการศึกษาที่ 1}{1}{}%
-\contentsline {subsection}{\numberline {1.9.2}ผลการดำเนินงานในภาคการศึกษาที่ 2}{1}{}%
+\contentsline {section}{\numberline {1.5}วัตถุประสงค์}{2}{}%
+\contentsline {section}{\numberline {1.6}ขอบเขตของงานวิจัย}{2}{}%
+\contentsline {section}{\numberline {1.7}เนื้อหาทางวิศวกรรมที่เป็นต้นฉบับ}{2}{}%
+\contentsline {section}{\numberline {1.8}การแยกย่อยงาน และร่างแผนการดำเนินงาน}{3}{}%
+\contentsline {section}{\numberline {1.9}ตารางการดำเนินงาน}{4}{}%
+\contentsline {subsection}{\numberline {1.9.1}ผลการดำเนินงานในภาคการศึกษาที่ 1}{4}{}%
+\contentsline {subsection}{\numberline {1.9.2}ผลการดำเนินงานในภาคการศึกษาที่ 2}{5}{}%

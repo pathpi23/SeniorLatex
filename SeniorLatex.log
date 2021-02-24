@@ -1,46 +1,46 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 21.1) (preloaded format=xelatex 2021.2.11)  12 FEB 2021 15:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  24 FEB 2021 13:04
 entering extended mode
-**"d:/Senior Project/LatexSenior/SeniorLatex.tex"
-("d:/Senior Project/LatexSenior/SeniorLatex.tex"
+**d:/Senior/SeniorLatex/SeniorLatex.tex
+(d:/Senior/SeniorLatex/SeniorLatex.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-06> xparse <2020-03-03> (cpe-thai-project.cls
+L3 programming layer <2021-02-18> xparse <2020-03-03> (cpe-thai-project.cls
 
 LaTeX Warning: You have requested document class `cpe-thai-project',
                but the document class provides `cpe-grad'.
 
 Document Class: cpe-grad 2016/05/30 CPE,KMUTT latex class
-(C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+(C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count173
-\c@chapter=\count174
-\c@section=\count175
-\c@subsection=\count176
-\c@subsubsection=\count177
-\c@paragraph=\count178
-\c@subparagraph=\count179
-\c@figure=\count180
-\c@table=\count181
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
 Document Style `CPE thesis/report'.
-(C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count182
-\Gm@cntv=\count183
-\c@Gm@tempcnt=\count184
+\Gm@cnth=\count184
+\Gm@cntv=\count185
+\c@Gm@tempcnt=\count186
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -50,22 +50,22 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/xelatex/xetexconfig\geometry.cfg)) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/xelatex/xetexconfig\geometry.cfg)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 105.
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
 File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen149
 \ar@mcellbox=\box47
@@ -74,7 +74,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box48
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks18
 \symAMSa=\mathgroup4
@@ -82,30 +82,30 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen151
-)) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen152
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count185
+\inf@bad=\count187
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count186
-\leftroot@=\count187
+\uproot@=\count188
+\leftroot@=\count189
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count188
-\DOTSCASE@=\count189
+\classnum@=\count190
+\DOTSCASE@=\count191
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -114,15 +114,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count190
-\c@MaxMatrixCols=\count191
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
 \dotsspace@=\muskip16
-\c@parentequation=\count192
-\dspbrk@lvl=\count193
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
 \tag@help=\toks20
-\row@=\count194
-\column@=\count195
-\maxfields@=\count196
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
 \andhelp@=\toks21
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
@@ -136,76 +136,76 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\mathspec.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\mathspec.sty
 Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection for XeLaTeX)
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count197
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+\etb@tempcnta=\count199
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-02-06 L3 programming layer (loader) 
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
-File: l3backend-xetex.def 2021-02-06 L3 backend support: XeTeX
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2021-02-18 L3 backend support: XeTeX
  ()
-\c__kernel_sys_dvipdfmx_version_int=\count198
-\l__color_backend_stack_int=\count199
-\g__color_backend_stack_int=\count266
-\g__graphics_track_int=\count267
+\c__kernel_sys_dvipdfmx_version_int=\count266
+\l__color_backend_stack_int=\count267
+\g__color_backend_stack_int=\count268
+\g__graphics_track_int=\count269
 \l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count268
-\g__pdf_backend_annotation_int=\count269
-\g__pdf_backend_link_int=\count270
+\g__pdf_backend_object_int=\count270
+\g__pdf_backend_annotation_int=\count271
+\g__pdf_backend_link_int=\count272
 ))
 Package: xparse 2020-10-27 L3 Experimental document command parser
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex))
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex))
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count271
-\l__fontspec_language_int=\count272
-\l__fontspec_strnum_int=\count273
-\l__fontspec_tmp_int=\count274
-\l__fontspec_tmpa_int=\count275
-\l__fontspec_tmpb_int=\count276
-\l__fontspec_tmpc_int=\count277
-\l__fontspec_em_int=\count278
-\l__fontspec_emdef_int=\count279
-\l__fontspec_strong_int=\count280
-\l__fontspec_strongdef_int=\count281
+\l__fontspec_script_int=\count273
+\l__fontspec_language_int=\count274
+\l__fontspec_strnum_int=\count275
+\l__fontspec_tmp_int=\count276
+\l__fontspec_tmpa_int=\count277
+\l__fontspec_tmpb_int=\count278
+\l__fontspec_tmpc_int=\count279
+\l__fontspec_em_int=\count280
+\l__fontspec_emdef_int=\count281
+\l__fontspec_strong_int=\count282
+\l__fontspec_strongdef_int=\count283
 \l__fontspec_tmpa_dim=\dimen160
 \l__fontspec_tmpb_dim=\dimen161
 \l__fontspec_tmpc_dim=\dimen162
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
 )
-\XKV@depth=\count282
+\XKV@depth=\count284
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@eu@=\count283
-\c@eu@i=\count284
-\c@mkern=\count285
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/xelatex/xunicode\xunicode.sty
+\c@eu@=\count285
+\c@eu@i=\count286
+\c@mkern=\count287
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/xelatex/xunicode\xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many other characters in Unicode lower plane
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3enc.def
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 )
-\tipaTiiicode=\count286
+\tipaTiiicode=\count288
 \tipasavetokens=\toks26
 \tipachecktokens=\toks27
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/xltxtra\xltxtra.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/xltxtra\xltxtra.sty
 Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/realscripts\realscripts.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/realscripts\realscripts.sty
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscripts
 \subsupersep=\dimen163
-) (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/metalogo\metalogo.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/metalogo\metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
 \xl@everylogo=\toks28
 \xl@@everylogo=\toks29
@@ -219,13 +219,54 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 \g__xetex_show_hyphens_word_box=\box55
 )
 \bibindent=\dimen164
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-\c@definition=\count287
+\c@definition=\count289
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip54
+\enit@outerparindent=\dimen165
+\enit@toks=\toks30
+\enit@inbox=\box56
+\enit@count@id=\count290
+\enitdp@description=\count291
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/01/29 v2.7 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count292
+\multirow@dima=\skip56
+\bigstrutjot=\dimen166
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks31
+\minrowclearance=\skip57
+)
+\rownum=\count293
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count294
+\float@exts=\toks32
+\float@box=\box57
+\@float@everytoks=\toks33
+\@floatcapt=\box58
 )
 
 Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
@@ -268,39 +309,39 @@ Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
 (fontspec)             =1.0\fontdimen 4\font 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 10.
-\c@theorem=\count288
-\c@lemma=\count289
-\c@corollary=\count290
+(Font)              scaled to size 12.29996pt on input line 13.
+\c@theorem=\count295
+\c@lemma=\count296
+\c@corollary=\count297
  (SeniorLatex.aux (Chapter1.aux))
 \openout1 = `SeniorLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 108.
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 110.
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 108.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 108.
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 110.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 110.
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    ... okay on input line 110.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -335,19 +376,19 @@ LaTeX Font Info:    ... okay on input line 108.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
-(C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 112.
+(C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 112.
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 110.
- (C:\Users\THANAPORNPITIANUSORN\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 112.
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 110--110
+Underfull \hbox (badness 10000) in alignment at lines 112--112
 [] [] 
  []
 
@@ -356,9 +397,9 @@ Underfull \hbox (badness 10000) in alignment at lines 110--110
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 12.29996pt on input line 115.
+(Font)              scaled to size 12.29996pt on input line 117.
 
-Underfull \hbox (badness 10000) in alignment at lines 137--139
+Underfull \hbox (badness 10000) in alignment at lines 139--141
 [][] 
  []
 
@@ -387,7 +428,7 @@ Package fontspec Info: Font family 'THSarabunNew:script=thai(0)' created for
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew:script=thai(0)/m/n' will be
-(Font)              scaled to size 13.00003pt on input line 148.
+(Font)              scaled to size 13.00003pt on input line 150.
 
 
 Package fontspec Warning: Language 'Thai' not available for font 'TH Sarabun
@@ -418,7 +459,7 @@ Package fontspec Info: Font family 'THSarabunNew:script=thai(1)' created for
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew:script=thai(1)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 149.
+(Font)              scaled to size 12.29996pt on input line 151.
 
 Package fontspec Warning: Language 'Thai' not available for font 'TH Sarabun
 (fontspec)                New:script=thai' with script 'CustomDefault'.
@@ -464,37 +505,37 @@ Package fontspec Warning: Language 'Thai' not available for font 'TH Sarabun
 (fontspec)                New:script=thai' with script 'CustomDefault'.
 
 
-Overfull \hbox (0.85405pt too wide) in paragraph at lines 151--169
+Overfull \hbox (0.85405pt too wide) in paragraph at lines 153--171
 []\TU/THSarabunNew:script=thai(0)/m/n/10 การจะสืบค้นข้อมูลจากเอกสารหรือชั้นหนังสือที่มีการรวบรวมข้อมูลไว้ตั้งแต่อดีตนั้นเป็น ปัญหาอย่างหนึ่งของเจ้าหน้าที่บรรณารักษ์
  []
 
 
-Overfull \hbox (7.10709pt too wide) in paragraph at lines 151--169
+Overfull \hbox (7.10709pt too wide) in paragraph at lines 153--171
 \TU/THSarabunNew:script=thai(0)/m/n/10 ที่ต้องทำการดูแลเอกสารเหล่านี้ เนื่องจาก การที่ยังไม่มีการเก็บหนังสือและเอกสารให้อยู่ในรูปแบบของข้อมูลดิจิตอลทำให้ต้อง สืบค้น
  []
 
 
-Overfull \hbox (7.00307pt too wide) in paragraph at lines 151--169
+Overfull \hbox (7.00307pt too wide) in paragraph at lines 153--171
 \TU/THSarabunNew:script=thai(0)/m/n/10 ที่ค้นหาจากหน้าสารบัญของ หนังสือแต่ละเล่มก็จะทำให้การค้นหาเป็นไปอย่างล่าช้า และบางครั้งการดูเพียง แค่สารบัญก็อาจจะทำให้
  []
 
 
-Overfull \hbox (7.8611pt too wide) in paragraph at lines 151--169
+Overfull \hbox (7.8611pt too wide) in paragraph at lines 153--171
 \TU/THSarabunNew:script=thai(0)/m/n/10 ได้หนังสือที่ไม่ตรงกับความต้องการของผู้ที่เข้ามายืมหนังสือ ในโครงการนี้เราได้ทำการพัฒนาการระบบจัดเก็บและค้นหาเอกสารอิเล็ก
  []
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew:script=thai(0)/b/n' will be
-(Font)              scaled to size 13.00003pt on input line 174.
+(Font)              scaled to size 13.00003pt on input line 176.
 
-Underfull \hbox (badness 10000) in alignment at lines 171--175
+Underfull \hbox (badness 10000) in alignment at lines 173--177
 [][] 
  []
 
 [3]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 183.
+(Font)              scaled to size 14.75995pt on input line 185.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 183.
+(Font)              scaled to size 14.75995pt on input line 185.
  [4
 
 ] (SeniorLatex.toc)
@@ -516,17 +557,17 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
  [7
 
 ]
-Overfull \hbox (1.72173pt too wide) in paragraph at lines 202--202
+Overfull \hbox (1.72173pt too wide) in paragraph at lines 204--204
 []|\TU/THSarabunNew(0)/b/n/10 SYMBOL| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 []|\TU/THSarabunNew(0)/m/n/10 jobs/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 []|\TU/THSarabunNew(0)/m/n/10 jobs/
  []
 
@@ -578,19 +619,94 @@ Overfull \hbox (7.76395pt too wide) in paragraph at lines 11--12
 \TU/THSarabunNew(0)/m/n/10 ทำการค้นหาข้อมูลได้ด้วยตนเองครบถ้วนทางคณะผู้จัดทำโครงการจึงได้พัฒนาระบบการจัดเก็บเอกสารและระบบการค้นหาโดยการใช้เครื่อง
  []
 
+[1
+
+
+]
+Overfull \hbox (3.99435pt too wide) in paragraph at lines 36--37
+[]\TU/THSarabunNew(0)/m/n/10 สร้าง web platform เพื่อทำการค้นหาเอกสารจากคำค้น และพัฒนาเครื่องมือสนับสนุนการทำงานของบรรณารักษ์ประจำหอบรรณ
+ []
+
+
+Overfull \hbox (0.98087pt too wide) in paragraph at lines 37--38
+[]\TU/THSarabunNew(0)/m/n/10 สร้างระบบการค้นหาโดยการใช้วิธีการ อินฟอเมชันรีทีฟวอล ซึ่งวัดความใกล้เคียงกันระหว่างคำค้นและข้อมูลในฐานข้อมูลโดยวิธี โค
+ []
+
+
+Overfull \hbox (14.85435pt too wide) in paragraph at lines 43--44
+[]\TU/THSarabunNew(0)/m/n/10 ระบบแปลงข้อมูลจากเอกสารและหนังสือเก่า รองรับเฉพาะเอกสารที่เป็นตัวอักษรแบบพิมพ์ และรองรับไฟล์เอกสารเฉพาะ PDF เท่านั้น 
+ []
+
+
+Overfull \hbox (6.99467pt too wide) in paragraph at lines 63--64
+[]\TU/THSarabunNew(0)/m/n/10 สำหรับแบ่งแยกหมวดหมู่ของหนังสือโดยใช้ หลักการของ TF-IDF ในการค้นหาคำสำคัญของหนังสือเพื่อนำมาสร้าง tag และใช้สำหรับ
+ []
+
+
+Overfull \hbox (12.54196pt too wide) in paragraph at lines 67--68
+[]\TU/THSarabunNew(0)/m/n/10 สำหรับการค้นหาเราจะนำคะแนน TF-IDF มาใช้เป็นคะแนนเพื่อใช้ในการค้นหาแบบ Cosine similarity และค้นหาคำใกล้เคียง (Query
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\TU/THSarabunNew(0)/m/n/10 ศึกษาค้นคว้าหาปัญหาของ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]|\TU/THSarabunNew(0)/m/n/10 ศึกษาและหาข้อมูลเกี่ยวกับ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\TU/THSarabunNew(0)/m/n/10 ประเมินความเป็นไปได้และ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\TU/THSarabunNew(0)/m/n/10 กำหนดขอบเขตของโปร
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+[]|\TU/THSarabunNew(0)/m/n/10 แปลงรูปภาพเป็น
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]|\TU/THSarabunNew(0)/m/n/10 นำข้อมูลที่เก็บไว้มาทำการ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\TU/THSarabunNew(0)/m/n/10 ตัดแบ่งคำภาษาไทยและ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\TU/THSarabunNew(0)/m/n/10 ทำการสร้าง tag โดยใช้
+ []
+
+
+Overfull \hbox (24.25952pt too wide) in paragraph at lines 110--127
+[][] 
+ []
+
+[3]
+Overfull \hbox (18.27997pt too wide) in paragraph at lines 131--142
+[][] 
+ []
+
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 13.52995pt on input line 23.
-) [1
-
-
-] (SeniorLatex.aux (Chapter1.aux)) ) 
+(Font)              scaled to size 13.52995pt on input line 145.
+[4]) [5] (SeniorLatex.aux (Chapter1.aux)) ) 
 Here is how much of TeX's memory you used:
- 8951 strings out of 412014
- 180761 string characters out of 2841821
- 516933 words of memory out of 3000000
- 28520 multiletter control sequences out of 15000+200000
+ 9887 strings out of 411732
+ 192157 string characters out of 2836994
+ 585458 words of memory out of 3000000
+ 29718 multiletter control sequences out of 15000+200000
  405743 words of font info for 75 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 110i,9n,117p,1050b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 110i,11n,117p,1040b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (10 pages, 86548 bytes).
+Output written on SeniorLatex.xdv (14 pages, 164176 bytes).
