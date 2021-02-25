@@ -1,0 +1,192 @@
+\chapter{ที่มา ทฤษฎีและงานวิจัยที่เกี่ยวข้อง}
+\section{บทนำ}
+
+โดยทฤษฎีที่เกี่ยวข้องกับโปรเจคนี้มีหลากหลายสาขาด้วยกันโดยจะแบ่งเป็นส่วนของ Image Processing โดยการใช้ Open source Computer Vision (OpenCV) เพื่อนำไปใช้กับส่วนของการทำ Optical character recognition (OCR), Tesseract OCR และส่วนของการทำ Natural language processing (NLP) โดยการใช้ Team Frequency Inverse Document Frequency (TF-IDF), Minimum Edit Distance,  Deep Cut ส่วนต่อไป Search Engine ได้ใช้ Cosine Similarity และในส่วนการสร้าง Web application โดยใช้ RESTful API และส่วนสุดท้ายการทำ Word Embedding 
+
+\section{แนวความคิดทางทฤษฎี}
+
+\subsection{Image Processing}
+
+เป็นการประมวลผลรูปภาพที่แปลงภาพให้เป็นข้อมูลทางดิจิตอลเพื่อใช้สำหรับปรับคุณภาพของภาพให้ตรงตามความต้องการ อย่างการตัดสิ่งรบกวน การลบกรอบ การหมุนรูป หรือการปรับให้ภาพมีความคมชัดมากยิ่งขึ้น ในโปรเจคของเรานั้นเอามาใช้ในการปรับคุณภาพของรูปภาพเพื่อช่วยให้การทำ OCR แม่นยำมากยิ่งขึ้น 
+
+\subsubsection{Contour}
+
+Contour \cite{doxygen} คือเส้นเค้าโครงของรูปภาพ ที่ไว้หาขอบเขตพื้นที่ที่มีค่าสีต่อเนื่องกัน หรือค่าเดียวกัน โดยใช้การเปลี่ยนให้รูปภาพอยู่ในรูปของ matrix และเช็คดูว่าค่าสีที่มีความแตกต่างอย่างชัดเจนเริ่มที่ตรงไหนและสร้างเป็นเส้นเค้าโครงขึ้นมาดังรูป \ref{fig:contour} ซึ่งการหาเส้นเค้าโครงจะทำงานได้ดีก็ต่อเมื่อเป็นรูปภาพแบบ Binary 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics{contour}
+    \caption{แสดงการหาเค้าโครงภายในรูป}\label{fig:contour}
+\end{figure}
+
+\subsubsection{Morphology Transformation}
+
+เป็นกระบวนการทาง Image Processing  ที่จะทำการนำรูปภาพมาทำการเปลี่ยนแปลงลักษณะ รูปร่างของวัตถุภายในภาพ ปกติแล้วจะใช้ภาพที่เป็น Binary ซึ่งส่วนใหญ่จะใช้สำหรับการกำจัด noise การซ่อมแซมรูปร่างของภาพ หรือการเพิ่มขนาดให้กับวัตถุนั้นๆ โดยการทำ Morphology Transformation นั้นจะมีวิธีการดำเนินการพื้นฐานอยู่ 2 วิธีคือ Dilation และ Erosion
+
+Dilation คือการเพิ่มพื้นที่สีขาวของรูปเพิ่มพื้นที่สีไปตามขอบพื้นที่สีขาวและจะเปลี่ยนพื้นที่สีดำให้กลายเป็นสีขาวทำให้พื้นที่สีขาวมีความหนามากขึ้นดังรูป 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{dilation}
+    \caption{แสดงการทำ dilation เพื่อเพิ่มพื้นที่สีขาว}\label{fig:Dilation}
+\end{figure}
+
+Erosion คือการกร่อนภาพ หรือก็คือจะลดพื้นที่สีขาวของภาพออกไปซึ่งวิธีการนี้ส่วนใหญ่จะใช้สำหรับการแยกสิ่งที่ของที่อยู่ติดกัน หรือลบ pepper noise ที่เป็น noise เล็กๆได้ โดยจะใช้หลักการเดียวกับ Dilation เพียงแต่จะเปลี่ยนจากพื้นที่สีขาวให้กลายเป็นพื้นที่สีดำดังรูป
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{erosion}
+    \caption{แสดงการทำ erosion เพื่อกร่อนพื้นที่สีขาว}\label{fig:Erosion}
+\end{figure}
+
+\subsection{Optical character recognition (OCR)}
+
+OCR เป็นกระบวนการของการแปลงอักษรบนสื่อสิ่งพิมพ์ให้เป็นข้อความที่สามารถค้นหา เปลี่ยนแปลงและแก้ไขได้โดยที่ไม่ต้องพิมพ์ขึ้นมาใหม่ ด้วยการทำ Deep learning ในการเรียนรู้ภาพเพื่อแปลงออกมาเป็นตัวอักษร ซึ่งในโปรเจคของทางผู้จัดทำต้องทำระบบเกี่ยวกับค้นหาที่จะต้องคัดคำออกมาจากสิ่งพิมพ์เหล่านั้น จึงจำเป็นที่จะต้องใช้ OCR ในการแปลงภาพต้นแบบออกมาให้เป็นตัวอักษรก่อนที่จะนำไปใช้งานต่อ
+
+จากการศึกษาพบว่าการทำ OCR ภาษาไทยนั้นมีอยู่มากมายในปัจจุบัน หนึ่งในนั้นมี T - OCR ซึ่งเป็น library ของ AI For Thai \cite{nectec} และ Tesseract ของ Google \cite{google} ที่ใช้สำหรับแปลงภาพเป็น text ซึ่งโดยกลุ่มของเราเลือกที่จะใช้ Tesseract ในการทำ OCR เนื่องจากไม่เสียค่าใช้จ่ายเมื่อเทียบกับการใช้ OCR ของ AI For Thai นอกจากนั้นเรื่องของการเรียกใช้งานอย่างต่อเนื่อง Tesseract สามารถทำได้ดีกว่าเนื่องจากไม่จำเป็นต้องเรียกใช้งาน AI For Thai จากภายนอก
+
+\subsection{Natural language processing}
+
+Natural language processing คือกระบวนการที่ใช้ในทางปัญญาประดิษฐ์ซึ่ง เป็นกระบวนการที่ทำการวิเคราะห์ทางด้านภาษาซึ่งเอาไปประยุกต์ทำให้ปัญญาประดิษฐ์ (AI) สามารถทำให้คอมพิวเตอร์เข้าใจภาษาและตอบกลับได้ใกล้เคียงกับมนุษย์มากขึ้น โดยในโปรเจคนี้จะใช้มาช่วยในการหาคำสำคัญของหนังสือ และบทความต่าง ๆ เพื่อช่วยให้การค้นหาบทความมีประสิทธิภาพมากขึ้น
+
+\subsubsection{Information retrieval}
+
+Information retrieval คือ เทคโนโลยีการเก็บข้อมูลอย่างนึงโดยจะมีทั้งหมด 2 ลักษณะ ลักษณะที่ 1 คือ Boolean Retrieval เป็นการสร้างโครงสร้างข้อมูลในรูปแบบ Matrix ที่มีค่าเพียงแค่ 0,1 โดยที่ 0 คือไม่มีคำ (Term) ในเอกสารนั้น และ 1 คือมีคำ (Term) อยู่ภายในเอกสารนั้นหรือเรียกได้ว่าเป็น Term-Document Incidence  Matrix ดัง ตารางที่ 2.1 โดยที่ถ้าเราพิจารณาในรูปแบบแถวเราจะได้ Vector ของ Term นั้นที่ปรากฏอยู่ในเอกสาร ไหนบ้าง แต่การเก็บในรูปแบบ Boolean Retrieval เมื่อมีเอกสาร เยอะขึ้นจะทำให้เกิดค่า 0 ที่ไม่มีประโยชน์มากขึ้นจึงมีลักษณะที่ 2 คือโครงสร้างแบบ Inverted index เป็นการเก็บเพียง Term นั้นอยู่ภายในเอกสาร ไหนบ้างเพื่อจะเก็บแต่เพียงข้อมูลสำคัญเอาไว้ดัง ตารางที่ 2.2 โดย คำ (Term) จะผ่านกระบวนการ Text Processing ประกอบไปด้วย Tokenization (การตัดคำจากประโยชน์), Normalization (การจัดการคำย่อ), Stemming (การแปลงคำให้อยู่รูปแบบเดียวกัน), Stop words (จัดการคำที่ไม่มีความหมาย) เพื่อเป็นการจัดรูปของคำให้อยู่ในรูปแบบเดียวกันก่อนที่จะนำไปใช้งาน ซึ่งการเก็บข้อมูลแบบ Information retrieval (IR) จะทำให้การค้นหาข้อมูลภายในฐานข้อมูลได้อย่างรวดเร็วและมีประสิทธิ์ภาพ
+\begin{table}[H]
+\caption{Information retrieval ในลักษณะ Boolean Retrieval}\label{tbl:ir}
+    \begin{tabular}{|l|c|c|c|c|c|}
+        \hline
+                  & Antony \& Cleopatra & Julius Ceasar & The Tempest & Hamlet & Othello \\ \hline
+        Antony    & 1                   & 1             & 0           & 0      & 0       \\ \hline
+        Brutus    & 1                   & 1             & 0           & 1      & 0       \\ \hline
+        Ceasar    & 1                   & 1             & 0           & 1      & 1       \\ \hline
+        Calpurnia & 0                   & 0             & 1           & 0      & 0       \\ \hline
+        Cleopatra & 1                   & 0             & 1           & 1      & 1       \\ \hline
+        Mercy     & 1                   & 0             & 1           & 1      & 1       \\ \hline
+        \end{tabular}
+\end{table}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics{ir}
+        \caption{Information retrieval ในลักษณะ Index Retrieval}\label{fig:ir}
+    \end{figure}
+
+\subsubsection{TF-IDF}
+
+เป็นเทคนิคในการคัดแยกคำตามความสำคัญผ่านการให้น้ำหนักในแต่ละคำ โดยแบ่งเป็นสองส่วนนั้นก็คือ TF (Team Frequency) เป็นการดูว่าคำนี้ หรือว่า Term นี้ปรากฏขึ้นภายใน document มากน้อยเพียงไหน และ IDF (Inverse  Document Frequency) คือการหาความผกผันในความถี่ของเอกสารโดยคะแนนความผกผันที่ทำให้รู้ว่าคำนี้เป็นคำที่มีความสำคัญเฉพาะภายในเอกสารนี้ แต่เนื่องจากการดูคะแนน IDF เพียงอย่างเดียวไม่สามารถบอกได้ว่า Term นั้นเป็นคำสำคัญ จึงจำเป็นต้องนำค่า TF มาคูณกับ IDF เป็นค่า TF-IDF เพื่อดูความสำคัญของ Term นั้น ในส่วนการคำนวณนี้เพื่อนำไปใช้ในการค้นหาแบบ Cosine Similarity ต่อไป โดยที่ TF จะใช้เป็น Log normalization โดยคำนวณได้จากสมการ 2.1 ซึ่ง $f_{t,d}$ คือความถี่ของคำ (Term) ที่ปรากฏขึ้นภายใน Document ส่วน IDF จะคำนวณจากสมการ 2.2 ซึ่ง N คือจำนวน Document ที่มีภายในระบบ และ $n_{t}$ คือ จำนวนของ document ที่มีคำ (term) นี้อยู่ เมื่อหาค่าทั้ง TF และ IDF ได้แล้วก็จะหาค่าของ TF-IDF ได้จากสมการ 2.3
+
+\begin{equation}
+    tf=\log{(1+f_{t,d})}
+    \end{equation}
+
+\begin{equation}
+    idf=\log{\frac{N}{n_{t}}}
+\end{equation}
+
+\begin{equation}
+    TF-IDF=tf*idf
+    \end{equation}    
+
+\subsubsection{Cosine Similarity}
+
+เป็นหน่วยวัดความคล้ายคลึงกันระหว่างข้อมูลสอง Vector โดยวัดจากมุม cosine ของจาก Vector ทั้งสองโดยคำนวณได้จากสมการ 2.4 โดยที่ ||x||,||y|| คือ สมการของ Euclidean norm ของ Vertor x, y ดังสมการ 2.5 โดยในโปรเจคนี้เราได้นำค่าน้ำหนักของ TF-IDF มาเป็นน้ำหนักในการคิดค่า Cosine Similarity โดยนำประโยคที่จะค้นหามาผ่านกระบวนการ Text processing ก่อนที่จะนำมาค้นหาว่า document ไหนมีค่า relevance score (คะแนนความสัมพันธ์) เพื่อนำมาเรียงค่าคะแนนสูงสุดแสดงเป็นผลลัพธ์การค้นหา
+
+
+\begin{equation}
+    \sin(x,y)=\frac{x*y}{\|x\|\|y\|}
+\end{equation}    
+
+\begin{equation}
+    \|x\|=\sqrt{x_{1}^2+x_{2}^2+\cdots+x_{n}^2}
+\end{equation}    
+\subsubsection{Minimum Edit Distance}
+
+เป็นหลักการที่หาระยะห่างที่สั้นที่สุดจากคำนึงไปสู่อีกคำนึงจะมีความแตกต่างกันเท่าไหร่ซึ่งจะหลักการเช็คความห่างของคำทั้งหมดสามรูปแบบ
+\begin{itemize}
+    \item รูปแบบ Insert(I) จะเป็นการเพิ่มตัวอักษรลงไปในคำนั้น เพื่อคำดั้งเดิมของเราจะเปลี่ยนแปลงเป็นคำที่เราต้องการ
+    \item รูปแบบ Delete(D) จะเป็นการลบตัวอักษรออกไปในคำนั้น เพื่อคำดั้งเดิมของเราจะเปลี่ยนแปลงเป็นคำที่เราต้องการ
+    \item รูปแบบ Replace(R) จะเป็นการเปลี่ยนตัวอักษรนั้นให้เป็นตัวอักษรใหม่ เพื่อคำดั้งเดิมของเราจะเปลี่ยนแปลงเป็นคำที่เราต้องการ
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics{editdistance}
+    \caption{หลักการการเช็ค edit distance \cite{ritambhara}}\label{fig:editdistance}
+\end{figure}
+หลังจากมีรูปแบบการวัดระยะห่างของคำดังรูปภาพที่ \ref{fig:editdistance} แล้ว จะต้องทำการหาคำที่สั้นที่สุดผ่านรูปแบบของตารางดังรูปภาพที่ \ref{fig:minimumtable} ซึ่งการคำนวณผ่านตารางจะเป็นการนำการกระทำก่อนหน้ามาคำนวนเรื่อย ๆ จนได้รูปการเปลี่ยนเป็นคำใหม่ที่ใช้การเปลี่ยนน้อยที่สุด
+\begin{figure}[H]
+    \centering
+    \includegraphics{minimumtable}
+    \caption{ตัวอย่างตารางการทำ minimum edit distance \cite{ritambhara}}\label{fig:minimumtable}
+\end{figure}
+
+ซึ่งในโปรเจคของเราได้ดึงหลักการ Minimum edit distance มาใช้ในการตรวจสอบหาคำที่สะกดไม่ถูกต้องโดยมีเกณฑ์ตั้งไว้ว่าถ้าเกินที่กำหนดไว้จะถือว่าคำ ๆ นั้นสะกดไม่ถูกต้องแล้วถูกแก้ให้เป็นคำที่สะกดถูกต้อง
+
+\subsection{RESTful Service}
+เป็นการสร้าง web service โดยเรียกใช้ผ่านทาง HTTP Method ทั้ง 4 ประเภท GET/POST/PUT/DELETE ส่งข้อมูลออกมาเป็นรูปของ XML ทำให้ปริมาณข้อมูลที่ส่งมาน้อยกว่าการใช้ Protocol SOAP  โดยโครงสร้างของ 
+HTTP Request ดังรูปภาพที่ \ref{fig:httpreq} ประกอบด้วย 
+
+\begin{enumerate}
+ \item VERB: แสดง method ของ HTTP
+ \item URI: ตำแหน่งของข้อมูลที่ต้องการ
+ \item HTTP Version: เวอร์ชั่นของ HTTP
+ \item Request Header: Metadata ที่เก็บข้อมูลในรูปแบบ Key-Value ของ header
+ \item Request Body: ส่วนเก็บข้อมูลของเนื้อหา
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{httpreq}
+    \caption{แสดงถึงโครงสร้างของ HTTP Request \cite{Saixiii}}\label{fig:httpreq}
+\end{figure}
+
+HTTP Response ดังรูปภาพที่ \ref{fig:httpres} ประกอบด้วย
+
+
+\begin{enumerate}
+	\item HTTP Version: เวอร์ชั่นของ HTTP
+	\item Response Code: รหัสผลลัพธ์ของการทำงานในระดับ HTTP เป็นเลข 3 หลัก
+	\item Response Header: Metadata ที่เก็บข้อมูลในรูปแบบ Key-Value ของ header
+	\item Response Body: ส่วนเก็บข้อมูลของเนื้อหา
+
+   \end{enumerate}
+   
+   \begin{figure}[H]
+       \centering
+       \includegraphics{httpres}
+       \caption{แสดงถึงโครงสร้างของ HTTP Response \cite{Saixiii}}\label{fig:httpres}
+   \end{figure}
+
+\subsection{Word Embedding}
+
+เป็นวิธีการที่จะเปลี่ยนคำปกติเป็น vector ที่อยู่ในหลากหลายมิติและขนาดเพื่อให้สามารถเปรียบเทียบคำต่าง ๆ ว่ามีความสัมพันธ์ใกล้เคียงกับคำไหนบ้างในระบบเพื่อที่ใช้สำหรับการหาคำที่มีความหมายใกล้เคียงกันโดยมีการทำ word embedding มากมายไม่ว่าจะเป็น Word2Vec \cite{xin} \cite{Goldberg} ที่ถูกสร้างโดยทีมวิจัยของ Google FastText \cite{fasttext} เป็น word embedding อีกหนึ่งตัวที่สร้างขึ้นจากทีมวิจัยของ facebook หรือจะเป็น ELMo \cite{matthew} ที่เป็นรูปแบบการ word embedding ที่ดูรูปคำโดยรอบเป็นต้น 
+
+\section{ภาษาคอมพิวเตอร์และเทคโนโลยี }
+
+\subsection{Open source Computer Vision (OpenCV)}
+
+เป็นซอฟต์แวร์ที่เกี่ยวกับการประมวลผลภาพที่มีการสนับสนุนการพัฒนามาจาก Intel Corporation โดยที่ตัว OpenCV นั้นเป็น Library Open Source  โดยมีจุดประสงค์เพื่อให้นำไปต่อยอดการพัฒนาโปรแกรมในด้าน การรับรู้มองเห็นของคอมพิวเตอร์ (Computer Vision) ให้เข้าใจไม่ว่าจะเป็นภาพนิ่ง (Image) หรือจะเป็นภาพเคลื่อนไหว (Video) โดยภายในโปรเจคนี้ได้นำ OpenCV มาเป็นตัวทำ Image processing โดยที่นำรูปภาพที่ได้มาจากสแกนหนังสือ / เอกสาร มาทำการปรับปรุงคุณภาพรูปภาพให้เหมาะสมกับการทำส่วน Optical character recognition (OCR) ให้มีความแม่นยำมากยิ่งขึ้นเช่นการลบรูปภาพ การลบสิ่งที่ลบกวน การลบกรอบตาราง การหมุนรูป 
+
+\subsection{Tesseract OCR}
+
+เป็นหนึ่งใน library ที่เกี่ยวกับการทำ Optical character recognition (OCR) ที่ถูกพัฒนาโดย Google โดยเป็น Library Open Source ที่ใช้ในการทำเกี่ยวกับ Text Detection โดยสามารถเรียกใช้งานได้ผ่าน Command line หรือจะเป็นการเรียก API ภายในโปรเกรมก็ทำได้นอกจากนั้น Tesseract เวอร์ชั่น 5.0.0 beta มีการใช้ Convolutional Neural Network (CNN) \cite{keiron} ร่วมกันกับ Long short-term memory (LSTM) เพื่อให้การทำนายผลได้ดีขึ้นโดยเราจะนำตัว Tesseract มาทำเป็น OCR ภายในโปรเจคนี้
+
+\subsection{DeepCut}
+
+เป็น library ในภาษา python ที่สร้างมาจาก True Corporation โดยมีลักษณะเด่นที่ใช้ CNN (Convolutional Neural network) \cite{keiron} มาช่วยทำให้ผลลัพธ์ที่ได้ออกมามีความแม่นยำที่ค่อนข้างสูง  ซึ่งโปรเจคของเราต้องการ DeepCut เพื่อที่จะสามารถไปตัดคำจากรูปประโยคภาษาไทยที่มีความซับซ้อน และไม่แบ่งแยกชัดเจนเหมือนภาษาอังกฤษ 
+
+\subsection{ReactJS}
+
+เป็นหนึ่งใน library หรือจะเรียกว่าเป็น Framework ที่ Facebook  เป็นคนสร้างขึ้นโดยที่มีหน้าที่เป็นการสร้าง UI โดยมีความคิดมากจากรูปแบบ MVC \cite{techterms} (Model View Controller) หรือก็คือเป็นตัวจัดการกับ Model กับ View ของตัวเว็บไซต์ โดยในโปรเจคนี้ได้เลือกใช้ ReactJS เป็น Front End สำหรับการทำ platform Web Application 
+
+\subsection{Python}
+
+Python เป็นภาษาทางโปรแกรมมิ่งซึ่งเป็นภาษาทางคอมพิวเตอร์ระดับสูงที่ออกแบบมาให้ใกล้เคียงกับภาษามนุษย์มากที่สุดเพื่อให้สามารถเข้าใจได้ง่ายมากขึ้น ซึ่งในโปรเจคมีข้อมูลที่ต้องประมวลในแต่ละครั้งมีขนาดใหญ่อาจจะทำให้เกิดความล่าช้าในแต่ละการประมวล ทางผู้จัดทำจึงเลือกใช้ python เนื่องจากรองรับในส่วนของการทำ thread รวมถึงนำมาใช้ในการทำ Data preparation ทั้งการทำ image processing และการเตรียมข้อมูลต่างๆหลังจากการทำ OCR นอกจากนี้ยังใช้ในการทำ Web server อีกด้วย 
+
+\subsubsection{Django}
+
+เป็น REST Framework ที่ใช้ภาษา python เป็นฐาน โดยในโปรเจคนี้เราจะนำมาสร้าง REST API  เพื่อใช้ในการใช้ library อย่างเช่น DeepCut หรือ OCR ที่สามารถใช้ร่วมการแบ่ง multi thread ได้อย่างมีประสิทธิภาพ และยังสามาถจัดการข้อมูลใน database สำหรับโปรเจคนี้
+
+\subsection{NodeJS}
+
+NodeJS เป็นเสมือนแพลตฟอร์มที่ใช้ภาษา JavaScript ที่มี library สำหรับใช้จัดการกับฝั่ง Server ซึ่ง NodeJS นั้นมีความยืดหยุ่นสูงที่สำหรับการจัดการ Web server โดย library ที่นำมาใช้คือ express เป็น web server ที่เป็น RESTful API ได้

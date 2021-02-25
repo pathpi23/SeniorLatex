@@ -1,3 +1,28 @@
 \addvspace {0em}
 \contentsline {table}{\numberline {1.1}{\ignorespaces ตารางการดำเนินงาน ภาคการศึกษาที่ 1/2563}}{4}{}%
 \contentsline {table}{\numberline {1.2}{\ignorespaces ตารางการดำเนินงาน ภาคการศึกษาที่ 2/2563}}{4}{}%
+\addvspace {0em}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Information retrieval ในลักษณะ Boolean Retrieval}}{8}{}%
+\addvspace {0em}
+\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางอธิบายความหมายตาราง term\_word}}{22}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางอธิบายความหมายตาราง user}}{23}{}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces ตารางอธิบายความหมายตาราง score}}{23}{}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces ตารางอธิบายความหมายตาราง pre\_term\_in\_page}}{23}{}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces ตารางอธิบายความหมายตาราง page\_in\_document}}{24}{}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces ตารางอธิบายความหมายตาราง nodejs\_log}}{24}{}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations\_lock}}{24}{}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations}}{24}{}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_document}}{25}{}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_issued\_date\_document}}{25}{}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_orgname\_document}}{25}{}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_document}}{25}{}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_document}}{25}{}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces ตารางอธิบายความหมายตาราง document}}{26}{}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces ตารางอธิบายความหมายตาราง django\_log}}{27}{}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_type}}{27}{}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_relation}}{27}{}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_keyword}}{27}{}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางประเมินการทำ OCR}}{51}{}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางประเมินระบบการค้นหา}}{52}{}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces ตารางประเมิน Design}}{52}{}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces ตารางประเมิน test}}{53}{}%

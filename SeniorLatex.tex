@@ -6,6 +6,13 @@
 \usepackage{multirow}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{float}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage{enumitem}
+
+\graphicspath{ {./picture/} }
 
 \defaultfontfeatures{Mapping=tex-text,Scale=1.23,LetterSpace=0.0}
 \setmainfont[Scale=1.23,LetterSpace=0,WordSpace=1.0,FakeStretch=1.0]{TH Sarabun New}
@@ -96,6 +103,7 @@
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}{Lemma}
 \newtheorem{corollary}{Corollary}
+\setlength{\parskip}{1em}
 
 \def\QED{\mbox{\rule[0pt]{1.5ex}{1.5ex}}}
 \def\proof{\noindent\hspace{2em}{\itshape Proof: }}
@@ -225,5 +233,21 @@ MANET & Mobile Ad Hoc Network
 %%%%%%%%%%%%%%%%%%%%%%%% Main body %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{Chapter1}
+\include{Chapter2}
+\include{Chapter3}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Comment this in your report to show only references you have
+%%%% cited. Otherwise, all the references below will be shown.
+\nocite{*}
+%% Use the kmutt.bst for bibtex bibliography style 
+%% You must have cpe.bib and string.bib in your current directory.
+%% You may go to file .bbl to manually edit the bib items.
+\bibliographystyle{kmutt}
+\bibliography{string,cpe}
 
 \end{document}

@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SeniorLatex.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: Chapter1.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: Chapter2.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: Chapter3.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: kmutt.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Database file #1: string.bib
+Database file #2: cpe.bib
+Warning--empty year in nectec
+Warning--empty year in ritambhara
+You've used 15 entries,
+            2177 wiz_defined-function locations,
+            845 strings with 9886 characters,
+and the built_in function-call counts, 3653 in all, are:
+= -- 361
+> -- 174
+< -- 0
++ -- 72
+- -- 56
+* -- 237
+:= -- 665
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 58
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 117
+empty$ -- 297
+format.name$ -- 56
+if$ -- 750
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 4
+newline$ -- 74
+num.names$ -- 30
+pop$ -- 102
+preamble$ -- 1
+purify$ -- 58
+quote$ -- 0
+skip$ -- 107
+stack$ -- 0
+substring$ -- 76
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 60
+warning$ -- 2
+while$ -- 30
+width$ -- 17
+write$ -- 172
+(There were 2 warnings)

@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{doxygen}
+Doxygen,  2020,
+\newblock ``{OpenCV},''
+  \url{https://docs.opencv.org/3.4/d4/d73/tutorial_py_contours_begin.html},
+\newblock [Online; accessed 12-October-2020].
+
+\bibitem{fan}
+Hongxiang Fan, Mingliang Jiang, Ligang Xu, Hua Zhu, Junxiang Cheng, and Jiahu
+  Jiang,
+\newblock  2020, ``Comparison of Long Short Term Memory Networks and the
+  Hydrological Model in Runoff Simulation,''
+\newblock {\bf Water}, vol. 12, no. 1, 2020.
+
+\bibitem{fasttext}
+Fasttext,  2018,
+\newblock ``{English word vectors},''
+  \url{https://fasttext.cc/docs/en/english-vectors.html}.
+
+\bibitem{Goldberg}
+Y.~Goldberg and O.~Levy,  2014,
+\newblock ``{word2vec Explained: Deriving Mikolov et al.’s},''
+  \url{https://arxiv.org/pdf/1402.3722v1.pdf}.
+
+\bibitem{google}
+Google,  2020,
+\newblock ``{Tesseract OCR},''
+  \url{https://opensource.google/projects/tesseract},
+\newblock [Online; accessed 22-November-2020].
+
+\bibitem{nectec}
+NECTEC,
+\newblock ``{AI For Thai},'' \url{https://aiforthai.in.th/index.php#home},
+\newblock [Online; accessed 22-November-2020].
+
+\bibitem{keiron}
+Keiron O'Shea and Ryan Nash,
+\newblock  2015, ``An Introduction to Convolutional Neural Networks,''
+\newblock {\bf CoRR}, vol. abs/1511.08458, 2015.
+
+\bibitem{perez}
+P.~T. Perez,  2018,
+\newblock ``{Deep Learning: Recurrent Neural Networks},''
+  \url{https://medium.com/deeplearningbrasilia/deep-learning-recurrent-neural-networks-f9482a24d010},
+\newblock [Online; accessed 10-October-2020].
+
+\bibitem{matthew}
+Matthew~E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+  Kenton Lee, and Luke Zettlemoyer,
+\newblock  2018, ``Deep contextualized word representations,''
+\newblock {\bf CoRR}, vol. abs/1802.05365, 2018.
+
+\bibitem{ritambhara}
+Ritambhara,
+\newblock ``{Minimum edit distance of two strings},''
+  \url{https://www.ritambhara.in/minimum-edit-distance-of-two-strings/},
+\newblock [Online; accessed 12-October-2020].
+
+\bibitem{xin}
+Xin Rong,
+\newblock  2014, ``word2vec Parameter Learning Explained,''
+\newblock {\bf CoRR}, vol. abs/1411.2738, 2014.
+
+\bibitem{Saixiii}
+Saixiii,  2017,
+\newblock ``{RESTful คืออะไร REST คือ
+  การสื่อสารแลกเปลี่ยนข้อมูลผ่าน
+  webservice},''
+  \url{https://saixiii.com/what-is-restful/#:~:text=Representational%20state%20transfer%20%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%20REST,XML%2C%20HTML%2C%20JSON%20%E0%B9%82%E0%B8%94%E0%B8%A2%20response/}.
+
+\bibitem{Nattanon}
+Nattanon Sornchumni,  2018,
+\newblock ``{ImageProcessing4: Edges and Contours
+  ตามหาเส้นขอบภาพ(ไม่ใช่เส้นขอบฟ้า!)},''
+  \url{https://medium.com/nattanon.s/imageprocessing-4-edges-and-contours-%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%A0%E0%B8%B2%E0%B8%9E-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B9%83%E0%B8%8A%E0%B9/}.
+
+\bibitem{techterms}
+techterms,  2018,
+\newblock ``{MVC},'' \url{https://techterms.com/definition/mvc},
+\newblock [Online; accessed 10-October-2020].
+
+\bibitem{nareasuan}
+NARESUAN UNIVERSITY,  2018,
+\newblock ``{Image Morphology},''
+  \url{https://humancominteracg1.wixsite.com/group1/w2-morphological},
+\newblock [Online; accessed 22-October-2020].
+
+\end{thebibliography}

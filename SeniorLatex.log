@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  24 FEB 2021 13:04
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  25 FEB 2021 20:19
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -267,6 +267,31 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box57
 \@float@everytoks=\toks33
 \@floatcapt=\box58
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen167
+\c@nlinenum=\count295
+\TeXr@lab=\toks34
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip58
+\LTright=\skip59
+\LTpre=\skip60
+\LTpost=\skip61
+\LTchunksize=\count296
+\LTcapwidth=\dimen168
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@cols=\count297
+\LT@rows=\count298
+\c@LT@tables=\count299
+\c@LT@chunks=\count300
+\LT@p@ftn=\toks35
 )
 
 Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
@@ -309,39 +334,43 @@ Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
 (fontspec)             =1.0\fontdimen 4\font 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 13.
-\c@theorem=\count295
-\c@lemma=\count296
-\c@corollary=\count297
- (SeniorLatex.aux (Chapter1.aux))
+(Font)              scaled to size 12.29996pt on input line 20.
+\c@theorem=\count301
+\c@lemma=\count302
+\c@corollary=\count303
+ (SeniorLatex.aux (Chapter1.aux) (Chapter2.aux) (Chapter3.aux
+
+LaTeX Warning: Label `fig:scene7' multiply defined.
+
+))
 \openout1 = `SeniorLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 118.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 110.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 110.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
+LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 118.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 118.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    ... okay on input line 118.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -376,19 +405,19 @@ LaTeX Font Info:    ... okay on input line 110.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 112.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120.
 (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 112.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 112.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 120.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 112--112
+Underfull \hbox (badness 10000) in alignment at lines 120--120
 [] [] 
  []
 
@@ -397,9 +426,9 @@ Underfull \hbox (badness 10000) in alignment at lines 112--112
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 12.29996pt on input line 117.
+(Font)              scaled to size 12.29996pt on input line 125.
 
-Underfull \hbox (badness 10000) in alignment at lines 139--141
+Underfull \hbox (badness 10000) in alignment at lines 147--149
 [][] 
  []
 
@@ -428,7 +457,7 @@ Package fontspec Info: Font family 'THSarabunNew:script=thai(0)' created for
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew:script=thai(0)/m/n' will be
-(Font)              scaled to size 13.00003pt on input line 150.
+(Font)              scaled to size 13.00003pt on input line 158.
 
 
 Package fontspec Warning: Language 'Thai' not available for font 'TH Sarabun
@@ -459,7 +488,7 @@ Package fontspec Info: Font family 'THSarabunNew:script=thai(1)' created for
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew:script=thai(1)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 151.
+(Font)              scaled to size 12.29996pt on input line 159.
 
 Package fontspec Warning: Language 'Thai' not available for font 'TH Sarabun
 (fontspec)                New:script=thai' with script 'CustomDefault'.
@@ -505,75 +534,75 @@ Package fontspec Warning: Language 'Thai' not available for font 'TH Sarabun
 (fontspec)                New:script=thai' with script 'CustomDefault'.
 
 
-Overfull \hbox (0.85405pt too wide) in paragraph at lines 153--171
+Overfull \hbox (0.85405pt too wide) in paragraph at lines 161--179
 []\TU/THSarabunNew:script=thai(0)/m/n/10 การจะสืบค้นข้อมูลจากเอกสารหรือชั้นหนังสือที่มีการรวบรวมข้อมูลไว้ตั้งแต่อดีตนั้นเป็น ปัญหาอย่างหนึ่งของเจ้าหน้าที่บรรณารักษ์
  []
 
 
-Overfull \hbox (7.10709pt too wide) in paragraph at lines 153--171
+Overfull \hbox (7.10709pt too wide) in paragraph at lines 161--179
 \TU/THSarabunNew:script=thai(0)/m/n/10 ที่ต้องทำการดูแลเอกสารเหล่านี้ เนื่องจาก การที่ยังไม่มีการเก็บหนังสือและเอกสารให้อยู่ในรูปแบบของข้อมูลดิจิตอลทำให้ต้อง สืบค้น
  []
 
 
-Overfull \hbox (7.00307pt too wide) in paragraph at lines 153--171
+Overfull \hbox (7.00307pt too wide) in paragraph at lines 161--179
 \TU/THSarabunNew:script=thai(0)/m/n/10 ที่ค้นหาจากหน้าสารบัญของ หนังสือแต่ละเล่มก็จะทำให้การค้นหาเป็นไปอย่างล่าช้า และบางครั้งการดูเพียง แค่สารบัญก็อาจจะทำให้
  []
 
 
-Overfull \hbox (7.8611pt too wide) in paragraph at lines 153--171
+Overfull \hbox (7.8611pt too wide) in paragraph at lines 161--179
 \TU/THSarabunNew:script=thai(0)/m/n/10 ได้หนังสือที่ไม่ตรงกับความต้องการของผู้ที่เข้ามายืมหนังสือ ในโครงการนี้เราได้ทำการพัฒนาการระบบจัดเก็บและค้นหาเอกสารอิเล็ก
  []
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew:script=thai(0)/b/n' will be
-(Font)              scaled to size 13.00003pt on input line 176.
+(Font)              scaled to size 13.00003pt on input line 184.
 
-Underfull \hbox (badness 10000) in alignment at lines 173--177
+Underfull \hbox (badness 10000) in alignment at lines 181--185
 [][] 
  []
 
 [3]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 185.
+(Font)              scaled to size 14.75995pt on input line 193.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 185.
+(Font)              scaled to size 14.75995pt on input line 193.
  [4
 
-] (SeniorLatex.toc)
+] (SeniorLatex.toc [5
+
+] [6] [7])
 \tf@toc=\write3
 \openout3 = `SeniorLatex.toc'.
 
- [5
-
-] (SeniorLatex.lot)
+ [8] (SeniorLatex.lot)
 \tf@lot=\write4
 \openout4 = `SeniorLatex.lot'.
 
- [6
+ [9
 
-] (SeniorLatex.lof)
+] (SeniorLatex.lof [10
+
+])
 \tf@lof=\write5
 \openout5 = `SeniorLatex.lof'.
 
- [7
-
-]
-Overfull \hbox (1.72173pt too wide) in paragraph at lines 204--204
+ [11]
+Overfull \hbox (1.72173pt too wide) in paragraph at lines 212--212
 []|\TU/THSarabunNew(0)/b/n/10 SYMBOL| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
 []|\TU/THSarabunNew(0)/m/n/10 jobs/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 []|\TU/THSarabunNew(0)/m/n/10 jobs/
  []
 
-[8
+[12
 
-] [9
+] [13
 
 ]
 \openout2 = `Chapter1.aux'.
@@ -642,71 +671,518 @@ Overfull \hbox (6.99467pt too wide) in paragraph at lines 63--64
 []\TU/THSarabunNew(0)/m/n/10 สำหรับแบ่งแยกหมวดหมู่ของหนังสือโดยใช้ หลักการของ TF-IDF ในการค้นหาคำสำคัญของหนังสือเพื่อนำมาสร้าง tag และใช้สำหรับ
  []
 
-
+[2]
 Overfull \hbox (12.54196pt too wide) in paragraph at lines 67--68
 []\TU/THSarabunNew(0)/m/n/10 สำหรับการค้นหาเราจะนำคะแนน TF-IDF มาใช้เป็นคะแนนเพื่อใช้ในการค้นหาแบบ Cosine similarity และค้นหาคำใกล้เคียง (Query
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []|\TU/THSarabunNew(0)/m/n/10 ศึกษาค้นคว้าหาปัญหาของ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\TU/THSarabunNew(0)/m/n/10 ศึกษาและหาข้อมูลเกี่ยวกับ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []|\TU/THSarabunNew(0)/m/n/10 ประเมินความเป็นไปได้และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 \TU/THSarabunNew(0)/m/n/10 กำหนดขอบเขตของโปร
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []|\TU/THSarabunNew(0)/m/n/10 แปลงรูปภาพเป็น
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []|\TU/THSarabunNew(0)/m/n/10 นำข้อมูลที่เก็บไว้มาทำการ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \TU/THSarabunNew(0)/m/n/10 ตัดแบ่งคำภาษาไทยและ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 \TU/THSarabunNew(0)/m/n/10 ทำการสร้าง tag โดยใช้
  []
 
 
-Overfull \hbox (24.25952pt too wide) in paragraph at lines 110--127
+Overfull \hbox (24.25952pt too wide) in paragraph at lines 111--128
 [][] 
  []
 
 [3]
-Overfull \hbox (18.27997pt too wide) in paragraph at lines 131--142
+Overfull \hbox (18.27997pt too wide) in paragraph at lines 132--143
 [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 (Font)              scaled to size 13.52995pt on input line 145.
-[4]) [5] (SeniorLatex.aux (Chapter1.aux)) ) 
-Here is how much of TeX's memory you used:
- 9887 strings out of 411732
- 192157 string characters out of 2836994
- 585458 words of memory out of 3000000
- 29718 multiletter control sequences out of 15000+200000
- 405743 words of font info for 75 fonts, out of 3000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 110i,11n,117p,1040b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+[4]) [5]
+\openout2 = `Chapter2.aux'.
 
-Output written on SeniorLatex.xdv (14 pages, 164176 bytes).
+ (Chapter2.tex
+บทที่ 2.
+
+Overfull \hbox (12.52405pt too wide) in paragraph at lines 10--11
+\TU/THSarabunNew(0)/m/n/10 สิ่งรบกวน การลบกรอบ การหมุนรูป หรือการปรับให้ภาพมีความคมชัดมากยิ่งขึ้น ในโปรเจคของเรานั้นเอามาใช้ในการปรับคุณภาพของรูปภาพ
+ []
+
+
+Overfull \hbox (10.58069pt too wide) in paragraph at lines 14--15
+\TU/THSarabunNew(0)/m/n/10 matrix และเช็คดูว่าค่าสีที่มีความแตกต่างอย่างชัดเจนเริ่มที่ตรงไหนและสร้างเป็นเส้นเค้าโครงขึ้นมาดังรูป 2.1[] ซึ่งการหาเส้นเค้าโครงจะทำงาน
+ []
+
+File: ./picture//contour.png Graphic file (type bmp)
+<./picture//contour.png>
+[6
+
+
+
+
+]
+Overfull \hbox (8.63731pt too wide) in paragraph at lines 26--27
+[]\TU/THSarabunNew(0)/m/n/10 Dilation คือการเพิ่มพื้นที่สีขาวของรูปเพิ่มพื้นที่สีไปตามขอบพื้นที่สีขาวและจะเปลี่ยนพื้นที่สีดำให้กลายเป็นสีขาวทำให้พื้นที่สีขาวมีความหนา
+ []
+
+File: ./picture//dilation.png Graphic file (type bmp)
+<./picture//dilation.png>
+File: ./picture//erosion.png Graphic file (type bmp)
+<./picture//erosion.png>
+
+Overfull \hbox (1.87141pt too wide) in paragraph at lines 44--45
+\TU/THSarabunNew(0)/m/n/10 ที่จะต้องคัดคำออกมาจากสิ่งพิมพ์เหล่านั้น จึงจำเป็นที่จะต้องใช้ OCR ในการแปลงภาพต้นแบบออกมาให้เป็นตัวอักษรก่อนที่จะนำไปใช้งาน
+ []
+
+[7]
+File: ./picture//ir.png Graphic file (type bmp)
+<./picture//ir.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
+
+[8] [9]
+Overfull \hbox (14.12308pt too wide) in paragraph at lines 105--107
+[]\TU/THSarabunNew(0)/m/n/10 เป็นหลักการที่หาระยะห่างที่สั้นที่สุดจากคำนึงไปสู่อีกคำนึงจะมีความแตกต่างกันเท่าไหร่ซึ่งจะหลักการเช็คความห่างของคำทั้งหมดสามรูปแบบ 
+ []
+
+File: ./picture//editdistance.png Graphic file (type bmp)
+<./picture//editdistance.png>
+File: ./picture//minimumtable.png Graphic file (type bmp)
+<./picture//minimumtable.png>
+
+Overfull \hbox (12.561pt too wide) in paragraph at lines 123--124
+[]\TU/THSarabunNew(0)/m/n/10 ซึ่งในโปรเจคของเราได้ดึงหลักการ Minimum edit distance มาใช้ในการตรวจสอบหาคำที่สะกดไม่ถูกต้องโดยมีเกณฑ์ตั้งไว้ว่าถ้าเกินที่กำหนด
+ []
+
+[10]
+File: ./picture//httpreq.png Graphic file (type bmp)
+<./picture//httpreq.png>
+File: ./picture//httpres.png Graphic file (type bmp)
+<./picture//httpres.png>
+ [11]
+Overfull \hbox (0.47012pt too wide) in paragraph at lines 162--163
+[]\TU/THSarabunNew(0)/m/n/10 เป็นวิธีการที่จะเปลี่ยนคำปกติเป็น vector ที่อยู่ในหลากหลายมิติและขนาดเพื่อให้สามารถเปรียบเทียบคำต่าง ๆ ว่ามีความสัมพันธ์ใกล้เคียง
+ []
+
+
+Overfull \hbox (10.43309pt too wide) in paragraph at lines 162--163
+\TU/THSarabunNew(0)/m/n/10 กับคำไหนบ้างในระบบเพื่อที่ใช้สำหรับการหาคำที่มีความหมายใกล้เคียงกันโดยมีการทำ word embedding มากมายไม่ว่าจะเป็น Word2Vec
+ []
+
+[12]
+Overfull \hbox (0.27333pt too wide) in paragraph at lines 184--185
+[]\TU/THSarabunNew(0)/m/n/10 Python เป็นภาษาทางโปรแกรมมิ่งซึ่งเป็นภาษาทางคอมพิวเตอร์ระดับสูงที่ออกแบบมาให้ใกล้เคียงกับภาษามนุษย์มากที่สุดเพื่อให้สามารถ
+ []
+
+) [13]
+\openout2 = `Chapter3.aux'.
+
+ (Chapter3.tex
+บทที่ 3.
+File: ./picture//systemoverview.png Graphic file (type bmp)
+<./picture//systemoverview.png>
+
+Overfull \hbox (24.73083pt too wide) in paragraph at lines 9--10
+ [][] 
+ []
+
+
+Overfull \hbox (15.10616pt too wide) in paragraph at lines 16--17
+[]\TU/THSarabunNew(0)/m/n/10 สำหรับการแปลงเอกสารผู้ใช้จะต้องทำการอัปโหลดไฟล์ PDF ของเอกสารเข้าสู่ระบบหลังจากนั้นจะระบบจะทำการแปลงแต่ละหน้าเป็นรูปภาพ
+ []
+
+
+Overfull \hbox (7.71297pt too wide) in paragraph at lines 20--23
+[]\TU/THSarabunNew(0)/m/n/10 ในส่วนของการจัดการรูปก่อนที่จะทำการ OCR ซึ่งรูปภาพนำมา OCR นั้นมาจากการสแกนทำให้ภาพส่วนใหญ่อยู่ในสภาพดีแต่ก็ยังคงมี noise
+ []
+
+
+Overfull \hbox (4.52905pt too wide) in paragraph at lines 20--23
+\TU/THSarabunNew(0)/m/n/10 และยาวมาดูว่ามีขนาดเกินเท่าไรถึงจะตัดให้เป็นรูปภาพ นอกจากนี้ออกแบบการหมุนโดยสร้าง contour บรรทัดและวัดความเอียงของแต่ละ
+ []
+
+[14
+
+
+
+
+]
+Overfull \hbox (1.97072pt too wide) in paragraph at lines 31--32
+\TU/THSarabunNew(0)/m/n/10 DeepCut และนำคำไปทำ Lemmatization หรือก็คือการลดรูปให้อยู่ในรูปแบบพื้นฐานของคำศัพท์เฉพาะภาษาอังกฤษโดยใช้ library nltk
+ []
+
+
+Overfull \hbox (8.53888pt too wide) in paragraph at lines 35--36
+\TU/THSarabunNew(0)/m/n/10 ผู้ใช้สามารถเช็คคำที่ระบบอ่าน และแก้ไขคำเหล่านี้ได้ หลังจากนั้นเมื่อผู้ใช้เช็คคำเสร็จแล้ว ระบบจะนำคำทั้งหมดที่ได้ไปคิดคำนวณเพื่อทำการ
+ []
+
+
+Overfull \hbox (1.78621pt too wide) in paragraph at lines 39--40
+\TU/THSarabunNew(0)/m/n/10 คำที่ได้ไปค้นในฐานข้อมูลเพื่อค้นหาหนังสือที่มีความใกล้เคียงกับคำค้นหามากที่สุด เมื่อได้หนังสือมาระบบจะทำการส่งข้อมูลหนังสือกลับไป
+ []
+
+
+Overfull \hbox (3.04083pt too wide) in paragraph at lines 43--45
+\TU/THSarabunNew(0)/m/n/10 สอบคำอีกนึงครั้งก่อนที่นำคำเหล่านี้ไปผ่านกระบวนการ tag generate เพื่อหาคำสำคัญในเอกสารโดยให้ผู้ใช้งานได้ตรวจสอบแก้ไขหรือเพิ่ม
+ []
+
+
+Overfull \hbox (1.12201pt too wide) in paragraph at lines 43--45
+\TU/THSarabunNew(0)/m/n/10 มาแก้ไขรายละเอียดที่ผู้ใช้งานกรอกเท่านั้นแต่มาสามารถแก้ไขคำที่ถูกแปลงออกมาเป็นดิจิตอลอีกครั้งได้ และส่วนสุดท้ายการลบเอกสารใน
+ []
+
+
+Overfull \hbox (9.89188pt too wide) in paragraph at lines 43--45
+\TU/THSarabunNew(0)/m/n/10 ระบบผู้ใช้งานสามารถลบเอกสารภายในระบบได้โดยการค้นหาเอกสารที่ต้องการและกดลบเอกสารนั้นออกจากระบบโดยเมื่อมีการลบเอกสาร
+ []
+
+
+Overfull \hbox (3.10228pt too wide) in paragraph at lines 48--49
+[]\TU/THSarabunNew(0)/m/n/10 ผู้ใช้งานสามารถเข้าสู่ระบบเพื่อใช้งานฟังก์ชั่นต่าง ๆภายในระบบโดยเมื่อผู้ใช้งานทำการเข้าสู่ระบบด้วยชื่อผู้ใช้งานและรหัสผ่านแล้วจะได้รับ
+ []
+
+[15] [16]
+File: ./picture//er.png Graphic file (type bmp)
+<./picture//er.png>
+
+Overfull \hbox (19.07372pt too wide) in paragraph at lines 120--121
+ [][] 
+ []
+
+[17]
+File: ./picture//er1.png Graphic file (type bmp)
+<./picture//er1.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 127--128
+ [][] 
+ []
+
+File: ./picture//er2.png Graphic file (type bmp)
+<./picture//er2.png>
+
+Overfull \hbox (19.63527pt too wide) in paragraph at lines 134--135
+ [][] 
+ []
+
+File: ./picture//er3.png Graphic file (type bmp)
+<./picture//er3.png>
+
+Overfull \hbox (19.07372pt too wide) in paragraph at lines 141--142
+ [][] 
+ []
+
+[18]
+File: ./picture//er4.png Graphic file (type bmp)
+<./picture//er4.png>
+File: ./picture//er5.png Graphic file (type bmp)
+<./picture//er5.png>
+
+Overfull \hbox (19.63527pt too wide) in paragraph at lines 156--157
+ [][] 
+ []
+
+File: ./picture//er6.png Graphic file (type bmp)
+<./picture//er6.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 164--165
+ [][] 
+ []
+
+File: ./picture//er7.png Graphic file (type bmp)
+<./picture//er7.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 172--173
+ [][] 
+ []
+
+[19]
+File: ./picture//er8.png Graphic file (type bmp)
+<./picture//er8.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 180--181
+ [][] 
+ []
+
+File: ./picture//er9.png Graphic file (type bmp)
+<./picture//er9.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 188--189
+ [][] 
+ []
+
+File: ./picture//er10.png Graphic file (type bmp)
+<./picture//er10.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 196--197
+ [][] 
+ []
+
+File: ./picture//er11.png Graphic file (type bmp)
+<./picture//er11.png>
+[20]
+File: ./picture//er12.png Graphic file (type bmp)
+<./picture//er12.png>
+
+Overfull \hbox (2.4627pt too wide) in paragraph at lines 217--218
+\TU/THSarabunNew(0)/m/n/10 ข้อมูลผู้ใช้งาน และการตรวจสอบความผิดพลาดที่มีโอกาสจากการสร้างคีย์เวิร์ด และส่วนสุดท้ายที่เป็นตารางที่ไม่มีการเชื่อมโยงกับตารางใด
+ []
+
+
+Overfull \hbox (1.99532pt too wide) in paragraph at lines 225--226
+[]\TU/THSarabunNew(0)/m/n/10 รูปที่ 3.6 จะเป็นความสัมพันธ์ของบัญชีผู้ใช้กับเอกสาร โดยจะมีตาราง user ที่จะเก็บข้อมูลของผู้ใช้งานที่มีความสัมพันธ์แบบ one to many
+ []
+
+
+Overfull \hbox (6.1281pt too wide) in paragraph at lines 225--226
+\TU/THSarabunNew(0)/m/n/10 ไปยังตาราง document ที่จะเก็บต้องเก็บข้อมูลของผู้ใช้ไว้ว่าผู้ใช้คนไหนเป็นคนสร้าง หรือแก้ไขเอกสารนี้ ซึ่งบัญชีผู้ใช้สามารถสร้างหรือแก้ไข
+ []
+
+[21]
+Overfull \hbox (1.22043pt too wide) in paragraph at lines 233--234
+[]\TU/THSarabunNew(0)/m/n/10 รูปที่ 3.10 จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Publisher กับเอกสาร เนื่องจาก Publisher สามารถมีได้หลายเอกสารทำให้ตาราง
+ []
+
+[22] [23] [24] [25] [26]
+File: ./picture//usecasediagram.png Graphic file (type bmp)
+<./picture//usecasediagram.png>
+
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 506--507
+ [][] 
+ []
+
+[27] [28]
+File: ./picture//scene1.png Graphic file (type bmp)
+<./picture//scene1.png>
+
+Overfull \hbox (3.82405pt too wide) in paragraph at lines 531--532
+ [][] 
+ []
+
+File: ./picture//scene2.png Graphic file (type bmp)
+<./picture//scene2.png>
+[29] [30]
+File: ./picture//scene3.png Graphic file (type bmp)
+<./picture//scene3.png>
+
+Overfull \hbox (6.83571pt too wide) in paragraph at lines 577--578
+ [][] 
+ []
+
+[31]
+File: ./picture//scene4.png Graphic file (type bmp)
+<./picture//scene4.png>
+ [32]
+File: ./picture//scene5.png Graphic file (type bmp)
+<./picture//scene5.png>
+ [33]
+File: ./picture//scene6.png Graphic file (type bmp)
+<./picture//scene6.png>
+ [34]
+File: ./picture//scene7.png Graphic file (type bmp)
+<./picture//scene7.png>
+
+Overfull \hbox (15.11778pt too wide) in paragraph at lines 666--667
+ [][] 
+ []
+
+File: ./picture//hp.png Graphic file (type bmp)
+<./picture//hp.png>
+[35]
+File: ./picture//hp2.png Graphic file (type bmp)
+<./picture//hp2.png>
+ [36]
+File: ./picture//login.png Graphic file (type bmp)
+<./picture//login.png>
+ [37]
+File: ./picture//i1.png Graphic file (type bmp)
+<./picture//i1.png>
+ [38]
+Overfull \hbox (9.63274pt too wide) in paragraph at lines 702--703
+[]\TU/THSarabunNew(0)/m/n/10 หน้าเพิ่มหนังสือขั้นแรกจะเป็นการเลือกไฟล์เอกสารที่ต้องการโดยที่จะมีส่วนของการเพิ่มไฟล์ที่อยู่รูปของ pdf เพื่อทำ OCR จากนั้นจะสามารถ
+ []
+
+File: ./picture//i2.png Graphic file (type bmp)
+<./picture//i2.png>
+[39]
+Overfull \vbox (106.53233pt too high) has occurred while \output is active []
+
+ [40]
+File: ./picture//i3.png Graphic file (type bmp)
+<./picture//i3.png>
+ [41]
+File: ./picture//i4.png Graphic file (type bmp)
+<./picture//i4.png>
+
+Overfull \hbox (3.15056pt too wide) in paragraph at lines 726--727
+[]\TU/THSarabunNew(0)/m/n/10 หลังจากที่ทำการใส่ข้อมูลออกมาทั้งหมดแล้วมาถึงหน้าที่เป็นหน้าโหลดข้อมูลดังรูป 3.29 ที่ระบบจะทำการ OCR และทำการเตรียมชุดข้อมูล
+ []
+
+File: ./picture//i5.png Graphic file (type bmp)
+<./picture//i5.png>
+[42]
+Overfull \hbox (12.10582pt too wide) in paragraph at lines 734--735
+[]\TU/THSarabunNew(0)/m/n/10 หลังจากโหลดและเตรียมข้อมูลเรียบร้อยแล้ว ระบบจะทำการแสดงข้อมูลที่ถูกแปลงมาโดยที่ผู้ใช้จะสามารถแก้ไขคำได้ดังรูป 3.30 หรือสามารถ
+ []
+
+
+Overfull \hbox (1.07281pt too wide) in paragraph at lines 734--735
+\TU/THSarabunNew(0)/m/n/10 ข้ามได้เลยเช่นกัน โดยเมื่อคลิกไปที่กล่องข้อความจะขึ้นให้แก้แต่ละคำและเมื่อเปลี่ยนหน้าจะทำการเก็บข้อมูลที่เปลี่ยนไว้ และจะบันทึกการ
+ []
+
+File: ./picture//i6.png Graphic file (type bmp)
+<./picture//i6.png>
+[43]
+Overfull \hbox (8.89557pt too wide) in paragraph at lines 742--743
+[]\TU/THSarabunNew(0)/m/n/10 หน้าสุดท้ายของการเพิ่มหนังสือจะเป็นหน้าที่ให้ผู้ใช้สามารถจัดการกับ Keyword ได้ดังรูปที่ 3.31 โดยเมื่อผู้ใช้ต้องการใส่คำสำคัญเพิ่มสามารถ
+ []
+
+File: ./picture//search.png Graphic file (type bmp)
+<./picture//search.png>
+[44]
+Overfull \hbox (12.08127pt too wide) in paragraph at lines 750--751
+\TU/THSarabunNew(0)/m/n/10 โดยเรียงคะแนนของหนังสือที่เกี่ยวข้องกับคำค้นหามากที่สุดดังรูปที่ 3.32 เมื่อกดเข้าไปที่รายชื่อหนังสือจะทำการนำทางผู้ใช้ไปยังหน้าดูหนังสือ
+ []
+
+File: ./picture//lookupp.png Graphic file (type bmp)
+<./picture//lookupp.png>
+[45]
+File: ./picture//man1.png Graphic file (type bmp)
+<./picture//man1.png>
+ [46]
+Overfull \hbox (5.54909pt too wide) in paragraph at lines 766--767
+\TU/THSarabunNew(0)/m/n/10 ที่ผู้ใช้เคยกรอกไว้ตอน OCR หนังสือมา เมื่อกดปุ่มลบจะมีหน้าต่างแจ้งเตือนเพื่อถามความแน่ใจในการลบเอกสาร หรือกดปุ่ม Edit เพื่อทำการ
+ []
+
+File: ./picture//e1.png Graphic file (type bmp)
+<./picture//e1.png>
+[47]
+Overfull \vbox (105.9235pt too high) has occurred while \output is active []
+
+ [48]
+File: ./picture//e2.png Graphic file (type bmp)
+<./picture//e2.png>
+File: ./picture//e3.png Graphic file (type bmp)
+<./picture//e3.png>
+ [49]
+Overfull \hbox (4.83665pt too wide) in paragraph at lines 787--788
+\TU/THSarabunNew(0)/m/n/10 หนังสือและชื่อหนังสือคอยบอกว่ากำลังแก้ไขหนังสือเล่มไหนอยู่ และในทุกหน้าจะมีปุ่มสำหรับบันทึกในทุกหน้าเพื่อที่จะสามารถบันทึกโดยที่
+ []
+
+File: ./picture//status.png Graphic file (type bmp)
+<./picture//status.png>
+[50]
+Overfull \hbox (2.83173pt too wide) in paragraph at lines 795--796
+[]\TU/THSarabunNew(0)/m/n/10 จากรูป 3.38 สำหรับผู้ใช้ที่ทำการเพิ่มเอกสารเข้าสู่ระบบจะมีหน้าสำหรับโหลดกรณีที่กดออกมาหลังจากผ่านขั้นตอนการเพิ่มหนังสือขั้นตอน
+ []
+
+
+Overfull \hbox (10.51828pt too wide) in paragraph at lines 800--801
+[]\TU/THSarabunNew(0)/m/n/10 ในส่วนของการประเมินผลการทำงานนั้นจะแบ่งออกเป็น 2 ส่วนคือ ส่วนของการทำ image processing จะช่วยให้การทำ OCR มีประสิทธิภาพ
+ []
+
+
+Overfull \hbox (15.41457pt too wide) in paragraph at lines 812--813
+[]\TU/THSarabunNew(0)/m/n/10 ระบบการค้นหา จะเช็คโดยให้ผู้ใช้เป็นผู้ประเมินว่าได้รับเอกสารตรงตามที่ต้องการหรือไม่โดยจะให้เจ้าหน้าที่บรรณารักษ์คัดเลือกหนังสือจำนวน
+ []
+
+
+Overfull \hbox (4.83023pt too wide) in paragraph at lines 820--820
+|[][]
+ []
+
+[51]) [52] [53] (SeniorLatex.bbl
+Underfull \hbox (badness 1194) in paragraph at lines 4--8
+[]\TU/THSarabunNew(0)/m/n/10 Doxygen, 2020,  “OpenCV,” $[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [] [] [] [] [][] [] [][][] [] [][][][][][][][] [] [][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 43--47
+[]\TU/THSarabunNew(0)/m/n/10 P. T. Perez, 2018,  “Deep Learning: Recurrent Neural Networks,” $[][][][][] [] [] [] [][][][][][] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+[]\TU/THSarabunNew(0)/m/n/10 Ritambhara,  “Minimum edit distance of two strings,” $[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
+[]\TU/THSarabunNew(0)/m/n/10 Saixiii, 2017,  “RESTful คืออะไร REST คือ การสื่อสารแลกเปลี่ยนข้อมูลผ่าน webservice,” $[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
+[] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [] [] [] [] [][][][] [] [][][][][][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][][][][] [][] [][][] [] [][] [] [][][][][][] [] [][] [] [][][][][][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
+[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+) [54
+
+
+
+] (SeniorLatex.aux (Chapter1.aux) (Chapter2.aux) (Chapter3.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10787 strings out of 411732
+ 204169 string characters out of 2836994
+ 592977 words of memory out of 3000000
+ 30583 multiletter control sequences out of 15000+200000
+ 405751 words of font info for 76 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 110i,19n,117p,1112b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on SeniorLatex.xdv (67 pages, 721400 bytes).
