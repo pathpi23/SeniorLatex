@@ -1,49 +1,51 @@
+\selectlanguage *{thai}
 \addvspace {0em}
 \addvspace {0em}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces แสดงการหาเค้าโครงภายในรูป}}{6}{}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces แสดงการทำ dilation เพื่อเพิ่มพื้นที่สีขาว}}{7}{}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces แสดงการทำ erosion เพื่อกร่อนพื้นที่สีขาว}}{7}{}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Information retrieval ในลักษณะ Index Retrieval}}{9}{}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces หลักการการเช็ค edit distance \cite {ritambhara}}}{10}{}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces ตัวอย่างตารางการทำ minimum edit distance \cite {ritambhara}}}{10}{}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces แสดงถึงโครงสร้างของ HTTP Request \cite {Saixiii}}}{11}{}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces แสดงถึงโครงสร้างของ HTTP Response \cite {Saixiii}}}{12}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces แสดงการหาเค้าโครงภายในรูป}}{6}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces แสดงการทำ dilation เพื่อเพิ่มพื้นที่สีขาว}}{7}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces แสดงการทำ erosion เพื่อกร่อนพื้นที่สีขาว}}{7}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Information retrieval ในลักษณะ Index Retrieval}}{9}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces หลักการการเช็ค edit distance \cite {ritambhara}}}{10}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces ตัวอย่างตารางการทำ minimum edit distance \cite {ritambhara}}}{10}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces แสดงถึงโครงสร้างของ HTTP Request \cite {Saixiii}}}{11}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces แสดงถึงโครงสร้างของ HTTP Response \cite {Saixiii}}}{12}{figure.2.8}%
 \addvspace {0em}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System Overview}}{14}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces แสดง ER Diagram ของฐานข้อมูล}}{18}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บความผิดพลาดในการสร้างคีย์เวิร์ดจากเอกสาร}}{18}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces แสดง ER Diagram ส่วนของคีย์เวิร์ดและคะแนนความสำคัญในระบบ}}{18}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บคำจากแต่ละหน้าที่แปลงมาจากเอกสาร}}{19}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces แสดง ER Diagram ส่วนของประวัติของผู้ใช้งานมีการสร้างหรือแก้ไขเอกสาร}}{19}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บข้อมูล keyword, relation, type ของเอกสาร}}{19}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces แสดง ER Diagram ส่วนของ Creator มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{19}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces แสดง ER Diagram ส่วนของ Creator Organized Name มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces แสดง ER Diagram ส่วนของ Publisher มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces แสดง ER Diagram ส่วนของ Contributor มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces แสดง ER Diagram ส่วนของ Issued Date มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces แสดง ER Diagram ส่วนของ Knex module ที่ใช้สำหรับ Migration ฐานข้อมูล}}{21}{}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บประวัติการ HTTP Request NodeJS ไปยัง Django}}{21}{}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Use case diagram}}{28}{}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces แสดง Scenario 1 เพิ่มเอกสารเข้าระบบ}}{29}{}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces แสดง Scenario 2 การจัดการคำที่ถูกเก็บได้จากเอกสารในระบบ}}{30}{}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces แสดง Scenario 3 ยืนเอกสารว่าพร้อมสำหรับการถูกนำไปสร้างคีย์เวิร์ด}}{31}{}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces แสดง Scenario 4 แก้ไขข้อมูลเอกสาร}}{32}{}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces แสดง Scenario 5 ลบเอกสาร}}{33}{}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces แสดง Scenario 6 ดูข้อมูลเอกสาร และการค้นหาเอกสาร}}{34}{}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces แสดง Scenario 7 ระบบล็อกอิน}}{35}{}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces ภาพแสดงหน้าหลักของเว็บไซต์}}{36}{}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces ภาพแสดงหน้าหลักของเว็บไซต์หลังจากการกดเปิดเมนู}}{37}{}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces ภาพแสดงหน้าเข้าสู่ระบบ}}{38}{}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นเลือกไฟล์}}{39}{}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 1}}{40}{}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 2}}{41}{}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าขั้นโหลดข้อมูลเข้าสู่ระบบ}}{42}{}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นแก้ไขคำผิด}}{43}{}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นแก้ไขและเพิ่มคำสำคัญ}}{44}{}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces ภาพแสดงหน้าค้นหาข้อมูล}}{45}{}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces ภาพแสดงหน้าดูหนังสือ}}{46}{}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces ภาพแสดงหน้าการจัดการหนังสือที่เพิ่มเข้าสู่ระบบ}}{47}{}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces ภาพแสดงขั้นตอนการแก้ไขหนังสือขั้นที่ 1}}{48}{}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces ภาพแสดงขั้นตอนการแก้ไขหนังสือขั้นที่ 2}}{49}{}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces ภาพแสดงขั้นตอนการแก้ไขหนังสือขั้นที่ 3}}{50}{}%
-\contentsline {figure}{\numberline {3.38}{\ignorespaces ภาพแสดงหน้าการโหลดข้อมูล}}{51}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System Overview}}{14}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces แสดง ER Diagram ของฐานข้อมูล}}{18}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บความผิดพลาดในการสร้างคีย์เวิร์ดจากเอกสาร}}{18}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces แสดง ER Diagram ส่วนของคีย์เวิร์ดและคะแนนความสำคัญในระบบ}}{18}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บคำจากแต่ละหน้าที่แปลงมาจากเอกสาร}}{19}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces แสดง ER Diagram ส่วนของประวัติของผู้ใช้งานมีการสร้างหรือแก้ไขเอกสาร}}{19}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บข้อมูล keyword, relation, type ของเอกสาร}}{19}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces แสดง ER Diagram ส่วนของ Creator มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces แสดง ER Diagram ส่วนของ Creator Organized Name มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces แสดง ER Diagram ส่วนของ Publisher มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces แสดง ER Diagram ส่วนของ Contributor มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{20}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces แสดง ER Diagram ส่วนของ Issued Date มีความเกี่ยวข้องกับเอกสารไหนบ้าง}}{21}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces แสดง ER Diagram ส่วนของ Knex module ที่ใช้สำหรับ Migration ฐานข้อมูล}}{21}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces แสดง ER Diagram ส่วนของการเก็บประวัติการ HTTP Request NodeJS ไปยัง Django}}{21}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Use case diagram}}{29}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces แสดง Scenario 1 เพิ่มเอกสารเข้าระบบ}}{30}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces แสดง Scenario 2 การจัดการคำที่ถูกเก็บได้จากเอกสารในระบบ}}{31}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces แสดง Scenario 3 ยืนเอกสารว่าพร้อมสำหรับการถูกนำไปสร้างคีย์เวิร์ด}}{32}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces แสดง Scenario 4 แก้ไขข้อมูลเอกสาร}}{33}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces แสดง Scenario 5 ลบเอกสาร}}{34}{figure.3.20}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces แสดง Scenario 6 ดูข้อมูลเอกสาร และการค้นหาเอกสาร}}{35}{figure.3.21}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces แสดง Scenario 7 ระบบล็อกอิน}}{36}{figure.3.22}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces ภาพแสดงหน้าหลักของเว็บไซต์}}{37}{figure.3.23}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces ภาพแสดงหน้าหลักของเว็บไซต์หลังจากการกดเปิดเมนู}}{38}{figure.3.24}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces ภาพแสดงหน้าเข้าสู่ระบบ}}{39}{figure.3.25}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นเลือกไฟล์}}{40}{figure.3.26}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 1}}{42}{figure.3.27}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 2}}{43}{figure.3.28}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าขั้นโหลดข้อมูลเข้าสู่ระบบ}}{44}{figure.3.29}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นแก้ไขคำผิด}}{45}{figure.3.30}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นแก้ไขและเพิ่มคำสำคัญ}}{46}{figure.3.31}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces ภาพแสดงหน้าค้นหาข้อมูล}}{47}{figure.3.32}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces ภาพแสดงหน้าดูหนังสือ}}{48}{figure.3.33}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces ภาพแสดงหน้าการจัดการหนังสือที่เพิ่มเข้าสู่ระบบ}}{49}{figure.3.34}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces ภาพแสดงขั้นตอนการแก้ไขหนังสือขั้นที่ 1}}{51}{figure.3.35}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces ภาพแสดงขั้นตอนการแก้ไขหนังสือขั้นที่ 2}}{52}{figure.3.36}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces ภาพแสดงขั้นตอนการแก้ไขหนังสือขั้นที่ 3}}{53}{figure.3.37}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces ภาพแสดงหน้าการโหลดข้อมูล}}{54}{figure.3.38}%
+\addvspace {0em}
