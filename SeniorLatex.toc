@@ -2,11 +2,11 @@
 \contentsline {chapterx}{\mdseries ABSTRACT}{ii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries บทคัดย่อ}{iii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries กิตติกรรมประกาศ}{iv}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญ}{viii}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญตาราง}{ix}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญรูปภาพ}{xi}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญสัญลักษณ์}{xiii}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญคำศัพท์ทางเทคนิคและคำย่อ}{xiv}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญ}{v}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญตาราง}{vi}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญรูปภาพ}{vii}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญสัญลักษณ์}{viii}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญคำศัพท์ทางเทคนิคและคำย่อ}{ix}{Doc-Start}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {1}\hskip -0.8em บทนำ}}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}คำสำคัญ}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}ความสำคัญของปัญหา}{1}{section.1.2}%
@@ -83,4 +83,5 @@
 \contentsline {subsection}{\numberline {3.6.14}Upload Status Page}{54}{subsection.3.6.14}%
 \contentsline {subsection}{\numberline {3.6.15}Evaluate Process Design}{54}{subsection.3.6.15}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{57}{chapter.4}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{58}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ผลลัพธ์ที่ได้จากการทำ Image processing}{57}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Skip page}{57}{subsection.4.1.1}%

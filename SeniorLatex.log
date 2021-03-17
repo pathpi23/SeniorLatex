@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  16 MAR 2021 13:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  17 MAR 2021 10:38
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -587,18 +587,7 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 \c@theorem=\count313
 \c@lemma=\count314
 \c@corollary=\count315
-(SeniorLatex.aux
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 19.
-\thai@year=\count316
- (Chapter1.aux) (Chapter2.aux) (Chapter3.aux
-
-LaTeX Warning: Label `fig:scene7' multiply defined.
-
-) (Chapter4.aux))
+(SeniorLatex.aux)
 \openout1 = `SeniorLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
@@ -673,14 +662,17 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count317
+\c@section@level=\count316
 )
 LaTeX Info: Redefining \ref on input line 126.
 LaTeX Info: Redefining \pageref on input line 126.
 LaTeX Info: Redefining \nameref on input line 126.
- (SeniorLatex.out) (SeniorLatex.out)
 \@outlinefile=\write3
 \openout3 = `SeniorLatex.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Info: Redefining \rmfamily on input line 126.
 LaTeX Info: Redefining \sffamily on input line 126.
@@ -688,10 +680,12 @@ LaTeX Info: Redefining \ttfamily on input line 126.
 LaTeX Info: Redefining \rmfamily on input line 126.
 LaTeX Info: Redefining \sffamily on input line 126.
 LaTeX Info: Redefining \ttfamily on input line 126.
-\thai@year=\count318
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 12.29996pt on input line 126.
+\thai@year=\count317
 File: ./picture//logo02.jpg Graphic file (type bmp)
 <./picture//logo02.jpg>
- [1
+[1
 
 
 ]
@@ -723,6 +717,13 @@ Underfull \hbox (badness 10000) in alignment at lines 162--164
  []
 
 [2]
+LaTeX Info: Redefining \rmfamily on input line 174.
+LaTeX Info: Redefining \sffamily on input line 174.
+LaTeX Info: Redefining \ttfamily on input line 174.
+\thai@year=\count318
+LaTeX Info: Redefining \rmfamily on input line 174.
+LaTeX Info: Redefining \sffamily on input line 174.
+LaTeX Info: Redefining \ttfamily on input line 174.
 LaTeX Info: Redefining \rmfamily on input line 174.
 LaTeX Info: Redefining \sffamily on input line 174.
 LaTeX Info: Redefining \ttfamily on input line 174.
@@ -800,72 +801,41 @@ LaTeX Info: Redefining \ttfamily on input line 174.
 LaTeX Info: Redefining \rmfamily on input line 174.
 LaTeX Info: Redefining \sffamily on input line 174.
 LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-\thai@year=\count330
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
 
 Underfull \hbox (badness 10000) in alignment at lines 196--200
 [][] 
  []
 
 [3]
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 (Font)              scaled to size 14.75995pt on input line 208.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
 (Font)              scaled to size 14.75995pt on input line 208.
  [4
 
-] (SeniorLatex.toc
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count331
- [5
-
-] [6] [7])
+]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 14.75995pt on input line 216.
 \tf@toc=\write4
 \openout4 = `SeniorLatex.toc'.
 
- [8] (SeniorLatex.lot
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count332
-)
+ [5
+
+]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 12.29996pt on input line 217.
 \tf@lot=\write5
 \openout5 = `SeniorLatex.lot'.
 
- [9
+ [6
 
-] [10] (SeniorLatex.lof
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count333
-
-
-LaTeX Warning: Citation `ritambhara' on page xi undefined on input line 8.
-
-
-LaTeX Warning: Citation `ritambhara' on page xi undefined on input line 9.
-
-
-LaTeX Warning: Citation `Saixiii' on page xi undefined on input line 10.
-
-
-LaTeX Warning: Citation `Saixiii' on page xi undefined on input line 11.
-
-[11
-
-])
+]
 \tf@lof=\write6
 \openout6 = `SeniorLatex.lof'.
 
- [12]
+ [7
+
+]
 Overfull \hbox (1.72173pt too wide) in paragraph at lines 227--227
 []|\TU/THSarabunNew(0)/b/n/10 SYMBOL| 
  []
@@ -880,9 +850,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--231
 []|\TU/THSarabunNew(0)/m/n/10 jobs/
  []
 
-[13
+[8
 
-] [14
+] [9
 
 ]
 \openout2 = `Chapter1.aux'.
@@ -896,29 +866,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 17.71193pt on input line 1.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
+(Font)              scaled to size 17.71193pt on input line 1.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
 (Font)              scaled to size 17.71193pt on input line 1.
 [1
 
 
 ] [2] [3]
 Underfull \hbox (badness 5008) in paragraph at lines 119--119
-\TU/THSarabunNew(0)/m/n/10 กำหนด ขอบเขต ของ โปร
+\TU/THSarabunNew(1)/m/n/10 กำหนด ขอบเขต ของ โปร
  []
 
 
 Underfull \hbox (badness 5175) in paragraph at lines 123--123
-[]|\TU/THSarabunNew(0)/m/n/10 แปลง รูปภาพ เป็น Full-
+[]|\TU/THSarabunNew(1)/m/n/10 แปลง รูปภาพ เป็น Full-
  []
 
 
 Underfull \hbox (badness 1038) in paragraph at lines 124--124
-[]|\TU/THSarabunNew(0)/m/n/10 นำ ข้อมูล ที่ เก็บ ไว้ มา ทำ-
+[]|\TU/THSarabunNew(1)/m/n/10 นำ ข้อมูล ที่ เก็บ ไว้ มา ทำ-
  []
 
 
 Underfull \hbox (badness 1057) in paragraph at lines 124--124
-\TU/THSarabunNew(0)/m/n/10 การ ตัด แบ่ง คำ ภาษา ไทย
+\TU/THSarabunNew(1)/m/n/10 การ ตัด แบ่ง คำ ภาษา ไทย
  []
 
 
@@ -932,7 +904,7 @@ Overfull \hbox (18.27997pt too wide) in paragraph at lines 132--143
  []
 
 [4]
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
 (Font)              scaled to size 13.52995pt on input line 145.
 ) [5]
 \openout2 = `Chapter2.aux'.
@@ -946,6 +918,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 LaTeX Warning: Citation `doxygen' on page 6 undefined on input line 14.
+
+
+LaTeX Warning: Reference `fig:contour' on page 6 undefined on input line 14.
 
 File: ./picture//contour.png Graphic file (type bmp)
 <./picture//contour.png>
@@ -981,17 +956,28 @@ File: ./picture//editdistance.png Graphic file (type bmp)
 
 LaTeX Warning: Citation `ritambhara' on page 10 undefined on input line 114.
 
+
+LaTeX Warning: Reference `fig:editdistance' on page 10 undefined on input line 116.
+
+
+LaTeX Warning: Reference `fig:minimumtable' on page 10 undefined on input line 116.
+
 File: ./picture//minimumtable.png Graphic file (type bmp)
 <./picture//minimumtable.png>
 
 LaTeX Warning: Citation `ritambhara' on page 10 undefined on input line 120.
 
 [10]
+
+LaTeX Warning: Reference `fig:httpreq' on page 11 undefined on input line 127.
+
 File: ./picture//httpreq.png Graphic file (type bmp)
 <./picture//httpreq.png>
 
-
 LaTeX Warning: Citation `Saixiii' on page 11 undefined on input line 140.
+
+
+LaTeX Warning: Reference `fig:httpres' on page 11 undefined on input line 143.
 
 File: ./picture//httpres.png Graphic file (type bmp)
 <./picture//httpres.png>
@@ -1029,6 +1015,9 @@ LaTeX Warning: Citation `techterms' on page 12 undefined on input line 180.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 1.
+
+
+LaTeX Warning: Reference `fig:systemoverview' on page 14 undefined on input line 5.
 
 File: ./picture//systemoverview.png Graphic file (type bmp)
 <./picture//systemoverview.png>
@@ -1123,7 +1112,12 @@ File: ./picture//er11.png Graphic file (type bmp)
 <./picture//er11.png>
 File: ./picture//er12.png Graphic file (type bmp)
 <./picture//er12.png>
- [21] [22] [23] [24] [25] [26] [27]
+ [21] [22] [23] [24] [25] [26]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3.15 on input line 453.
+
+[27]
 File: ./picture//usecasediagram.png Graphic file (type bmp)
 <./picture//usecasediagram.png>
 
@@ -1170,12 +1164,21 @@ Overfull \hbox (15.11778pt too wide) in paragraph at lines 666--667
 File: ./picture//hp.png Graphic file (type bmp)
 <./picture//hp.png>
 [36]
+
+LaTeX Warning: Reference `fig:hp' on page 37 undefined on input line 678.
+
 File: ./picture//hp2.png Graphic file (type bmp)
 <./picture//hp2.png>
- [37]
+[37]
+
+LaTeX Warning: Reference `fig:hp' on page 38 undefined on input line 686.
+
+
+LaTeX Warning: Reference `fig:hp2' on page 38 undefined on input line 686.
+
 File: ./picture//login.png Graphic file (type bmp)
 <./picture//login.png>
- [38]
+[38]
 File: ./picture//i1.png Graphic file (type bmp)
 <./picture//i1.png>
  [39]
@@ -1233,138 +1236,160 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 1.
 
+Chapter4.tex:6: Undefined control sequence.
+<argument> ...paces ตารางประเมิณความพึงพอใจ UX\UI 
+                                                  design}}{\thepage }{\@curr...
+l.6 ...ption{ตารางประเมิณความพึงพอใจ UX\UI design}
+                                                  \label{tbl:uxuieva}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[]|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
+Chapter4.tex:6: Undefined control sequence.
+<argument> ...lax }}ตารางประเมิณความพึงพอใจ UX\UI 
+                                                  design\fi  \vskip 0.5em\@@...
+l.6 ...ption{ตารางประเมิณความพึงพอใจ UX\UI design}
+                                                  \label{tbl:uxuieva}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\TU/THSarabunNew(1)/m/n/10 ความ สมบูรณ์ ของ
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 6--6
-[]|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
+Underfull \hbox (badness 5022) in paragraph at lines 10--10
+[]|\TU/THSarabunNew(1)/m/n/10 ข้อมูล มี ความ สม-
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 6--6
-\TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
+Underfull \hbox (badness 3219) in paragraph at lines 10--10
+\TU/THSarabunNew(1)/m/n/10 บูรณ์ ชัดเจน ทำให้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]|\TU/THSarabunNew(1)/m/n/10 มี ข้อมูล ที่ ชัดเจน
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 6--6
-\TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
+Underfull \hbox (badness 1377) in paragraph at lines 10--10
+\TU/THSarabunNew(1)/m/n/10 และ แม่นยำ ใน บาง
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\TU/THSarabunNew(1)/m/n/10 ครั้ง และ สามารถ
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 6--6
-[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
+Underfull \hbox (badness 6094) in paragraph at lines 10--10
+[]|\TU/THSarabunNew(1)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 7--7
-[]|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
+Underfull \hbox (badness 7759) in paragraph at lines 11--11
+[]|\TU/THSarabunNew(1)/m/n/10 มี การ ออกแบบ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 เน้น ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 และ จัด วาง องค์
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
+Underfull \hbox (badness 7558) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 ประกอบ สี เสียง
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
+Underfull \hbox (badness 2744) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 องค์ ประกอบ ทำให้
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
+Underfull \hbox (badness 4429) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 เห็นใจ ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
+Underfull \hbox (badness 2875) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 จัด องค์ ประกอบ มี
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 การ ใช้ animation
+Underfull \hbox (badness 1210) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 การ ใช้ animation
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 7--7
-[]|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
+Underfull \hbox (badness 7759) in paragraph at lines 11--11
+[]|\TU/THSarabunNew(1)/m/n/10 การ วาง หน้า และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 มี ความ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 7--7
-\TU/THSarabunNew(0)/m/n/10 animation เข้า มา
+Underfull \hbox (badness 1509) in paragraph at lines 11--11
+\TU/THSarabunNew(1)/m/n/10 animation เข้า มา
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 8--8
-\TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
+Underfull \hbox (badness 2237) in paragraph at lines 12--12
+\TU/THSarabunNew(1)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 8--8
-\TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
+Underfull \hbox (badness 2547) in paragraph at lines 12--12
+\TU/THSarabunNew(1)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 8--8
-\TU/THSarabunNew(0)/m/n/10 มาก หนึ่ง ลิ้งค์ หรือ
+Underfull \hbox (badness 4084) in paragraph at lines 12--12
+\TU/THSarabunNew(1)/m/n/10 มาก หนึ่ง ลิ้งค์ หรือ
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 8--8
-\TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
+Underfull \hbox (badness 2237) in paragraph at lines 12--12
+\TU/THSarabunNew(1)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 8--8
-\TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
+Underfull \hbox (badness 2547) in paragraph at lines 12--12
+\TU/THSarabunNew(1)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 9--9
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+Underfull \hbox (badness 7203) in paragraph at lines 13--13
+\TU/THSarabunNew(1)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 9--9
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+Underfull \hbox (badness 7203) in paragraph at lines 13--13
+\TU/THSarabunNew(1)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 9--9
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+Underfull \hbox (badness 7203) in paragraph at lines 13--13
+\TU/THSarabunNew(1)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Overfull \hbox (3.67516pt too wide) in paragraph at lines 3--11
+Overfull \hbox (3.67516pt too wide) in paragraph at lines 7--15
 [][] 
  []
 
@@ -1373,7 +1398,8 @@ Overfull \hbox (3.67516pt too wide) in paragraph at lines 3--11
 
 
 
-] (SeniorLatex.bbl)
+]
+No file SeniorLatex.bbl.
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1424,32 +1450,37 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
- [58
 
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
 
-
-] (SeniorLatex.aux
+(SeniorLatex.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
-\thai@year=\count334
+\thai@year=\count330
  (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
-(rerunfilecheck)             Checksum: B5F08CF5BF573A52F87D7EE76CC47C75;14110.
+
+Package rerunfilecheck Warning: File `SeniorLatex.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SeniorLatex.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  169541CF7F24C6C00F32E4823740E0C5;14378.
  ) 
 Here is how much of TeX's memory you used:
- 17906 strings out of 411732
- 314251 string characters out of 2836994
- 738030 words of memory out of 3000000
- 37604 multiletter control sequences out of 15000+200000
- 406015 words of font info for 65 fonts, out of 3000000 for 9000
+ 17854 strings out of 411732
+ 314079 string characters out of 2836994
+ 718286 words of memory out of 3000000
+ 37571 multiletter control sequences out of 15000+200000
+ 406031 words of font info for 67 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,19n,117p,1112b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (73 pages, 808020 bytes).
+Output written on SeniorLatex.xdv (67 pages, 674940 bytes).
