@@ -21,6 +21,160 @@
 ซึ่งในการทำ Image processing นั้นทางคณะผู้จัดทำได้ออกแบบไว้ว่าจะทำการแยกระหว่างรูปและตัวหนังสือออกจากกัน โดยการใช้ contour เข้ามาช่วยในการคัดแยกรูปออกจากตัวอักษร โดยดูจากพื้นที่สี่เหลี่ยมที่ได้จาก contour กลับพื้นที่ contour ว่ามีความต่างขนาดและความแตกต่างกันมากเท่าไร หรือใช้ขนาดความกว้างและยาวมาดูว่ามีขนาดเกินเท่าไรถึงจะตัดให้เป็นรูปภาพ
 นอกจากนี้ออกแบบการหมุนโดยสร้าง contour บรรทัดและวัดความเอียงของแต่ละบรรทัดว่าเอียงเท่าไรจากนั้นจึงหมุนกลับในองศาตรงข้าม
 
+\subsection{Skip page}
+
+โดยการทำการคัดหน้าสีนั้น เราได้นำค่าความถี่ของหน้าที่มีพื้นหลังสีมาพล็อตเพื่อหาความแตกต่างจะเห็นได้ว่าถ้าหน้าที่มีพื้นหลังสี หลายสีนั้นจะมีค่าความถี่กระจายอยู่หลายค่าในขณะที่ถ้าเป็นหน้าที่มีพื้นหลังสีเดียวมีค่าความถี่ในช่วงนั้นสูงดังรูป \ref{fig:skippage}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{skippage2}
+    \caption{ภาพแสดงความถี่ของภาพพื้นหลังสีและภาพพื้นหลังขาวดำ}\label{fig:skippage2}
+\end{figure}
+
+ขั้นตอนหลักการทำงานของ Skip Page
+
+\begin{enumerate}
+    \item รับไฟล์รูปภาพมาแปลงเป็น Gray Scale และทำการปรับตัวแปรที่เป็นรูปภาพแบบ Gray Scale ให้เป็นอาเรย์มิติเดียว
+    \item ทำการนับความถี่ของค่าสีว่าแต่ละค่าสีนั้นมีจำนวนเท่าไหร่
+    \item นำค่าความถี่ของค่าสีที่มีความถี่สูงสุดมาคำนวณว่ามีค่ามากกว่า 10 เปอร์เซ็นต์ของจำนวนพิกเซลทั้งหมดหรือไม่ ถ้าน้อยกว่าให้ข้ามการทำ OCR หน้านี้ไป
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{skippage}
+    \caption{ภาพแสดงขั้นตอนการข้ามหน้า}\label{fig:skippage}
+\end{figure}
+
+\subsection{Rotated}
+
+โดยจะมีหลักการหมุนด้วยวิธีการหาค่าองศาของแต่ละประโยคด้วยวิธีการนำจุด 2 ที่อยู่ในแนวระราบเดียวกันมาทำการหา arctan เพื่อหาองศาที่ทำให้บรรทัดนั้นตรง และนำค่าองศาแต่ละบรรทัดที่อยู่ในย่อหน้าเดียวกันมาหาองศาเฉลี่ยเพื่อที่จะใช้การหมุนทั้งย่อหน้าให้ตรง
+
+\begin{enumerate}
+    \item เริ่มจากนำรูปภาพมาทำเป็นสองส่วนคือการทำ Dilate, Erode โดยที่รูปภาพที่ถูกการทำ Dilate จะได้รูปที่มีการจับกลุ่มบรรทัดของย่อหน้า และรูปที่ถูก Erode จะได้รูปภาพที่มีการแยกบรรทัดข้อความกันอย่างชัดเจน และนำไปหา Contour โดยที่รูปภาพของการจับกลุ่มบรรทัดจะได้ผลลัพธ์ดังรูปภาพที่ \ref{fig:rotate2} ทางด้านซ้าย และการแยกบรรทัดจะได้ผลลัพธ์ดังรูปภาพที่ \ref{fig:rotate2} ทางด้านขวา 
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate1}
+        \caption{ภาพแสดงการทำ erosion และ dilation}\label{fig:rotate1}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate2}
+        \caption{ภาพแสดงการเปรียบเทียบการทำ erosion และ dilation}\label{fig:rotate2}
+    \end{figure}
+
+    \item ทำการแยก รูปภาพและบรรทัดข้อความ ภายใน Contour ที่ถูก erode โดยการกำหนดค่าความสูงสูงที่สุดและต่ำที่สุดไว้ ค่าอัตราส่วนระหว่างความสูงและความกว้าง โดยค่าที่กำหนดไว้เราได้เอามาจากการทำ Page dewarp ของ Matt Zucker \cite{mattzuck} และนำมาตรวจสอบเงื่อนไขและแยกเป็นกลุ่มของข้อความและรูปภาพดังรูปภาพที่ \ref{fig:rotate3}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate3}
+        \caption{ภาพแสดงเกณฑ์การวัดบรรทัดของตัวหนังสือ}\label{fig:rotate3}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate4}
+        \caption{ภาพแสดงการคัดแยก Contour ที่ไม่ใช่ตัวหนังสือ}\label{fig:rotate4}
+    \end{figure}
+
+    \item ทำการหา Mask เพื่อใช้ในการลบรูปภาพและคำนวณองศาของแต่ละบรรทัดข้อความภายใน Contour dilate นั้น โดยการลบรูปภาพจะทำโดยการระบุว่ารูปภาพอยู่ว่าภายใน Contour ที่ถูก dilate ไหนเพื่อจะนำมาเป็น mask สำหรับการลบรูปภาพออกด้วยวิธีการ ดูว่า Contour ที่ถูกแยกเป็นรูปภาพนั้นอยู่ภายใน Contour dilate ครบทั้งสี่มุมหรือเปล่า ถ้าใช้แสดงว่า Contour dilate คือ mask ของรูปภาพที่จะต้องถูกลบให้สร้าง contour dilate นั้นลงไปบนรูปแต่ถ้าไม่ใช่ก็จะนำไปหาองศาของแต่บรรทัดข้อความและนำมาเฉลี่ยเป็นองศาที่ต้องหมุนสำหรับ Contour dilate นั้น
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate5}
+        \caption{ภาพแสดงการทำ Mask ในส่วนที่ไม่ใช่ตัวหนังสือ}\label{fig:rotate5}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate6}
+        \caption{ภาพแสดงการคัดตัวหนังสือเพื่อนำไปหาองศาในการหมุน}\label{fig:rotate6}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate7}
+        \caption{ภาพแสดงการจุดของ Contour เล็กใน Contour ใหญ่}\label{fig:rotate7}
+    \end{figure}
+
+    \item นำ Mask ที่เป็นรูปภาพนำมาลบออกโดยเมื่อได้ mask มาก็จะนำไปลบออกจากรูปใหญ่ในฟังก์ชั่น removePicture ในรูปที่ \ref{fig:rotate8}  ซึ่งจะนำเอา Contour dilate ที่เป็นตัวหนังสือ (กรอบสีเขียว) มาลบออกจาก mask เดิม(กรอบสีแดง)ที่ได้สร้างไว้เพื่อกันการลบพื้นที่เป็นตัวหนังสือดัง \ref{fig:rotate9} ด้วยการใช้ฟังก์ชั่น drawContour ก่อนจะนำ mask ที่ได้มาลบรูปออกทำให้ภาพในแต่ละหน้าหายไป เป็นผลลัพธ์ออกมาดัง \ref{fig:rotate11}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate8}
+        \caption{ภาพแสดงฟังก์ชั่นการลบรูปภาพออกจากหนังสือ}\label{fig:rotate8}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate9}
+        \caption{ภาพแสดงการสร้าง Mask เพื่อลบรูปภาพ}\label{fig:rotate9}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate11}
+        \caption{ภาพแสดงการสร้าง Mask โดยเว้นที่ตัวหนังสือ}\label{fig:rotate11}
+    \end{figure}
+
+    \item การหาค่าเฉลี่ยองศาในแต่ละรูปก็จะนำ contour ของตัวหนังสือที่ได้มาเข้าสู่กระบวนการวัดมุมและหมุนภาพ โดยการนำจุดสี่จุดของ contour เล็กมาเฉลี่ย องศาในการหมุน เนื่องจากค่าจุดที่ได้จากการหา minimum area rectangle นั้นอาจจะมีบางครั้งที่ค่าจุดที่ส่งมาไม่ได้เริ่มจากซ้ายบน ดังนั้นจุดและเว้นที่หามาได้นั้นอาจจะทำให้ได้องศาในแนวตั้งมาได้ จึงต้องทำการกรองว่าองศาที่ได้ว่าตั้งฉากหรือไม่ตั้งฉากถ้าเป็นองศาตั้งฉากให้หาการเอียงจากแกน 90 องศา แต่ถ้าไม่ใช่ก็เทียบจากแกนแนวนอน 0 องศาหรือ 180 องศา
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.8]{rotate10}
+        \caption{ภาพแสดงการหาองศาในการหมุน}\label{fig:rotate10}
+    \end{figure}
+    
+\end{enumerate}
+
+ผลลัพธ์จากการหมุนภาพตัวหนังสือทั้ง 978 ภาพ มีความคลาดเคลื่อนทั้งหมด 7.98\% ที่ยังไม่สามารถหมุนภาพให้ตรง และทำให้บางภาพแย่ลง เนื่องจากว่าบรรทัดตัวอักษรอาจจะมีสระที่ไม่สามารถทำ erosion ให้กลายเป็นเส้นบรรทัดได้
+\subsection{Remove Background}
+
+จากการที่ฟังก์ชั่นการข้ามหน้าได้ผลลัพธ์ที่ไม่ดีพอจริงเปลี่ยนวิธีการและขั้นตอนการทำ Image processing ใหม่จากความรู้ที่ได้ศึกษาเพิ่มเติมขึ้นมาทำให้นำมาสู่การลบพื้นหลัง
+
+\begin{enumerate}
+    \item แปลงรูปภาพสีให้กลายเป็นขาวดำจะทำให้ชั้นสีเหลือเพียงชั้นเดียวจากเดิมที่มี 3 ชั้นเป็น RGB เหลือเป็นค่า Gray scale ที่มีค่า 0-255 โดยที่ค่าเข้าใกล้ 0 คือสีดำและเข้าใกล้ 255 คือสีขาว
+    \item นำรูปภาพมาผ่านกระบวนการ dilate โดยกำหนดเป็นสี่เหลี่ยมขนาด 5x5 จะได้ผลลัพธ์ดังรูปภาพที่ \ref{fig:rem3}
+    \item นำรูปภาพ gray scale มาหารกับค่าที่ถูก dilate มาโดยให้ scale อยู่ที่ 0 – 255 จะทำให้ Back ground หายไปเนื่องจากจะเห็นได้ว่าถ้าส่วนไหนของรูปภาพถูก dilate ออกไปจะไม่ถูกลบเมื่อนำค่า pixel นั้นมาหารแต่ถ้าพื้นที่นั้นไม่ถูก dilate ออกไปจะทำให้เมื่อนำมาค่า pixel มาหารจะทำให้ pixel นั้นกลายเป็นสีขาวดังรูปภาพที่ \ref{fig:rem4}
+    \item นำรูปภาพที่ไม่มี back ground ไปทำ threshold ให้รูปเหลือเพียงสีขาวกับสีดำ โดยเราจะทำเป็น THRESH\_BINARY\_INV ที่ทำให้ตัวอักษรเป็นสีขาวและพื้นหลังเป็นสีดำเพื่อนำไปใช้ในการหา contour ต่อ
+    \end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{removebg}
+    \caption{ภาพแสดงขั้นตอนในการลบพื้นหลังสี}\label{fig:removebg}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{rem1}
+    \caption{รูปภาพสีก่อนถูกนำเข้ามาทำการลบ background}\label{fig:rem1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.7]{rem2}
+    \caption{รูปภาพการแปลงภาพสีเป็น gray scale}\label{fig:rem2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{rem3}
+    \caption{รูปภาพที่ผ่านการทำ dilate รูปแบบสี่เหลี่ยมขนาด 5x5}\label{fig:rem3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{rem4}
+    \caption{รูปภาพที่ผ่านการลบ background}\label{fig:rem4}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{rem5}
+    \caption{รูปภาพที่ผ่านทำการ threshold แบบ THRESH\_BINARY\_INV}\label{fig:rem5}
+\end{figure}
 
 \subsection{Image to word}
 
@@ -37,6 +191,29 @@
 \subsection{Search}
 
 ในส่วนของระบบการค้นหานั้นเมื่อผู้ใช้ทำการกรอกคำค้นหาระบบจะทำการนำคำที่ผู้ใช้กรอกมาทำ Text preprocessing อีกครั้งหนึ่งแต่จะไม่ทำในส่วนของการตรวจเช็คคำ ผิด และคำที่ได้จะถูกนำไปเข้าโมเดล Word2Vec เพื่อนำไปค้นหาคำใกล้เคียงของคำค้นหาก่อนที่จะนำคำที่ได้ไปค้นในฐานข้อมูลเพื่อค้นหาหนังสือที่มีความใกล้เคียงกับคำค้นหามากที่สุด เมื่อได้หนังสือมาระบบจะทำการส่งข้อมูลหนังสือกลับไปให้ผู้ใช้
+
+\subsubsection{การทำโมเดล word2vec}
+
+โดยเราได้เตรียมข้อมูลที่จะนำมาสร้างโมเดลเป็นข้อมูลหนังสือกตเวทิตาและรายงานประจำปีของมหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี จำนวนทั้งหมด 43 เล่มโดยจะเป็นการนำข้อมูลที่ถูกกระบวนการ OCR และ text processing มาตัดแบ่งคำเว้นช่องว่างและขึ้นบรรทัดใหม่ โดยจะใช้ library genism ในสร้างโมเดลโดยมีการกำหนด window size เท่ากับ 2 และคำต้องมีกล่าวถึงมากกว่า 5 ครั้งโดยทำเป็นลักษณะ CBOW (Continuous Bag of Words)
+
+\subsubsection{ขั้นตอนการค้นหาข้อมูลภายในระบบ}
+
+\begin{enumerate}
+    \item รับข้อมูลจากผู้ใช้งานคำค้นหาและ filter เพิ่มเติมผ่านทางเว็บแอพพลิเคชั่นส่งผ่าน graphql มายัง node JS
+    \item นำข้อมูลที่ผู้ใช้งานกรอก ไปแยกคำและลบ Stop word ออกจากประโยคด้วย library deep cut โดยเรียกใช้ผ่าน django
+    \item นำคำค้นหาที่ถูกแยกมาเข้าโมเดล word2vec เพื่อที่จะหาคำเหมือนคำคล้าย โดยที่เราจะเลือกนำมาใช้จะต้องมีคะแนนความคล้ายคลึงมากกว่า  72 \% และนำมาเฉพาะ 2 อันดับแรกมาใช้งานในการค้นหา
+    \item นำคำค้นหาและคำคล้ายมาทำการค้นหาว่าคำเหล่านี้อยู่ภายในหนังสือเล่มไหนบ้าง และนำคะแนน TF/IDF ของคำเหล่านั้นมาเข้าสูตรคำนวณ cosine similarity จากสมการที่ 4.1 เพื่อหาว่าหนังสือเล่มใดมีคะแนนความสัมพันธ์สูงสุดก็จะเป็นผลลัพธ์ที่เกี่ยวข้องกับคำค้นหามากที่สุด และส่งคะแนน และหนังสือที่มีคะแนนสูงที่สุดจาก Django กลับมายัง node JS
+    \item นำหนังสือที่ได้มาทำการคัดโดยใช้ filter ที่ผู้ใช้งานทำการกรอกเข้ามาเพิ่มเติมเพื่อเลือกหนังสือที่ผู้ใช้ต้องการ
+    \item ส่งผลลัพธ์จาก node JS ผ่านทาง graphql มายังเว็บแอพพลิเคชั่นเพื่อแสดง
+\end{enumerate}
+
+\begin{equation}
+    sim(\vec{q},\vec{d})=\frac{\sum_{i=1}^{|v|}q_{i}d_{i} }{\sqrt{\sum_{i=1}^{|v|}q^{2}_{i}x\sqrt{\sum_{i=1}^{|v|}d^{2}_{i}}}}
+    \end{equation}    
+
+\subsubsection{การอัพเดทค่าคะแนน TF/IDF}
+
+เนื่องจากการที่มีหนังสือเพิ่มเข้ามาในระบบจะทำให้ผลลัพธ์คะแนน TF/IDF เปลี่ยนทั้งระบบจึงทำให้จำเป็นต้องมีการคำนวณใหม่เพื่อความแม่นยำในการค้นหาแต่เนื่องจากถ้าระบบมีหนังสือจำนวนมากยิ่งขึ้นทางผู้จัดทำจึงปรับเปลี่ยนการอัพเดทคะแนนเป็น 1 ครั้งต่อวันโดยที่จะคำนวณคะแนนในช่วงเวลากลางคืนเพื่อไม่ให้ส่งผลกระทบกับผู้ใช้งาน และในส่วนการเพิ่มข้อมูลเข้ามาใหม่คำที่อยู่ภายในหนังสือนั้นจะถูกคำนวณและอัพเดทค่าใหม่ทันทีส่วนคำอื่นนั้นจะต้องรอเวลาที่กำหนดเพื่อที่จะอัพเดทค่า TF IDF และ TF/IDF 
 
 \subsection{Manage Book}
 
@@ -121,43 +298,39 @@
     \caption{แสดง ER Diagram ของฐานข้อมูล}\label{fig:er}
 \end{figure}
 
-
 \begin{figure}[H]
     \centering
     \includegraphics{er1}
-    \caption{แสดง ER Diagram ส่วนของการเก็บความผิดพลาดในการสร้างคีย์เวิร์ดจากเอกสาร}\label{fig:er1}
+    \caption{แสดง ER Diagram ส่วนของคีย์เวิร์ดและคะแนนความสำคัญในระบบ}\label{fig:er1}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
     \includegraphics{er2}
-    \caption{แสดง ER Diagram ส่วนของคีย์เวิร์ดและคะแนนความสำคัญในระบบ}\label{fig:er2}
+    \caption{แสดง ER Diagram ส่วนของการเก็บคำจากแต่ละหน้าที่แปลงมาจากเอกสาร}\label{fig:er2}
 \end{figure}
 
 
 \begin{figure}[H]
     \centering
     \includegraphics{er3}
-    \caption{แสดง ER Diagram ส่วนของการเก็บคำจากแต่ละหน้าที่แปลงมาจากเอกสาร}\label{fig:er3}
+    \caption{แสดง ER Diagram ส่วนของประวัติของผู้ใช้งานมีการสร้างหรือแก้ไขเอกสาร}\label{fig:er3}
 \end{figure}
+
 
 
 \begin{figure}[H]
     \centering
     \includegraphics{er4}
-    \caption{แสดง ER Diagram ส่วนของประวัติของผู้ใช้งานมีการสร้างหรือแก้ไขเอกสาร}\label{fig:er4}
+    \caption{แสดง ER Diagram ส่วนของการเก็บข้อมูล keyword, relation, type ของเอกสาร}\label{fig:er4}
 \end{figure}
-
-
 
 \begin{figure}[H]
     \centering
     \includegraphics{er5}
-    \caption{แสดง ER Diagram ส่วนของการเก็บข้อมูล keyword, relation, type ของเอกสาร}\label{fig:er5}
+    \caption{แสดง ER Diagram ส่วนของการเก็บข้อมูล Contributors ว่ามีความเกี่ยวข้องกับเอกสารไหรบ้าง}\label{fig:er5}
 \end{figure}
-
-
 
 \begin{figure}[H]
     \centering
@@ -186,7 +359,7 @@
 \begin{figure}[H]
     \centering
     \includegraphics{er9}
-    \caption{แสดง ER Diagram ส่วนของ Contributor มีความเกี่ยวข้องกับเอกสารไหนบ้าง}\label{fig:er9}
+    \caption{แสดง ER Diagram ส่วนของ Publisher Email มีความเกี่ยวข้องกับเอกสารไหนบ้าง}\label{fig:er9}
 \end{figure}
 
 
@@ -214,31 +387,31 @@
 \end{figure}
 
 \subsection{Database Structure}
-รูปที่ 3.2 แสดงฐานข้อมูลของทั้งระบบโดยจะมีหลัก ๆ ทั้งหมดสามส่วน ทางด้านฝั่งขวาของตาราง document จะเป็นตารางที่เก็บข้อมูลเพิ่มเติมจากตาราง document และส่วนทางด้านฝั่งซ้ายของตาราง document สำหรับการเก็บข้อมูลในด้านของการทำระบบการเก็บคำจากเอกสารที่ถูกใส่ลงมาในระบบ ระบบการแปลงคำเป็นคีย์เวิร์ดและคะแนน TF-IDF ที่นำมาใช้สำหรับการค้นหาเอกสาร ระบบจัดการฐานข้อมูลผู้ใช้งาน และการตรวจสอบความผิดพลาดที่มีโอกาสจากการสร้างคีย์เวิร์ด และส่วนสุดท้ายที่เป็นตารางที่ไม่มีการเชื่อมโยงกับตารางใด ๆ จะมีไว้สำหรับการทำระบบฐานข้อมูล และระบบตรวจสอบ HTTP Request ของทาง NodeJS
+รูปที่ \ref{fig:er} แสดงฐานข้อมูลของทั้งระบบโดยจะมีหลัก ๆ ทั้งหมดสามส่วน ทางด้านฝั่งขวาของตาราง document จะเป็นตารางที่เก็บข้อมูลเพิ่มเติมจากตาราง document และส่วนทางด้านฝั่งซ้ายของตาราง document สำหรับการเก็บข้อมูลในด้านของการทำระบบการเก็บคำจากเอกสารที่ถูกใส่ลงมาในระบบ ระบบการแปลงคำเป็นคีย์เวิร์ดและคะแนน TF-IDF ที่นำมาใช้สำหรับการค้นหาเอกสาร ระบบจัดการฐานข้อมูลผู้ใช้งาน และการตรวจสอบความผิดพลาดที่มีโอกาสจากการสร้างคีย์เวิร์ด และส่วนสุดท้ายที่เป็นตารางที่ไม่มีการเชื่อมโยงกับตารางใด ๆ จะมีไว้สำหรับการทำระบบฐานข้อมูล และระบบตรวจสอบ HTTP Request ของทาง NodeJS
 
-รูปที่ 3.3 จะเป็นส่วนของการเก็บข้อผิดพลาดที่มาจากระหว่างการสร้างคีย์เวิร์ด และการสร้างคะแนน Term-Frequency  โดยในส่วนนี้มีตาราง document ที่มีความสัมพันธ์ 1 to many กับตาราง django\_log กล่าวก็คือในหนึ่งเอกสารมีได้หลายบันทึกของ Django เนื่องมีโอกาสที่เกิดความผิดพลาดแล้วต้องทำใหม่จนกว่าจะไม่มีความผิดพลาดเกิดขึ้น
+รูปที่ \ref{fig:er1} จะเป็นส่วนของคีย์เวิร์ด และคะแนนเพื่อนำมาใช้สำหรับการค้นหาเอกสารของระบบนี้ โดยจะมีทั้งหมดสามตาราง document, term\_word, score ตาราง document จะเป็นตารางที่เก็บข้อมูลของเอกสารไว้ ส่วนตาราง term\_word จะเป็นการเก็บคีย์เวิร์ด และคะแนน IDF สำหรับการลดความสำคัญของคีย์เวิร์ดนั้น ๆ ไว้ซึ่งทั้งสองตารางนี้จะเป็นความสัมพันธ์แบบ one to many กับตาราง score ที่จะมีคะแนนสำหรับระบบการค้นหาเก็บเอาไว้ ที่มีความสัมพันธ์แบบนี้เนื่องจากในแต่ละคีย์เวิร์ดมีโอกาสพบได้ในหลายเอกสาร และเอกสารเองก็สามารถมีได้หลายคีย์เวิร์ด เนื่องจากแต่ละคีย์เวิร์ดที่อยู่ต่างเอกสารกันจะมีคะแนนไม่เท่ากัน
 
-รูปที่ 3.4 จะเป็นส่วนของคีย์เวิร์ด และคะแนนเพื่อนำมาใช้สำหรับการค้นหาเอกสารของระบบนี้ โดยจะมีทั้งหมดสามตาราง document, term\_word, score ตาราง document จะเป็นตารางที่เก็บข้อมูลของเอกสารไว้ ส่วนตาราง term\_word จะเป็นการเก็บคีย์เวิร์ด และคะแนน IDF สำหรับการลดความสำคัญของคีย์เวิร์ดนั้น ๆ ไว้ซึ่งทั้งสองตารางนี้จะเป็นความสัมพันธ์แบบ one to many กับตาราง score ที่จะมีคะแนนสำหรับระบบการค้นหาเก็บเอาไว้ ที่มีความสัมพันธ์แบบนี้เนื่องจากในแต่ละคีย์เวิร์ดมีโอกาสพบได้ในหลายเอกสาร และเอกสารเองก็สามารถมีได้หลายคีย์เวิร์ด เนื่องจากแต่ละคีย์เวิร์ดที่อยู่ต่างเอกสารกันจะมีคะแนนไม่เท่ากัน
+รูปที่ \ref{fig:er2} จะเป็นส่วนของการเก็บคำที่แปลงมาจากเอกสารไว้โดยเริ่มที่ตาราง document จะที่สามารถบอกได้ว่าเอกสารไหน ที่จะมีความพันธ์ one to many ไปยังตาราง page\_in\_document ที่จะเป็นตารางที่บอกถึงหน้าต่าง ๆ ในเอกสารนั้น และยังมีความสัมพันธ์ one to many ต่อไปยังตาราง per\_term\_in\_page ที่จะมีคำต่าง ๆ เก็บเอาไว้ ดังนั้นจะเป็นความสัมพันธ์ที่เอกสารนั้นจะสามารถมีได้หลายหน้า แล้วแต่ละหน้าเองก็จะมีคำต่าง ๆ ที่แปลงออกมาถูกเก็บเอาไว้
 
-รูปที่ 3.5 จะเป็นส่วนของการเก็บคำที่แปลงมาจากเอกสารไว้โดยเริ่มที่ตาราง document จะที่สามารถบอกได้ว่าเอกสารไหน ที่จะมีความพันธ์ one to many ไปยังตาราง page\_in\_document ที่จะเป็นตารางที่บอกถึงหน้าต่าง ๆ ในเอกสารนั้น และยังมีความสัมพันธ์ one to many ต่อไปยังตาราง per\_term\_in\_page ที่จะมีคำต่าง ๆ เก็บเอาไว้ ดังนั้นจะเป็นความสัมพันธ์ที่เอกสารนั้นจะสามารถมีได้หลายหน้า แล้วแต่ละหน้าเองก็จะมีคำต่าง ๆ ที่แปลงออกมาถูกเก็บเอาไว้
+รูปที่ \ref{fig:er3} จะเป็นความสัมพันธ์ของบัญชีผู้ใช้กับเอกสาร โดยจะมีตาราง user ที่จะเก็บข้อมูลของผู้ใช้งานที่มีความสัมพันธ์แบบ one to many ไปยังตาราง document ที่จะเก็บต้องเก็บข้อมูลของผู้ใช้ไว้ว่าผู้ใช้คนไหนเป็นคนสร้าง หรือแก้ไขเอกสารนี้ ซึ่งบัญชีผู้ใช้สามารถสร้างหรือแก้ไขเอกสารได้หลายเอกสาร
 
-รูปที่ 3.6 จะเป็นความสัมพันธ์ของบัญชีผู้ใช้กับเอกสาร โดยจะมีตาราง user ที่จะเก็บข้อมูลของผู้ใช้งานที่มีความสัมพันธ์แบบ one to many ไปยังตาราง document ที่จะเก็บต้องเก็บข้อมูลของผู้ใช้ไว้ว่าผู้ใช้คนไหนเป็นคนสร้าง หรือแก้ไขเอกสารนี้ ซึ่งบัญชีผู้ใช้สามารถสร้างหรือแก้ไขเอกสารได้หลายเอกสาร
+รูปที่ \ref{fig:er4} จะเป็นส่วนของข้อมูลของตาราง Document เหมือนกันแต่เนื่องจากข้อมูลมีมากกว่าหนึ่งทำให้ต้องสร้างความสัมพันธ์แบบ one to many กับตาราง dc\_keyword, dc\_relation, dc\_type ซึ่งจะเป็นข้อมูลคีย์เวิร์ด ความสัมพันธ์ และประเภทของเอกสารตามลำดับ
 
-รูปที่ 3.7 จะเป็นส่วนของข้อมูลของตาราง Document เหมือนกันแต่เนื่องจากข้อมูลมีมากกว่าหนึ่งทำให้ต้องสร้างความสัมพันธ์แบบ one to many กับตาราง dc\_keyword, dc\_relation, dc\_type ซึ่งจะเป็นข้อมูลคีย์เวิร์ด ความสัมพันธ์ และประเภทของเอกสารตามลำดับ
+รูปที่ \ref{fig:er5} จะเป็นการเก็บข้อมูลของ Contributor โดยจะมีตารางแยกเพื่อเก็บของสัมพันธ์ของทั้งสองด้านเนื่องจากในเอกสารสามารถมี contributor ได้หลายคน และ contributor สามารถมีหลายเอกสารเช่นกัน โดยที่ contributor จะมี role เป็นของตัวเองซึ่งสามารถมีหลาย role เช่นกันทำให้ต้องมีตาราง รองรับเพิ่ม
 
-รูปที่ 3.8 จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Creator กับเอกสาร เนื่องจาก Creator สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_creator\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
+รูปที่ \ref{fig:er6} จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Creator กับเอกสาร เนื่องจาก Creator สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_creator\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
 
-รูปที่ 3.9 จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Creator orgname กับเอกสารเนื่อง จากCreator orgname สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_creator\_orgname\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
+รูปที่ \ref{fig:er7} จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Creator orgname กับเอกสารเนื่อง จากCreator orgname สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_creator\_orgname\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
 
-รูปที่ 3.10 จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Publisher กับเอกสาร เนื่องจาก Publisher สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_publisher\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
+รูปที่ \ref{fig:er8} จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Publisher กับเอกสาร เนื่องจาก Publisher สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_publisher\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
 
-รูปที่ 3.11 จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Contributor กับเอกสาร เนื่องจาก Contributor สามารถมีได้หลายเอกสารทำให้ตาราง Indexing\_contributor\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
+รปที่ \ref{fig:er9} จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Publisher Email กับเอกสาร เนื่องจาก Publisher Email สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_publisher\_email\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document
 
-รูปที่ 3.12 จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Issued Date กับเอกสาร เนื่องจาก Issued Date สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_issued\_date\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
+รูปที่ \ref{fig:er10} จะเป็นส่วนของการเก็บความสัมพันธ์ระหว่าง Issued Date กับเอกสาร เนื่องจาก Issued Date สามารถมีได้หลายเอกสารทำให้ตาราง indexing\_issued\_date\_document จะเป็นความสัมพันธ์แบบ one to many กับตาราง document 
 
-รูปที่ 3.13 จะเป็นสองตารางที่บันทึกการจัดการฐานข้อมูลของเครื่องมือที่ชื่อว่า Knex ที่จะทำการจัดการสร้างฐานข้อมูล ด้วยคำสั่ง Migration แล้วหลังจากทำคำสั่งเสร็จสิ้นจะเก็บบันทึกไว้
+รูปที่ \ref{fig:er11} จะเป็นสองตารางที่บันทึกการจัดการฐานข้อมูลของเครื่องมือที่ชื่อว่า Knex ที่จะทำการจัดการสร้างฐานข้อมูล ด้วยคำสั่ง Migration แล้วหลังจากทำคำสั่งเสร็จสิ้นจะเก็บบันทึกไว้
 
-รูปที่ 3.14 จะเป็นตารางสำหรับการเก็บ HTTP Request จาก NodeJS ที่ส่งไปทางฝั่งของ Django ซึ่งจะถูกเก็บข้อมูลไว้ในตารางนี้
+รูปที่ \ref{fig:er12} จะเป็นตารางสำหรับการเก็บ HTTP Request จาก NodeJS ที่ส่งไปทางฝั่งของ Django ซึ่งจะถูกเก็บข้อมูลไว้ในตารางนี้
 
 \subsection{Database Dictionary}
 
@@ -250,13 +423,14 @@
 \caption{ตารางอธิบายความหมายตาราง term\_word}\label{tbl:termword}
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}             & \multicolumn{1}{c|}{ประเภท}                          \\ \hline
-term\_word\_id    & id   สำหรับบ่งบอกคำศัพท์                 & \makecell[l]{INT   (10) PK\\ Auto\_Increment}     \\ \hline
-term              & คำศัพท์                                  & VARCHAR   (191)                                                                   \\ \hline
-frequency         & จำนวนความถี่ของเอกสารที่มีคำศัพท์นี้อยู่ & INT   (191)                                                                       \\ \hline
-score\_idf        & คะแนน   idf ของคำศัพท์นี้                & FLOAT   (255,4)                                                                   \\ \hline
-rec\_create\_at   & วันเวลาของการเพิ่มคำศัพท์นี้เข้าสู่ระบบ  & \makecell[l]{DATETIME   (6)\\   current\_timestamp} \\ \hline
-rec\_modified\_at & วันเวลาที่อัปเดทข้อมูลของคำศัพท์         & \makecell[l]{DATETIME   (6)\\  current\_timestamp} \\ \hline
+\multicolumn{3}{|c|}{term\_word}                                                                                                                            \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}            & \multicolumn{1}{c|}{ประเภท}                                                  \\ \hline
+term\_word\_id                    & id สำหรับบ่งบอกคำศัพท์                   & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular}       \\ \hline
+term                              & คำศัพท์                                  & VARCHAR (191)                                                                \\ \hline
+frequency                         & จำนวนความถี่ของเอกสารที่มีคำศัพท์นี้อยู่ & INT (191)                                                                    \\ \hline
+score\_idf                        & คะแนน idf ของคำศัพท์นี้                  & FLOAT (255,4)                                                                \\ \hline
+rec\_create\_at                   & วันเวลาของการเพิ่มคำศัพท์นี้เข้าสู่ระบบ  & \begin{tabular}[c]{@{}l@{}}DATETIME (6) \\ current\_timestamp\end{tabular}   \\ \hline
+rec\_modified\_at                 & วันเวลาที่อัปเดทข้อมูลของคำศัพท์         & \begin{tabular}[c]{@{}l@{}}DATETIME   (6) \\ current\_timestamp\end{tabular} \\ \hline
 \end{tabular}
 \end{table}
 
@@ -264,15 +438,16 @@ rec\_modified\_at & วันเวลาที่อัปเดทข้อม
 \caption{ตารางอธิบายความหมายตาราง user}\label{tbl:user}
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}             & \multicolumn{1}{c|}{ประเภท}                                     \\ \hline
-user\_id                          & id   สำหรับบ่งบอกผู้ใช้งาน                & \makecell[l]{INT   (10) PK\\    Auto\_Increment}     \\ \hline
-name                              & ชื่อของผู้ใช้งาน                          & VARCHAR   (50)                                                                    \\ \hline
-surname                           & นามสกุลของผู้ใช้งาน                       & VARCHAR   (191)                                                                   \\ \hline
-role                              & ตำแหน่งของผู้ใช้งาน                       & VARCHAR   (191)                                                                   \\ \hline
-username                          & ชื่อผู้ใช้งานสำหรับทำการ   login          & VARCHAR   (191)                                                                   \\ \hline
-password                          & รหัสผ่านผู้ใช้งานสำหรับทำการ   login      & VARCHAR   (191)                                                                   \\ \hline
-create\_at                        & วันเวลาของผู้ใช้งานของการเพิ่มเข้าสู่ระบบ & \makecell[l]{DATETIME   (6) \\ current\_timestamp} \\ \hline
-active                            & สถานะการระงับบัญชีผู้ใช้งาน               & \makecell[l]{INT   (11) \\ Default 1}             \\ \hline
+\multicolumn{3}{|c|}{user}                                                                                                                                   \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}             & \multicolumn{1}{c|}{ประเภท}                                                  \\ \hline
+user\_id                          & id สำหรับบ่งบอกผู้ใช้งาน                  & \begin{tabular}[c]{@{}l@{}}INT   (10) PK \\ Auto\_Increment\end{tabular}     \\ \hline
+name                              & ชื่อของผู้ใช้งาน                          & VARCHAR (50)                                                                 \\ \hline
+surname                           & นามสกุลของผู้ใช้งาน                       & VARCHAR (191)                                                                \\ \hline
+role                              & ตำแหน่งของผู้ใช้งาน                       & VARCHAR (191)                                                                \\ \hline
+username                          & ชื่อผู้ใช้งานสำหรับทำการ login            & VARCHAR (191)                                                                \\ \hline
+password                          & รหัสผ่านผู้ใช้งานสำหรับทำการ login        & VARCHAR (191)                                                                \\ \hline
+create\_at                        & วันเวลาของผู้ใช้งานของการเพิ่มเข้าสู่ระบบ & \begin{tabular}[c]{@{}l@{}}DATETIME   (6) \\ current\_timestamp\end{tabular} \\ \hline
+active                            & สถานะการระงับบัญชีผู้ใช้งาน               & \begin{tabular}[c]{@{}l@{}}INT   (11) \\ Default 1\end{tabular}              \\ \hline
 \end{tabular}
 \end{table}
 
@@ -280,14 +455,15 @@ active                            & สถานะการระงับบ�
 \caption{ตารางอธิบายความหมายตาราง score}\label{tbl:score}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                                      & \multicolumn{1}{c|}{ประเภท}                                                   \\ \hline
-score\_id             & id   สำหรับบ่งบอกคะแนนของคำศัพท์ &\makecell[l]{INT   (10) PK\\    \\ Auto\_Increment}      \\ \hline
-score\_tf             & คะแนน   tf ของคำศัพท์            & FLOAT   (255,4)                                                                     \\ \hline
-score\_tf\_idf        & คะแนน   tf-idf ของคำศัพท์        & FLOAT   (255,4)                                                                     \\ \hline
-index\_term\_word\_id & id   สำหรับบ่งบอกคำศัพท์         & INT   (10)                                                                          \\ \hline
-index\_document\_id   & id สำหรับบ่งบอกเอกสาร            & INT   (10)                                                                          \\ \hline
-generate\_by          & คะแนนถูกคำนวณโดยใคร              &\makecell[l]{VARCHAR   (191)\\    \\ Default   ‘default’}\\ \hline
-rec\_status           & สถานะการใช้คะแนนนี้              &\makecell[l]{INT   (191)\\    \\ Default 1}              \\ \hline
+\multicolumn{3}{|c|}{score}                                                                                                                       \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}  & \multicolumn{1}{c|}{ประเภท}                                                  \\ \hline
+score\_id                         & id สำหรับบ่งบอกคะแนนของคำศัพท์ & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular}       \\ \hline
+score\_tf                         & คะแนน tf ของคำศัพท์            & FLOAT (255,4)                                                                \\ \hline
+score\_tf\_idf                    & คะแนน tf-idf ของคำศัพท์        & FLOAT   (255,4)                                                              \\ \hline
+index\_term\_word\_id             & id สำหรับบ่งบอกคำศัพท์         & INT   (10)                                                                   \\ \hline
+index\_document\_id               & id สำหรับบ่งบอกเอกสาร          & INT   (10)                                                                   \\ \hline
+generate\_by                      & คะแนนถูกคำนวณโดยใคร            & \begin{tabular}[c]{@{}l@{}}VARCHAR   (191) \\ Default ‘default’\end{tabular} \\ \hline
+rec\_status                       & สถานะการใช้คะแนนนี้            & \begin{tabular}[c]{@{}l@{}}INT   (191) \\ Default 1\end{tabular}             \\ \hline
 \end{tabular}
 \end{table}
 
@@ -306,12 +482,13 @@ index\_page\_in\_document\_id     & id   สำหรับบ่งบอกท
 \caption{ตารางอธิบายความหมายตาราง page\_in\_document}\label{tbl:pageindocument}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                                      & \multicolumn{1}{c|}{ประเภท}                                                   \\ \hline
-page\_in\_document\_id            & id   สำหรับบ่งบอกที่อยู่ของคำศัพท์ชั่วคราวที่รอให้ผู้ใช้งานตรวจสอบ & \makecell[l]{INT   (10) PK\\Auto\_Increment} \\ \hline
-page\_index                       & หน้าของเอกสาร                                                      & INT   (191)                                                                   \\ \hline
-name                              & ชื่อ   File ของข้อมูล                                              & VARCHAR   (191)                                                               \\ \hline
-rec\_status\_confirm              & สถานะการยืนยันโดยผู้ใช้งาน                                         & \makecell[l]{INT   (2)\\Default   2}         \\ \hline
-index\_document\_id               & id สำหรับบ่งบอกเอกสาร                                              & INT (10) FK                                                                   \\ \hline
+\multicolumn{3}{|c|}{page\_in\_document}                                                                                             \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                                    & \multicolumn{1}{c|}{ประเภท}   \\ \hline
+page\_in\_document\_id            & id สำหรับบ่งบอกที่อยู่ของคำศัพท์ชั่วคราวที่รอให้ผู้ใช้งานตรวจสอบ & INT   (10) PK Auto\_Increment \\ \hline
+page\_index                       & หน้าของเอกสาร                                                    & INT (191)                     \\ \hline
+name                              & ชื่อ File ของข้อมูล                                              & VARCHAR (191)                 \\ \hline
+rec\_status\_confirm              & สถานะการยืนยันโดยผู้ใช้งาน                                       & INT   (2) Default 2           \\ \hline
+index\_document\_id               & id สำหรับบ่งบอกเอกสาร                                            & INT (10) FK                   \\ \hline
 \end{tabular}
 \end{table}
 
@@ -319,15 +496,16 @@ index\_document\_id               & id สำหรับบ่งบอกเ�
 \caption{ตารางอธิบายความหมายตาราง nodejs\_log}\label{tbl:nodejslog}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                     & \multicolumn{1}{c|}{ประเภท}                                                       \\ \hline
-nodejs\_log\_id                   & id สำหรับการจัดเก็บประวัติการทำงานฝั่ง nodejs     & \makecell[l]{INT   (10) PK \\ Auto\_Increment}    \\ \hline
-status\_code                      & เก็บสถานะ   HTTP หลังจากที่ส่งไปแล้วว่าได้สถานะใด & INT   (191)                                                                       \\ \hline
-header\_date                      & เก็บข้อมูล   header ของ HTTP ที่ส่งไป             & VARCHAR   (191)                                                                   \\ \hline
-server                            & ชื่อรูปแบบของเซิฟเวอร์ที่ส่งไป                    & VARCHAR   (191)                                                                   \\ \hline
-url                               & ตำแหน่งโดเมนหรือ   IP ที่ส่งไป                    & INT   (10) FK                                                                     \\ \hline
-content\_type                     & รูปแบบเนื้อหาที่ส่งไป                             & VARCHAR   (191)                                                                   \\ \hline
-rec\_status                       & สถานะที่บอกว่าการส่งเกิดข้อผิดพลาดระหว่างทาง      & INT   (191)                                                                       \\ \hline
-rec\_create\_date                 & วันเวลาที่ทำการส่ง   ณ ตอนนั้น                    & \makecell[l]{DATETIME   (6) \\ current\_timestamp}\\ \hline
+\multicolumn{3}{|c|}{nodejs\_log}                                                                                                                                  \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                   & \multicolumn{1}{c|}{ประเภท}                                                  \\ \hline
+nodejs\_log\_id                   & id สำหรับการจัดเก็บประวัติการทำงานฝั่ง nodejs   & \begin{tabular}[c]{@{}l@{}}INT   (10) PK \\ Auto\_Increment\end{tabular}     \\ \hline
+status\_code                      & เก็บสถานะ HTTP หลังจากที่ส่งไปแล้วว่าได้สถานะใด & INT (191)                                                                    \\ \hline
+header\_date                      & เก็บข้อมูล header ของ HTTP ที่ส่งไป             & VARCHAR (191)                                                                \\ \hline
+server                            & ชื่อรูปแบบของเซิฟเวอร์ที่ส่งไป                  & VARCHAR (191)                                                                \\ \hline
+url                               & ตำแหน่งโดเมนหรือ IP ที่ส่งไป                    & INT (10) FK                                                                  \\ \hline
+content\_type                     & รูปแบบเนื้อหาที่ส่งไป                           & VARCHAR (191)                                                                \\ \hline
+rec\_status                       & สถานะที่บอกว่าการส่งเกิดข้อผิดพลาดระหว่างทาง    & INT (191)                                                                    \\ \hline
+rec\_create\_date                 & วันเวลาที่ทำการส่ง   ณ ตอนนั้น                  & \begin{tabular}[c]{@{}l@{}}DATETIME   (6) \\ current\_timestamp\end{tabular} \\ \hline
 \end{tabular}
 \end{table}
 
@@ -335,9 +513,10 @@ rec\_create\_date                 & วันเวลาที่ทำกา�
 \caption{ตารางอธิบายความหมายตาราง knex\_migrations\_lock}\label{tbl:knexmigrationslock}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}              & \multicolumn{1}{c|}{ประเภท}                                                   \\ \hline
-index                             & id   บ่งบอกลำดับของไฟล์ migration ของ knex & \makecell[l]{INT   (10) PK\\Auto\_Increment} \\ \hline
-is\_locked                        & สถานะของไฟล์   migration                   & INT (11)                                                                      \\ \hline
+\multicolumn{3}{|c|}{knex\_migrations\_lock}                                                                                                          \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}            & \multicolumn{1}{c|}{ประเภท}                                            \\ \hline
+index                             & id บ่งบอกลำดับของไฟล์ migration ของ knex & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular} \\ \hline
+is\_locked                        & สถานะของไฟล์ migration                   & INT (11)                                                               \\ \hline
 \end{tabular}
 \end{table}
 
@@ -345,11 +524,12 @@ is\_locked                        & สถานะของไฟล์   migra
 \caption{ตารางอธิบายความหมายตาราง knex\_migrations}\label{tbl:knexmigrations}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                      & \multicolumn{1}{c|}{ประเภท}                                                   \\ \hline
-id                                & id   บ่งบอกลำดับการทำงานของไฟล์ migration ของ knex & \makecell[l]{INT   (10) PK\\Auto\_Increment} \\ \hline
-name                              & ชื่อไฟล์   migration ที่ถูกทำงานเรียบร้อย          & VARCHAR   (255)                                                               \\ \hline
-batch                             & ลำดับที่                                           & INT   (11)                                                                    \\ \hline
-migration\_time                   & เวลาที่ถุกสั่งให้ทำงาน                             & \makecell[l]{TIMESTAMP\\current\_timestamp}  \\ \hline
+\multicolumn{3}{|c|}{knex\_migrations}                                                                                                                        \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                    & \multicolumn{1}{c|}{ประเภท}                                            \\ \hline
+id                                & id บ่งบอกลำดับการทำงานของไฟล์ migration ของ knex & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular} \\ \hline
+name                              & ชื่อไฟล์ migration ที่ถูกทำงานเรียบร้อย          & VARCHAR (255)                                                          \\ \hline
+batch                             & ลำดับที่                                         & INT (11)                                                               \\ \hline
+migration\_time                   & เวลาที่ถุกสั่งให้ทำงาน                           & \begin{tabular}[c]{@{}l@{}}TIMESTAMP\\ current\_timestamp\end{tabular} \\ \hline
 \end{tabular}
 \end{table}
 
@@ -357,11 +537,24 @@ migration\_time                   & เวลาที่ถุกสั่ง�
 \caption{ตารางอธิบายความหมายตาราง indexing\_publisher\_document}\label{tbl:indexingpublisherdocument}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}      & \multicolumn{1}{c|}{ประเภท}                                                   \\ \hline
-indexing\_publisher\_id           & id สำหรับบ่งบอกสำนักพิมพ์          & \makecell[l]{INT   (10) PK\\Auto\_Increment} \\ \hline
-publisher                         & ชื่อสำนักพิมพ์                     & VARCHAR   (191)                                                               \\ \hline
-publisher\_email                  & e-mail   ของสำนักพิมพ์             & VARCHAR   (191)                                                               \\ \hline
-frequency                         & จำนวนของสำนักพิมพ์นี้ที่ถูกอ้างอิง & INT (191)                                                                     \\ \hline
+\multicolumn{3}{|c|}{indexing\_publisher\_document}                                                                                             \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}      & \multicolumn{1}{c|}{ประเภท}                                            \\ \hline
+indexing\_publisher\_id           & id สำหรับบ่งบอกสำนักพิมพ์          & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular} \\ \hline
+publisher                         & ชื่อสำนักพิมพ์                     & VARCHAR (191)                                                          \\ \hline
+frequency                         & จำนวนของสำนักพิมพ์นี้ที่ถูกอ้างอิง & INT (191)                                                              \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+\caption{ตารางอธิบายความหมายตาราง indexing\_publisher\_email\_document}\label{tbl:indexingpublisherdocument}            
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{3}{|c|}{indexing\_publisher\_email\_document}                                                                                      \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}      & \multicolumn{1}{c|}{ประเภท}                                            \\ \hline
+indexing\_publisher\_email\_id    & id สำหรับบ่งบอกสำนักพิมพ์          & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular} \\ \hline
+publisher\_email                  & e-mail ของสำนักพิมพ์               & VARCHAR (191)                                                          \\ \hline
+frequency                         & จำนวนของสำนักพิมพ์นี้ที่ถูกอ้างอิง & INT (191)                                                              \\ \hline
 \end{tabular}
 \end{table}
 
@@ -369,10 +562,11 @@ frequency                         & จำนวนของสำนักพ�
 \caption{ตารางอธิบายความหมายตาราง indexing\_issued\_date\_document}\label{tbl:indexingissueddatedocument}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}             & \multicolumn{1}{c|}{ประเภท}                                                   \\ \hline
-indexing\_issued\_date\_id        & id สำหรับบ่งบอกปีที่เขียน                 & \makecell[l]{INT   (10) PK\\Auto\_Increment} \\ \hline
-issued\_date                      & วันเวลาของปีที่เขียนเอกสาร                & DATE                                                                          \\ \hline
-frequency                         & จำนวนของวันเวลาของปีที่เขียนที่ถูกอ้างอิง & INT (191)                                                                     \\ \hline
+\multicolumn{3}{|c|}{indexing\_issued\_date\_document}                                                                                                 \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}             & \multicolumn{1}{c|}{ประเภท}                                            \\ \hline
+indexing\_issued\_date\_id        & id สำหรับบ่งบอกปีที่เขียน                 & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular} \\ \hline
+issued\_date                      & วันเวลาของปีที่เขียนเอกสาร                & DATE                                                                   \\ \hline
+frequency                         & จำนวนของวันเวลาของปีที่เขียนที่ถูกอ้างอิง & INT (191)                                                              \\ \hline
 \end{tabular}
 \end{table}
 
@@ -380,10 +574,11 @@ frequency                         & จำนวนของวันเวล�
 \caption{ตารางอธิบายความหมายตาราง indexing\_creator\_orgname\_document}\label{tbl:indexingcreatororgnamedocument}        
 \begin{tabular}{|l|l|l|}
 \hline
-\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                & \multicolumn{1}{c|}{ประเภท}                                                   \\ \hline
-indexing\_creator\_orgname\_id    & id สำหรับบ่งบอกชื่อหน่วยงานรับผิดชอบสังกัด   & \makecell[l]{INT   (10) PK\\Auto\_Increment} \\ \hline
-creator\_orgname                  & ชื่อหน่วยงานรับผิดชอบสังกัด                  & VARCHAR   (191)                                                               \\ \hline
-frequency                         & จำนวนของหน่วยงานรับผิดชอบสังกัดที่ถูกอ้างอิง & INT (191)                                                                     \\ \hline
+\multicolumn{3}{|c|}{indexing\_creator\_orgname\_document}                                                                                                \\ \hline
+\multicolumn{1}{|c|}{ชื่อคอลัมน์} & \multicolumn{1}{c|}{ความหมาย}                & \multicolumn{1}{c|}{ประเภท}                                            \\ \hline
+indexing\_creator\_orgname\_id    & id สำหรับบ่งบอกชื่อหน่วยงานรับผิดชอบสังกัด   & \begin{tabular}[c]{@{}l@{}}INT (10) PK \\ Auto\_Increment\end{tabular} \\ \hline
+creator\_orgname                  & ชื่อหน่วยงานรับผิดชอบสังกัด                  & VARCHAR (191)                                                          \\ \hline
+frequency                         & จำนวนของหน่วยงานรับผิดชอบสังกัดที่ถูกอ้างอิง & INT (191)                                                              \\ \hline
 \end{tabular}
 \end{table}
 
@@ -822,22 +1017,18 @@ Main success scenario:
 \end{table}
 
 \begin{table}[H]
-\caption{ตารางประเมิน Design}\label{tbl:design}
-\begin{tabular}{|l|l|l|l|l|}
+\caption{ตารางประเมินความพึงพอใจ UX-UI design}\label{tbl:uxuieva}
+\begin{tabular}{|p{0.15\linewidth}|p{0.15\linewidth}|p{0.15\linewidth}|p{0.15\linewidth}|p{0.15\linewidth}|c|}
 \hline
-\multicolumn{5}{|c|}{ตารางประเมิน Design}                                                                                                                                                            \\ \hline
-\multicolumn{1}{|c|}{\multirow{2}{*}{เกณฑ์การประเมิน}} & \multicolumn{2}{c|}{ผลลัพธ์}                             & \multicolumn{1}{c|}{\multirow{2}{*}{หมายเหตุ}} & \multicolumn{1}{c|}{คำเกิน(คำ)} \\ \cline{2-3} \cline{5-5} 
-\multicolumn{1}{|c|}{}                                 & \multicolumn{1}{c|}{ผ่าน} & \multicolumn{1}{c|}{ไม่ผ่าน} & \multicolumn{1}{c|}{}                          & \multicolumn{1}{c|}{}           \\ \hline
-1.หน้าเข้าสู่ระบบ                                      &                           &                              &                                                &                                 \\ \hline
-2.Insert Book                                          &                           &                              &                                                &                                 \\ \hline
-3.Search                                               &                           &                              &                                                &                                 \\ \hline
-4.Manage Book                                          &                           &                              &                                                &                                 \\ \hline
-5.View Book                                            &                           &                              &                                                &                                 \\ \hline
-6.Home page                                            &                           &                              &                                                &                                 \\ \hline
-7.Status Page                                          &                           &                              &                                                &                                 \\ \hline
+\multicolumn{6}{|c|}{ตารางประเมิน Design}                                                                                                                                                            \\ \hline
+
+                     & \multicolumn{1}{c|}{4}                                                                                                 & \multicolumn{1}{c|}{3}                                                                                   & \multicolumn{1}{c|}{2}                                                                                        & \multicolumn{1}{c|}{1}                                                                        & คะแนนที่ได้ \\ \hline
+ความสมบูรณ์ของข้อมูล    & ข้อมูลมีความสมบูรณ์   ชัดเจนทำให้เข้าใจความหมายที่ต้องการจะสื่อได้เป็นอย่างดี                                          & มีข้อมูลที่ชัดเจน   และแม่นยำในบางครั้ง และสามารถแสดงความหมายที่ต้องการจะสื่อได้บ้าง                     & ข้อมูลมีความแม่นยำ   และชัดเจนบ้าง                                                                            & มีข้อมูลที่ไม่ชัดเจน   ไม่ครบ สื่อความหมายได้ไม่ดี                                            & 3           \\ \hline
+การออกแบบ            & มีการออกแบบที่เน้นความสำคัญและจัดวางองค์ประกอบ   สี เสียง และ animation ได้อย่างเหมาะสม                                & มีการจัดหน้า   และองค์ประกอบทำให้เห็นใจความสำคัญของเนื้อหา มีการใช้ animation   บ้าง                     & การวางหน้าและการจัดองค์ประกอบมีความไม่เหมาะสม   มีการใช้ animation เข้ามาช่วยบ้าง                             & การวางหน้าและการจัดองค์ประกอบมีความไม่เหมาะสมและไม่มีการใช้   animation เข้ามาช่วยในการใช้งาน & 4           \\ \hline
+การใช้งาน              & ผู้ใช้สามารถใช้งานปุ่มหรือย้ายไปยังหน้าต่างๆได้อย่างง่ายดาย   แต่มีลิ้งค์ที่พาไปผิดหน้าอย่างมากหนึ่งลิ้งค์หรือไม่มีเลย & ผู้ใช้สามารถใช้งานปุ่มหรือย้ายไปยังหน้าต่างๆได้อย่างง่ายดาย   แต่มีลิ้งค์ที่พาไปผิดหน้าอย่างมากสองลิ้งค์ & ผู้ใช้มีความสับสนในการใช้ปุ่ม   หรือการย้ายไปยังหน้าต่างๆ บางครั้ง และมีลิ้งค์ที่พาไปผิดหน้าอย่างมากสามลิ้งค์ & ผู้ใช้เกิดความสับสนในปุ่มหรือลิ้งค์ที่ย้ายไปหน้าต่างๆ                                         & 4           \\ \hline
+การใช้ภาษา            & มีการใช้คำผิดหรือภาษาที่ไม่เหมาะสมอย่างมาก   1 จุด                                                                     & มีการใช้คำผิดหรือภาษาที่ไม่เหมาะสมอย่างมาก   2 จุด                                                       & มีการใช้คำผิดหรือภาษาที่ไม่เหมาะสมอย่างมาก 3 จุด                                                              & มีการใช้คำผิดหรือภาษาที่ไม่เหมาะสมมากกว่า 4 จุด                                               & 4           \\ \hline
 \end{tabular}
 \end{table}
-
 \begin{table}[H]
 \caption{ตารางประเมิน test}\label{tbl:test}
 \begin{tabular}{|l|l|l|l|}
