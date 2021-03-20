@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  19 MAR 2021 20:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  20 MAR 2021 07:35
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -608,7 +608,7 @@ LaTeX Warning: Label `tbl:uxuieva' multiply defined.
 
 LaTeX Warning: Label `fig:webdel' multiply defined.
 
-))
+) (Chapter5.aux))
 \openout1 = `SeniorLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
@@ -863,25 +863,6 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 \openout6 = `SeniorLatex.lof'.
 
  [15]
-Overfull \hbox (1.72173pt too wide) in paragraph at lines 227--227
-[]|\TU/THSarabunNew(0)/b/n/10 SYMBOL| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
- []
-
-[16
-
-] [17
-
-]
 \openout2 = `Chapter1.aux'.
 
  (Chapter1.tex
@@ -901,11 +882,6 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 ] [2] [3]
 Underfull \hbox (badness 5008) in paragraph at lines 119--119
 \TU/THSarabunNew(0)/m/n/10 กำหนด ขอบเขต ของ โปร
- []
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 123--123
-[]|\TU/THSarabunNew(0)/m/n/10 แปลง รูปภาพ เป็น Full-
  []
 
 
@@ -1005,70 +981,71 @@ File: ./picture//rotate2.png Graphic file (type bmp)
 <./picture//rotate2.png>
 File: ./picture//rotate3.png Graphic file (type bmp)
 <./picture//rotate3.png>
+ [16]
 File: ./picture//rotate4.png Graphic file (type bmp)
 <./picture//rotate4.png>
- [16]
 File: ./picture//rotate5.png Graphic file (type bmp)
 <./picture//rotate5.png>
 File: ./picture//rotate6.png Graphic file (type bmp)
 <./picture//rotate6.png>
+ [17]
 File: ./picture//rotate7.png Graphic file (type bmp)
 <./picture//rotate7.png>
- [17]
 File: ./picture//rotate8.png Graphic file (type bmp)
 <./picture//rotate8.png>
 File: ./picture//rotate9.png Graphic file (type bmp)
 <./picture//rotate9.png>
+ [18]
 File: ./picture//rotate11.png Graphic file (type bmp)
 <./picture//rotate11.png>
- [18]
 File: ./picture//rotate10.png Graphic file (type bmp)
 <./picture//rotate10.png>
  [19]
 File: ./picture//removebg.png Graphic file (type bmp)
 <./picture//removebg.png>
+ [20]
 File: ./picture//rem1.png Graphic file (type bmp)
 <./picture//rem1.png>
- [20]
 File: ./picture//rem2.png Graphic file (type bmp)
 <./picture//rem2.png>
+ [21]
 File: ./picture//rem3.png Graphic file (type bmp)
 <./picture//rem3.png>
- [21]
 File: ./picture//rem4.png Graphic file (type bmp)
 <./picture//rem4.png>
+ [22]
 File: ./picture//rem5.png Graphic file (type bmp)
 <./picture//rem5.png>
- [22] [23] [24] [25]
+ [23] [24] [25] [26] [27]
 File: ./picture//er.png Graphic file (type bmp)
 <./picture//er.png>
 
-Overfull \hbox (117.29968pt too wide) in paragraph at lines 297--298
+Overfull \hbox (7.11742pt too wide) in paragraph at lines 336--337
  [][] 
  []
 
-[26]
+[28]
 File: ./picture//er1.png Graphic file (type bmp)
 <./picture//er1.png>
 
-Overfull \hbox (19.63527pt too wide) in paragraph at lines 303--304
+Overfull \hbox (19.63527pt too wide) in paragraph at lines 342--343
  [][] 
  []
 
 File: ./picture//er2.png Graphic file (type bmp)
 <./picture//er2.png>
 
-Overfull \hbox (19.07372pt too wide) in paragraph at lines 310--311
+Overfull \hbox (19.07372pt too wide) in paragraph at lines 349--350
  [][] 
  []
 
 File: ./picture//er3.png Graphic file (type bmp)
 <./picture//er3.png>
-[27]
+[29]
 File: ./picture//er4.png Graphic file (type bmp)
 <./picture//er4.png>
 
-Overfull \hbox (19.63527pt too wide) in paragraph at lines 325--326
+Overfull \hbox (19.63527pt too wide) in paragraph at lines 364--365
  [][] 
  []
 
@@ -1077,285 +1054,340 @@ File: ./picture//er5.png Graphic file (type bmp)
 File: ./picture//er6.png Graphic file (type bmp)
 <./picture//er6.png>
 
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 337--338
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 376--377
  [][] 
  []
 
-[28]
+[30]
 File: ./picture//er7.png Graphic file (type bmp)
 <./picture//er7.png>
 
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 345--346
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 384--385
  [][] 
  []
 
 File: ./picture//er8.png Graphic file (type bmp)
 <./picture//er8.png>
 
-Overfull \hbox (26.95807pt too wide) in paragraph at lines 353--354
+Overfull \hbox (26.95807pt too wide) in paragraph at lines 392--393
  [][] 
  []
 
 File: ./picture//er9.png Graphic file (type bmp)
 <./picture//er9.png>
 
-Overfull \hbox (29.25768pt too wide) in paragraph at lines 361--362
+Overfull \hbox (29.25768pt too wide) in paragraph at lines 400--401
  [][] 
  []
 
 File: ./picture//er10.png Graphic file (type bmp)
 <./picture//er10.png>
 
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 369--370
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 408--409
  [][] 
  []
 
-[29]
+[31]
 File: ./picture//er11.png Graphic file (type bmp)
 <./picture//er11.png>
 File: ./picture//er12.png Graphic file (type bmp)
 <./picture//er12.png>
- [30] [31] [32]
-Overfull \hbox (1.50229pt too wide) in paragraph at lines 483--493
-[][] 
+ [32] [33] [34] [35] [36] [37] [38]
+Overfull \hbox (17.08633pt too wide) in alignment at lines 714--717
+[] [] [] 
  []
 
-[33] [34] [35] [36] [37]
-File: ./picture//usecasediagram.png Graphic file (type bmp)
-<./picture//usecasediagram.png>
 
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 701--702
- [][] 
+Overfull \hbox (17.08633pt too wide) in alignment at lines 717--718
+[] [] [] 
  []
 
-[38] [39]
-File: ./picture//scene1.png Graphic file (type bmp)
-<./picture//scene1.png>
 
-Overfull \hbox (3.82405pt too wide) in paragraph at lines 726--727
- [][] 
+Overfull \hbox (17.08633pt too wide) in alignment at lines 718--740
+[] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 740
+ []
+
+
+Overfull \hbox (17.08633pt too wide) in alignment at lines 740--760
+[] [] [] 
+ []
+
+[39]
+Overfull \hbox (17.08633pt too wide) in alignment at lines 760--761
+[] [] [] 
  []
 
 [40]
-File: ./picture//scene2.png Graphic file (type bmp)
-<./picture//scene2.png>
- [41]
-File: ./picture//scene3.png Graphic file (type bmp)
-<./picture//scene3.png>
+File: ./picture//usecasediagram.png Graphic file (type bmp)
+<./picture//usecasediagram.png>
 
-Overfull \hbox (6.83571pt too wide) in paragraph at lines 772--773
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 768--769
+ [][] 
+ []
+
+[41]
+File: ./picture//scene1.png Graphic file (type bmp)
+<./picture//scene1.png>
+
+Overfull \hbox (3.82405pt too wide) in paragraph at lines 793--794
  [][] 
  []
 
 [42]
+File: ./picture//scene2.png Graphic file (type bmp)
+<./picture//scene2.png>
+ [43]
+File: ./picture//scene3.png Graphic file (type bmp)
+<./picture//scene3.png>
+
+Overfull \hbox (6.83571pt too wide) in paragraph at lines 839--840
+ [][] 
+ []
+
+[44]
 File: ./picture//scene4.png Graphic file (type bmp)
 <./picture//scene4.png>
- [43]
+ [45]
 File: ./picture//scene5.png Graphic file (type bmp)
 <./picture//scene5.png>
- [44]
+ [46] [47]
 File: ./picture//scene6.png Graphic file (type bmp)
 <./picture//scene6.png>
- [45]
+ [48]
 File: ./picture//scene7.png Graphic file (type bmp)
 <./picture//scene7.png>
 
-Overfull \hbox (15.11778pt too wide) in paragraph at lines 861--862
+Overfull \hbox (15.11778pt too wide) in paragraph at lines 928--929
  [][] 
  []
 
 File: ./picture//hp.png Graphic file (type bmp)
 <./picture//hp.png>
-[46]
+[49]
 File: ./picture//hp2.png Graphic file (type bmp)
 <./picture//hp2.png>
- [47]
+ [50]
 File: ./picture//login.png Graphic file (type bmp)
 <./picture//login.png>
- [48]
+ [51]
 File: ./picture//i1.png Graphic file (type bmp)
 <./picture//i1.png>
- [49]
+ [52]
 File: ./picture//i2.png Graphic file (type bmp)
 <./picture//i2.png>
- [50] [51]
-Overfull \vbox (121.53233pt too high) has occurred while \output is active []
-
- [52]
+ [53]
 File: ./picture//i3.png Graphic file (type bmp)
 <./picture//i3.png>
- [53]
+ [54]
 File: ./picture//i4.png Graphic file (type bmp)
 <./picture//i4.png>
+ [55]
 File: ./picture//i5.png Graphic file (type bmp)
 <./picture//i5.png>
- [54]
+ [56]
 File: ./picture//i6.png Graphic file (type bmp)
 <./picture//i6.png>
- [55]
+ [57]
 File: ./picture//search.png Graphic file (type bmp)
 <./picture//search.png>
- [56]
+ [58]
 File: ./picture//lookupp.png Graphic file (type bmp)
 <./picture//lookupp.png>
- [57]
+ [59]
 File: ./picture//man1.png Graphic file (type bmp)
 <./picture//man1.png>
- [58]
+ [60]
 File: ./picture//e1.png Graphic file (type bmp)
 <./picture//e1.png>
- [59] [60]
-Overfull \vbox (120.9235pt too high) has occurred while \output is active []
-
  [61]
 File: ./picture//e2.png Graphic file (type bmp)
 <./picture//e2.png>
+ [62]
 File: ./picture//e3.png Graphic file (type bmp)
 <./picture//e3.png>
- [62]
+ [63]
 File: ./picture//status.png Graphic file (type bmp)
 <./picture//status.png>
- [63]
-Overfull \hbox (4.83023pt too wide) in paragraph at lines 1015--1015
+ [64]
+Overfull \hbox (4.83023pt too wide) in paragraph at lines 1082--1082
 |[][]
  []
 
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1026
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
 []|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 1026--1026
+Underfull \hbox (badness 5022) in paragraph at lines 1093--1093
 []|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 1026--1026
+Underfull \hbox (badness 3219) in paragraph at lines 1093--1093
 \TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1026
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
 []|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 1026--1026
+Underfull \hbox (badness 1377) in paragraph at lines 1093--1093
 \TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1026
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
 \TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 1026--1026
+Underfull \hbox (badness 6094) in paragraph at lines 1093--1093
 []|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 1027--1027
+Underfull \hbox (badness 7759) in paragraph at lines 1094--1094
 []|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
 \TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
 \TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 1027--1027
+Underfull \hbox (badness 7558) in paragraph at lines 1094--1094
 \TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 1027--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 และ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 1094--1094
 \TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 1027--1027
+Underfull \hbox (badness 4429) in paragraph at lines 1094--1094
 \TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 1027--1027
+Underfull \hbox (badness 2941) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 ของ เนื้อหา มี การ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 1094--1094
 \TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 1027--1027
-\TU/THSarabunNew(0)/m/n/10 การ ใช้ animation
+Underfull \hbox (badness 1622) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 การ ใช้ การ เคลื่อน-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 1027--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 1094--1094
 []|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1027--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
 \TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 1027--1027
-\TU/THSarabunNew(0)/m/n/10 animation เข้า มา
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 สม และ ไม่มี การ
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 1028--1028
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 1095--1095
 \TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 1028--1028
+Underfull \hbox (badness 2547) in paragraph at lines 1095--1095
 \TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 1028--1028
+Underfull \hbox (badness 4084) in paragraph at lines 1095--1095
 \TU/THSarabunNew(0)/m/n/10 มาก หนึ่ง ลิ้งค์ หรือ
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 1028--1028
+Underfull \hbox (badness 2237) in paragraph at lines 1095--1095
 \TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 1028--1028
+Underfull \hbox (badness 2547) in paragraph at lines 1095--1095
 \TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 1029--1029
+Underfull \hbox (badness 7203) in paragraph at lines 1096--1096
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 1029--1029
+Underfull \hbox (badness 7203) in paragraph at lines 1096--1096
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 1029--1029
+Underfull \hbox (badness 7203) in paragraph at lines 1096--1096
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Overfull \hbox (3.67516pt too wide) in paragraph at lines 1021--1031
+Overfull \hbox (3.67516pt too wide) in paragraph at lines 1088--1098
 [][] 
  []
 
-) [65] [66]
+) [66] [67]
 \openout2 = `Chapter4.aux'.
 
  (Chapter4.tex
@@ -1365,193 +1397,244 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 1.
 
-[67
+[68
 
 
 
 
-] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 117--117
+Underfull \hbox (badness 5022) in paragraph at lines 125--125
 []|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 117--117
+Underfull \hbox (badness 3219) in paragraph at lines 125--125
 \TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 117--117
+Underfull \hbox (badness 1377) in paragraph at lines 125--125
 \TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 \TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 117--117
+Underfull \hbox (badness 6094) in paragraph at lines 125--125
 []|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 118--118
+Underfull \hbox (badness 7759) in paragraph at lines 126--126
 []|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 118--118
+Underfull \hbox (badness 7558) in paragraph at lines 126--126
 \TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 และ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 126--126
 \TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 118--118
+Underfull \hbox (badness 4429) in paragraph at lines 126--126
 \TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 118--118
+Underfull \hbox (badness 2941) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 ของ เนื้อหา มี การ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 126--126
 \TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 118--118
-\TU/THSarabunNew(0)/m/n/10 การ ใช้ animation
+Underfull \hbox (badness 1622) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 การ ใช้ การ เคลื่อน-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 126--126
 []|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 \TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 118--118
-\TU/THSarabunNew(0)/m/n/10 animation เข้า มา
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 สม และ ไม่มี การ
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 127--127
 \TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 119--119
+Underfull \hbox (badness 2547) in paragraph at lines 127--127
 \TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 119--119
+Underfull \hbox (badness 4084) in paragraph at lines 127--127
 \TU/THSarabunNew(0)/m/n/10 มาก หนึ่ง ลิ้งค์ หรือ
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 119--119
+Underfull \hbox (badness 2237) in paragraph at lines 127--127
 \TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 119--119
+Underfull \hbox (badness 2547) in paragraph at lines 127--127
 \TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 120--120
+Underfull \hbox (badness 7203) in paragraph at lines 128--128
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 120--120
+Underfull \hbox (badness 7203) in paragraph at lines 128--128
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 120--120
+Underfull \hbox (badness 7203) in paragraph at lines 128--128
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Overfull \hbox (3.67516pt too wide) in paragraph at lines 114--122
+Overfull \hbox (3.67516pt too wide) in paragraph at lines 122--130
 [][] 
  []
 
-[69]
+[70]
 File: ./picture//web1.png Graphic file (type bmp)
 <./picture//web1.png>
- [70]
+ [71]
 File: ./picture//weblogin.png Graphic file (type bmp)
 <./picture//weblogin.png>
+ [72]
 File: ./picture//webinsert.png Graphic file (type bmp)
 <./picture//webinsert.png>
 File: ./picture//webinsert2.png Graphic file (type bmp)
 <./picture//webinsert2.png>
- [71]
 File: ./picture//webinsert3.png Graphic file (type bmp)
 <./picture//webinsert3.png>
+ [73]
 File: ./picture//webinsert4.png Graphic file (type bmp)
 <./picture//webinsert4.png>
- [72]
 File: ./picture//webcorrect.png Graphic file (type bmp)
 <./picture//webcorrect.png>
+ [74]
 File: ./picture//websubmit.png Graphic file (type bmp)
 <./picture//websubmit.png>
 File: ./picture//webcheckout.png Graphic file (type bmp)
 <./picture//webcheckout.png>
- [73]
+ [75]
 File: ./picture//webtag.png Graphic file (type bmp)
 <./picture//webtag.png>
 File: ./picture//webstatus.png Graphic file (type bmp)
 <./picture//webstatus.png>
- [74]
 File: ./picture//websearch.png Graphic file (type bmp)
 <./picture//websearch.png>
+ [76]
 File: ./picture//webview.png Graphic file (type bmp)
 <./picture//webview.png>
 File: ./picture//webview2.png Graphic file (type bmp)
 <./picture//webview2.png>
- [75]
+ [77]
 File: ./picture//webman.png Graphic file (type bmp)
 <./picture//webman.png>
 File: ./picture//webdel.png Graphic file (type bmp)
 <./picture//webdel.png>
- [76]
 File: ./picture//webman1.png Graphic file (type bmp)
 <./picture//webman1.png>
+ [78]
 File: ./picture//webman3.png Graphic file (type bmp)
 <./picture//webman3.png>
 File: ./picture//webman4.png Graphic file (type bmp)
 <./picture//webman4.png>
- [77]) [78] (SeniorLatex.bbl
+) [79]
+\openout2 = `Chapter5.aux'.
+
+ (Chapter5.tex
+บทที่ 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern -9.84pt
+(hyperref)                removed on input line 1.
+
+[80
+
+
+
+
+] [81]) [82] (SeniorLatex.bbl
 Underfull \hbox (badness 1412) in paragraph at lines 4--8
 []\TU/THSarabunNew(0)/m/n/10 Doxygen, 2020,  ``OpenCV,'' [][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [] [] [] [] [][] [] [][][] [] [][][][][][][][] [] [][] [] [][][][][][][][] []
  []
@@ -1627,7 +1710,7 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
- [79
+ [83
 
 
 
@@ -1636,20 +1719,20 @@ LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
 \thai@year=\count334
- (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux))
+ (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Chapter5.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
-(rerunfilecheck)             Checksum: C7027AA34A50484EBF27879E79EC00A5;20600.
+(rerunfilecheck)             Checksum: 542ABEA4E80505066A1E351D9F9A8DD5;23862.
  ) 
 Here is how much of TeX's memory you used:
- 18331 strings out of 411732
- 321632 string characters out of 2836994
- 747435 words of memory out of 3000000
- 38029 multiletter control sequences out of 15000+200000
+ 18345 strings out of 411732
+ 321832 string characters out of 2836994
+ 751539 words of memory out of 3000000
+ 38036 multiletter control sequences out of 15000+200000
  406015 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 110i,19n,117p,1112b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 110i,19n,117p,1123b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (97 pages, 1070640 bytes).
+Output written on SeniorLatex.xdv (99 pages, 1182268 bytes).

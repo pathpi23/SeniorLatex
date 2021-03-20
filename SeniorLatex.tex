@@ -157,7 +157,7 @@ In the second part, we start by getting the input from the user
 and use the word2Vec model to find a similar word. And take 
 input and similar words to get the TF-IDF score that we 
 generate at first to find the best document for the input word.  
-
+For comparison correct of  OCR is 74.75\% , use OCR and correction is 76.61\%.
 \begin{flushleft}
 \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
 \textbf{Keywords}: & Natural language processing / RESTful Service / Optical character recognition / Image Processing / Information retrieval / Term Frequency-Inverse Document Frequency / Word2Vec / Word Embedded 
@@ -182,7 +182,7 @@ generate at first to find the best document for the input word.
 แค่สารบัญก็อาจจะทำให้ได้หนังสือที่ไม่ตรงกับความต้องการของผู้ที่เข้ามายืมหนังสือ 
 ในโครงการนี้เราได้ทำการพัฒนาการระบบจัดเก็บและค้นหาเอกสารอิเล็กทรินิกส์ 
 โดยแบ่งออกเป็น 2 ขั้นตอนคือ การนำเข้าข้อมูล  และการสร้างระบบค้นหา 
-โดยขั้นตอนการนำเข้าข้อมูล เราจะเริ่มจากการทำ image processing 
+โดยขั้นตอนการนำเข้าข้อมูล เราจะเริ่มจากการเตรียมข้อมูลรูปภาพ
 เพื่อเตรียมข้อมูลรูปภาพที่ได้มา ก่อนจะนำไปผ่านกระบวนการ OCR 
 เพื่อแปลงรูปภาพเหล่านี้ให้อยู่ในรูปของข้อมูลดิจิตอล โดยการเก็บข้อมูลในรูปแบบของ 
 Information Retrieval เพื่อช่วยให้ความเร็วการค้นหามีประสิทธิภาพมากยิ่งขึ้น 
@@ -191,7 +191,7 @@ Information Retrieval เพื่อช่วยให้ความเร็�
 ใช้และทำการนำคำที่ได้ไปเข้าโมเดล word2Vec เพื่อหาคำที่ใกล้เคียง 
 จากนั้นนำคำใกล้เคียงและคำค้นหาไปดึงคะแนน TF-IDF ที่เก็บไว้เพื่อค้นหาว่า
 มีเอกสารหรือหนังสือเล่มไหนที่มีคะแนนที่ตรงและใกล้เคียงกับคำค้นหามากที่สุด
-
+โดยผลลัพธ์จากการทำ OCR ถูกต้อง 74.75 \%และเมื่อนำมาผ่านกระบวนการแก้คำผิดได้ความถูกต้องอยู่ที่ 76.61\%
 \begin{flushleft}
 \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
  & \\
@@ -221,26 +221,27 @@ Information Retrieval เพื่อช่วยให้ความเร็�
 %%%%%%%%%%%%%%%%%%%%% List of symbols page %%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % You have to add this manually..
-\listofsymbols
-\begin{flushleft}
-\begin{tabular}{@{}p{0.07\textwidth}p{0.7\textwidth}p{0.1\textwidth}}
-\textbf{SYMBOL}  & & \textbf{UNIT} \\[0.2cm]
-$\alpha$ & Test variable\hfill & m$^2$ \\
-$\lambda$ & Interarival rate\hfill &  jobs/second\\
-$\mu$ & Service rate\hfill & jobs/second\\
-\end{tabular}
-\end{flushleft}
+% \listofsymbols
+% \begin{flushleft}
+% \begin{tabular}{@{}p{0.07\textwidth}p{0.7\textwidth}p{0.1\textwidth}}
+% \textbf{SYMBOL}  & & \textbf{UNIT} \\[0.2cm]
+% $\alpha$ & Test variable\hfill & m$^2$ \\
+% $\lambda$ & Interarival rate\hfill &  jobs/second\\
+% $\mu$ & Service rate\hfill & jobs/second\\
+% \end{tabular}
+% \end{flushleft}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%% List of vocabs & terms %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % You also have to add this manually..
-\listofvocab
-\begin{flushleft}
-\begin{tabular}{@{}p{1in}@{=\extracolsep{0.5in}}l}
-ABC & Adaptive Bandwidth Control \\
-MANET & Mobile Ad Hoc Network 
-\end{tabular}
-\end{flushleft}
+
+% \listofvocab
+% \begin{flushleft}
+% \begin{tabular}{@{}p{1in}@{=\extracolsep{0.5in}}l}
+% ABC & Adaptive Bandwidth Control \\
+% MANET & Mobile Ad Hoc Network 
+% \end{tabular}
+% \end{flushleft}
 
 %\setlength{\parskip}{1.2mm}
 
@@ -251,6 +252,7 @@ MANET & Mobile Ad Hoc Network
 \include{Chapter2}
 \include{Chapter3}
 \include{Chapter4}
+\include{Chapter5}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%

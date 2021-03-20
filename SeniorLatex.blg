@@ -9,6 +9,8 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: Chapter3.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: Chapter4.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: Chapter5.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: kmutt.bst
 Reallocating 'name_of_file' (item size: 1) to 7 items.
@@ -19,7 +21,7 @@ Warning--empty year in nectec
 Warning--empty year in ritambhara
 You've used 12 entries,
             2177 wiz_defined-function locations,
-            832 strings with 9060 characters,
+            833 strings with 9072 characters,
 and the built_in function-call counts, 2843 in all, are:
 = -- 282
 > -- 127

@@ -90,6 +90,8 @@
 
 \def\fnum@figure{รูปที่~\thefigure}
 \def\fnum@table{ตารางที่~\thetable}
+% \def\LT@makecaption\fnum@table{ตารางที่~\thetable}
+
 \renewcommand{\chaptername}{บทที่}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -271,6 +273,8 @@
     \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
   \fi
   \vskip\belowcaptionskip}
+
+%\captionsetup[longtable]{hoptionsi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Define how the content lines show up in ToC when using

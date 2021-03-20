@@ -5,33 +5,36 @@
 \addvspace {0em}
 \contentsline {table}{\numberline {2.1}{\ignorespaces Information retrieval ในลักษณะ Boolean Retrieval}}{8}{table.2.1}%
 \addvspace {0em}
-\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางอธิบายความหมายตาราง term\_word}}{32}{table.3.1}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางอธิบายความหมายตาราง user}}{32}{table.3.2}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces ตารางอธิบายความหมายตาราง score}}{33}{table.3.3}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces ตารางอธิบายความหมายตาราง pre\_term\_in\_page}}{33}{table.3.4}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces ตารางอธิบายความหมายตาราง page\_in\_document}}{33}{table.3.5}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces ตารางอธิบายความหมายตาราง nodejs\_log}}{34}{table.3.6}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations\_lock}}{34}{table.3.7}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations}}{34}{table.3.8}%
-\contentsline {table}{\numberline {3.9}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_document}}{35}{table.3.9}%
-\contentsline {table}{\numberline {3.10}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_email\_document}}{35}{table.3.10}%
-\contentsline {table}{\numberline {3.11}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_issued\_date\_document}}{35}{table.3.11}%
-\contentsline {table}{\numberline {3.12}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_orgname\_document}}{35}{table.3.12}%
-\contentsline {table}{\numberline {3.15}{\ignorespaces ตารางอธิบายความหมายตาราง document}}{36}{table.3.15}%
-\contentsline {table}{\numberline {3.13}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_document}}{36}{table.3.13}%
-\contentsline {table}{\numberline {3.14}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_document}}{36}{table.3.14}%
-\contentsline {table}{\numberline {3.17}{\ignorespaces ตารางอธิบายความหมายตาราง django\_log}}{37}{table.3.17}%
-\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_type}}{37}{table.3.18}%
-\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_relation}}{38}{table.3.19}%
-\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_keyword}}{38}{table.3.20}%
-\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางประเมินการทำ OCR}}{64}{table.3.21}%
-\contentsline {table}{\numberline {3.22}{\ignorespaces ตารางประเมินระบบการค้นหา}}{65}{table.3.22}%
-\contentsline {table}{\numberline {3.23}{\ignorespaces ตารางประเมินความพึงพอใจ UX-UI design}}{65}{table.3.23}%
-\contentsline {table}{\numberline {3.24}{\ignorespaces ตารางประเมิน test}}{66}{table.3.24}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางอธิบายความหมายตาราง term\_word}}{34}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางอธิบายความหมายตาราง user}}{34}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces ตารางอธิบายความหมายตาราง score}}{35}{table.3.3}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces ตารางอธิบายความหมายตาราง pre\_term\_in\_page}}{35}{table.3.4}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces ตารางอธิบายความหมายตาราง page\_in\_document}}{35}{table.3.5}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces ตารางอธิบายความหมายตาราง nodejs\_log}}{36}{table.3.6}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations\_lock}}{36}{table.3.7}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations}}{36}{table.3.8}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_document}}{37}{table.3.9}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_email\_document}}{37}{table.3.10}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_issued\_date\_document}}{37}{table.3.11}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_orgname\_document}}{37}{table.3.12}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_document}}{38}{table.3.13}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_contributors}}{38}{table.3.14}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_document}}{38}{table.3.15}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_role\_document}}{38}{table.3.16}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_type}}{39}{table.3.17}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_relation}}{39}{table.3.18}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_keyword}}{39}{table.3.19}%
+\contentsline {table}{\numberline {3.20}{ตารางอธิบายความหมายตาราง document}}{39}{table.3.20}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางประเมินการทำ OCR}}{65}{table.3.21}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces ตารางประเมินระบบการค้นหา}}{66}{table.3.22}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces ตารางประเมินความพึงพอใจการออกแบบ UX/UI}}{66}{table.3.23}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces ตารางประเมินการทำสอบเว็บไซต์}}{67}{table.3.24}%
 \addvspace {0em}
-\contentsline {table}{\numberline {4.1}{\ignorespaces ตารางประเมินการทำ image processing แบบที่ 1 }}{67}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces ตารางประเมินการทำ image processing แบบที่ 2}}{68}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1}}{68}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 2}}{69}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1 ที่ไม่ผ่านการแก้คำผิด}}{69}{table.4.5}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces ตารางประเมินความพึงพอใจ UX-UI design}}{70}{table.4.6}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces ตารางประเมินการทำการเตรียมข้อมูลรูปภาพแบบที่ 1 }}{68}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces ตารางประเมินการทำการเตรียมข้อมูลรูปภาพแบบที่ 2}}{69}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1}}{69}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 2}}{70}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1 ที่ไม่ผ่านการแก้คำผิด}}{70}{table.4.5}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces ตารางประเมินความพึงพอใจการออกแบบ UX/UI}}{71}{table.4.6}%
+\addvspace {0em}
+\contentsline {table}{\numberline {5.1}{\ignorespaces ตารางสรุปผลลัพธ์การดำเนินงาน}}{80}{table.5.1}%
