@@ -41,78 +41,78 @@
 \contentsline {subsection}{\numberline {2.3.6}NodeJS}{13}{subsection.2.3.6}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {3}\hskip -0.8em การออกแบบและระเบียบวิธีวิจัย}}}{14}{chapter.3}%
 \contentsline {section}{\numberline {3.1}ภาพรวมของระบบ}{14}{section.3.1}%
-\contentsline {section}{\numberline {3.2}การออกแบบการทดลอง}{15}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}การแปลงข้อมูลในหนังสือ (Digitization) }{15}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}การเตรียมข้อมูลรูปภาพ}{15}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.2}การออกแบบการทดลอง}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}การแปลงข้อมูลในหนังสือ (Digitization) }{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}การเตรียมข้อมูลรูปภาพ}{14}{subsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.2.1}การคัดเลือกข้อมูล}{15}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}การหมุนรูป}{16}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.3}การลบพื้นหลัง}{21}{subsubsection.3.2.2.3}%
-\contentsline {subsection}{\numberline {3.2.3}การแปลงข้อมูลรูปภาพให้อยู่ในรูปแบบดิจิทัล}{24}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}การเตรียมข้อมูลตัวหนังสือ}{24}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}การสร้างแท็ก}{25}{subsection.3.2.5}%
-\contentsline {subsubsection}{\numberline {3.2.5.1}การอัพเดทค่าคะแนน TF-IDF}{25}{subsubsection.3.2.5.1}%
-\contentsline {subsection}{\numberline {3.2.6}การค้นหา}{25}{subsection.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.2.6.1}การทำโมเดล Word2vec}{26}{subsubsection.3.2.6.1}%
-\contentsline {subsection}{\numberline {3.2.7}การจัดการหนังสือดิจิทัล}{27}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Login}{27}{subsection.3.2.8}%
-\contentsline {section}{\numberline {3.3}System requirements}{27}{section.3.3}%
-\contentsline {section}{\numberline {3.4}โครงสร้างฐานข้อมูล}{29}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Database Structure}{33}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Database Dictionary}{34}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}UML Design}{42}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Use case diagram}{42}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Sequence diagram}{42}{subsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.2.1}Use case Add Document}{42}{subsubsection.3.5.2.1}%
-\contentsline {subsubsection}{\numberline {3.5.2.2}Use case Manage word in document}{43}{subsubsection.3.5.2.2}%
-\contentsline {subsubsection}{\numberline {3.5.2.3}Use case Verify Document to Generate Keyword}{44}{subsubsection.3.5.2.3}%
-\contentsline {subsubsection}{\numberline {3.5.2.4}Use case Edit Document}{45}{subsubsection.3.5.2.4}%
-\contentsline {subsubsection}{\numberline {3.5.2.5}Use case Delete Document}{46}{subsubsection.3.5.2.5}%
-\contentsline {subsubsection}{\numberline {3.5.2.6}Use case View Document \& Search Document}{47}{subsubsection.3.5.2.6}%
-\contentsline {subsubsection}{\numberline {3.5.2.7}Use case Login}{48}{subsubsection.3.5.2.7}%
-\contentsline {section}{\numberline {3.6}GUI Design}{50}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Homepage}{50}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Homepage2}{51}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Login}{52}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Insert Book(1)}{53}{subsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.6.5}Insert Book (2) }{54}{subsection.3.6.5}%
-\contentsline {subsection}{\numberline {3.6.6}Insert Book (3)}{55}{subsection.3.6.6}%
-\contentsline {subsection}{\numberline {3.6.7}Insert Book (4)}{56}{subsection.3.6.7}%
-\contentsline {subsection}{\numberline {3.6.8}Insert Book (5)}{57}{subsection.3.6.8}%
-\contentsline {subsection}{\numberline {3.6.9}Insert Book (6) }{58}{subsection.3.6.9}%
-\contentsline {subsection}{\numberline {3.6.10}Search}{59}{subsection.3.6.10}%
-\contentsline {subsection}{\numberline {3.6.11}Document View}{60}{subsection.3.6.11}%
-\contentsline {subsection}{\numberline {3.6.12}Manage book}{61}{subsection.3.6.12}%
-\contentsline {subsection}{\numberline {3.6.13}Edit Book}{62}{subsection.3.6.13}%
-\contentsline {subsection}{\numberline {3.6.14}Upload Status Page}{65}{subsection.3.6.14}%
-\contentsline {subsection}{\numberline {3.6.15}Evaluate Process Design}{65}{subsection.3.6.15}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{68}{chapter.4}%
-\contentsline {section}{\numberline {4.1}ผลลัพธ์ที่ได้จากการทำการเตรียมข้อมูลรูปภาพ}{68}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}ผลลัพธ์ที่ได้จากประสิทธิภาพของการหมุน}{68}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}เปรียบเทียบประสิทธิภาพในการทำ OCR ของ การทำการเตรียมข้อมูลรูปภาพ แต่ละแบบ}{68}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.1}แบบที่ 1 การใช้การคัดเลือกข้อมูล,การหมุน,การลบรูปภาพ,การลบเส้น และการจัดกลุ่ม}{69}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4.1.2.2}แบบที่ 2 ใช้การลบพื้นหลัง}{70}{subsubsection.4.1.2.2}%
-\contentsline {section}{\numberline {4.2}ผลการเปรียบเทียบข้อมูล 2 ชุด}{70}{section.4.2}%
-\contentsline {section}{\numberline {4.3}ประสิทธิภาพการแก้ไขคำผิด}{72}{section.4.3}%
-\contentsline {section}{\numberline {4.4}การประเมินความพึงพอใจของบรรณารักษ์ต่อการออกแบบ UX/UI}{73}{section.4.4}%
-\contentsline {section}{\numberline {4.5}ผลลัพธ์จากการค้นหา}{73}{section.4.5}%
-\contentsline {section}{\numberline {4.6}ผลลัพธ์ที่ได้จากการเขียนเว็บไซต์}{74}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}หน้าหลัก}{74}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}การเข้าสู่ระบบเว็บไซต์}{74}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}การเพิ่มหนังสือเข้าสู่ระบบฐานข้อมูล}{74}{subsection.4.6.3}%
-\contentsline {subsubsection}{\numberline {4.6.3.1}เพิ่มข้อมูลของหนังสือ}{75}{subsubsection.4.6.3.1}%
-\contentsline {subsubsection}{\numberline {4.6.3.2}การแก้ไขและตรวจสอบคำก่อนนำเข้าสู่ระบบ}{77}{subsubsection.4.6.3.2}%
-\contentsline {subsubsection}{\numberline {4.6.3.3}การตรวจสอบแก้ไขแท็ก}{78}{subsubsection.4.6.3.3}%
-\contentsline {subsection}{\numberline {4.6.4}การแสดงสถานะการเพิ่มหนังสือ}{78}{subsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.6.5}การแสดงการค้นหาหนังสือ}{79}{subsection.4.6.5}%
-\contentsline {subsection}{\numberline {4.6.6}การแสดงข้อมูลหนังสือ}{79}{subsection.4.6.6}%
-\contentsline {subsection}{\numberline {4.6.7}การแสดงการแก้ไขข้อมูลของหนังสือ}{80}{subsection.4.6.7}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em สรุปผล}}}{82}{chapter.5}%
-\contentsline {section}{\numberline {5.1}ผลการดำเนินงาน}{82}{section.5.1}%
-\contentsline {section}{\numberline {5.2}สรุปผลการดำเนินงาน}{82}{section.5.2}%
-\contentsline {section}{\numberline {5.3}ปัญหาที่พบและการแก้ไข}{83}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}ปัญหาหน้าสีอ่านยาก}{83}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}ปัญหาการหมุนไม่ตรง}{83}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}ปัญหาการแก้ไขคำผิด}{83}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}ปัญหาเรื่องระยะเวลาในการเพิ่มข้อมูลหนังสือ}{83}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5.4}ข้อจำกัดและข้อเสนอแนะ}{84}{section.5.4}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{85}{Item.127}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}การหมุนรูป}{15}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}การลบพื้นหลัง}{20}{subsubsection.3.2.2.3}%
+\contentsline {subsection}{\numberline {3.2.3}การแปลงข้อมูลรูปภาพให้อยู่ในรูปแบบดิจิทัล}{23}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}การเตรียมข้อมูลตัวหนังสือ}{23}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}การสร้างแท็ก}{24}{subsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5.1}การอัพเดทค่าคะแนน TF-IDF}{24}{subsubsection.3.2.5.1}%
+\contentsline {subsection}{\numberline {3.2.6}การค้นหา}{24}{subsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}การทำโมเดล Word2vec}{25}{subsubsection.3.2.6.1}%
+\contentsline {subsection}{\numberline {3.2.7}การจัดการหนังสือดิจิทัล}{26}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Login}{26}{subsection.3.2.8}%
+\contentsline {section}{\numberline {3.3}System requirements}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.4}โครงสร้างฐานข้อมูล}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Database Structure}{32}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Database Dictionary}{33}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}UML Design}{41}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Use case diagram}{41}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Sequence diagram}{41}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}Use case Add Document}{41}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}Use case Manage word in document}{42}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}Use case Verify Document to Generate Keyword}{43}{subsubsection.3.5.2.3}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}Use case Edit Document}{44}{subsubsection.3.5.2.4}%
+\contentsline {subsubsection}{\numberline {3.5.2.5}Use case Delete Document}{45}{subsubsection.3.5.2.5}%
+\contentsline {subsubsection}{\numberline {3.5.2.6}Use case View Document \& Search Document}{46}{subsubsection.3.5.2.6}%
+\contentsline {subsubsection}{\numberline {3.5.2.7}Use case Login}{47}{subsubsection.3.5.2.7}%
+\contentsline {section}{\numberline {3.6}GUI Design}{49}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Homepage}{49}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Homepage2}{50}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Login}{51}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Insert Book(1)}{52}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.6.5}Insert Book (2) }{53}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {3.6.6}Insert Book (3)}{54}{subsection.3.6.6}%
+\contentsline {subsection}{\numberline {3.6.7}Insert Book (4)}{55}{subsection.3.6.7}%
+\contentsline {subsection}{\numberline {3.6.8}Insert Book (5)}{56}{subsection.3.6.8}%
+\contentsline {subsection}{\numberline {3.6.9}Insert Book (6) }{57}{subsection.3.6.9}%
+\contentsline {subsection}{\numberline {3.6.10}Search}{58}{subsection.3.6.10}%
+\contentsline {subsection}{\numberline {3.6.11}Document View}{59}{subsection.3.6.11}%
+\contentsline {subsection}{\numberline {3.6.12}Manage book}{60}{subsection.3.6.12}%
+\contentsline {subsection}{\numberline {3.6.13}Edit Book}{61}{subsection.3.6.13}%
+\contentsline {subsection}{\numberline {3.6.14}Upload Status Page}{64}{subsection.3.6.14}%
+\contentsline {subsection}{\numberline {3.6.15}Evaluate Process Design}{64}{subsection.3.6.15}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{67}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ผลลัพธ์ที่ได้จากการทำการเตรียมข้อมูลรูปภาพ}{67}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}ผลลัพธ์ที่ได้จากประสิทธิภาพของการหมุน}{67}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}เปรียบเทียบประสิทธิภาพในการทำ OCR ของ การทำการเตรียมข้อมูลรูปภาพ แต่ละแบบ}{67}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}แบบที่ 1 การใช้การคัดเลือกข้อมูล,การหมุน,การลบรูปภาพ,การลบเส้น และการจัดกลุ่ม}{68}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}แบบที่ 2 ใช้การลบพื้นหลัง}{69}{subsubsection.4.1.2.2}%
+\contentsline {section}{\numberline {4.2}ผลการเปรียบเทียบข้อมูล 2 ชุด}{69}{section.4.2}%
+\contentsline {section}{\numberline {4.3}ประสิทธิภาพการแก้ไขคำผิด}{71}{section.4.3}%
+\contentsline {section}{\numberline {4.4}การประเมินความพึงพอใจของบรรณารักษ์ต่อการออกแบบ UX/UI}{72}{section.4.4}%
+\contentsline {section}{\numberline {4.5}ผลลัพธ์จากการค้นหา}{72}{section.4.5}%
+\contentsline {section}{\numberline {4.6}ผลลัพธ์ที่ได้จากการเขียนเว็บไซต์}{73}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}หน้าหลัก}{73}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}การเข้าสู่ระบบเว็บไซต์}{73}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}การเพิ่มหนังสือเข้าสู่ระบบฐานข้อมูล}{73}{subsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.1}เพิ่มข้อมูลของหนังสือ}{74}{subsubsection.4.6.3.1}%
+\contentsline {subsubsection}{\numberline {4.6.3.2}การแก้ไขและตรวจสอบคำก่อนนำเข้าสู่ระบบ}{76}{subsubsection.4.6.3.2}%
+\contentsline {subsubsection}{\numberline {4.6.3.3}การตรวจสอบแก้ไขแท็ก}{77}{subsubsection.4.6.3.3}%
+\contentsline {subsection}{\numberline {4.6.4}การแสดงสถานะการเพิ่มหนังสือ}{77}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5}การแสดงการค้นหาหนังสือ}{78}{subsection.4.6.5}%
+\contentsline {subsection}{\numberline {4.6.6}การแสดงข้อมูลหนังสือ}{78}{subsection.4.6.6}%
+\contentsline {subsection}{\numberline {4.6.7}การแสดงการแก้ไขข้อมูลของหนังสือ}{79}{subsection.4.6.7}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em สรุปผล}}}{81}{chapter.5}%
+\contentsline {section}{\numberline {5.1}ผลการดำเนินงาน}{81}{section.5.1}%
+\contentsline {section}{\numberline {5.2}สรุปผลการดำเนินงาน}{81}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ปัญหาที่พบและการแก้ไข}{82}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}ปัญหาหน้าสีอ่านยาก}{82}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}ปัญหาการหมุนไม่ตรง}{82}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}ปัญหาการแก้ไขคำผิด}{82}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}ปัญหาเรื่องระยะเวลาในการเพิ่มข้อมูลหนังสือ}{82}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}ข้อจำกัดและข้อเสนอแนะ}{83}{section.5.4}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{84}{Item.127}%

@@ -5,36 +5,36 @@
 \addvspace {0em}
 \contentsline {table}{\numberline {2.1}{\ignorespaces Information retrieval ในลักษณะ Boolean Retrieval\relax }}{8}{table.caption.6}%
 \addvspace {0em}
-\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางอธิบายความหมายตาราง term\_word\relax }}{34}{table.caption.45}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางอธิบายความหมายตาราง user\relax }}{35}{table.caption.46}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces ตารางอธิบายความหมายตาราง score\relax }}{35}{table.caption.47}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces ตารางอธิบายความหมายตาราง pre\_term\_in\_page\relax }}{36}{table.caption.48}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces ตารางอธิบายความหมายตาราง page\_in\_document\relax }}{36}{table.caption.49}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces ตารางอธิบายความหมายตาราง nodejs\_log\relax }}{36}{table.caption.50}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations\_lock\relax }}{37}{table.caption.51}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations\relax }}{37}{table.caption.52}%
-\contentsline {table}{\numberline {3.9}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_document\relax }}{37}{table.caption.53}%
-\contentsline {table}{\numberline {3.10}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_email\_document\relax }}{37}{table.caption.54}%
-\contentsline {table}{\numberline {3.11}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_issued\_date\_document\relax }}{38}{table.caption.55}%
-\contentsline {table}{\numberline {3.12}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_orgname\_document\relax }}{38}{table.caption.56}%
-\contentsline {table}{\numberline {3.13}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_document\relax }}{38}{table.caption.57}%
-\contentsline {table}{\numberline {3.14}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_contributors\relax }}{38}{table.caption.58}%
-\contentsline {table}{\numberline {3.15}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_document\relax }}{39}{table.caption.59}%
-\contentsline {table}{\numberline {3.16}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_role\_document\relax }}{39}{table.caption.60}%
-\contentsline {table}{\numberline {3.17}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_type\relax }}{39}{table.caption.61}%
-\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_relation\relax }}{39}{table.caption.62}%
-\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_keyword\relax }}{40}{table.caption.63}%
-\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางอธิบายความหมายตาราง document\relax }}{40}{table.3.20}%
-\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางประเมินการทำ OCR\relax }}{65}{table.caption.88}%
-\contentsline {table}{\numberline {3.22}{\ignorespaces ตารางประเมินระบบการค้นหา\relax }}{66}{table.caption.89}%
-\contentsline {table}{\numberline {3.23}{\ignorespaces ตารางประเมินความพึงพอใจการออกแบบ UX/UI\relax }}{66}{table.caption.90}%
-\contentsline {table}{\numberline {3.24}{\ignorespaces ตารางประเมินการทำสอบเว็บไซต์\relax }}{67}{table.caption.91}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางอธิบายความหมายตาราง term\_word\relax }}{33}{table.caption.45}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางอธิบายความหมายตาราง user\relax }}{34}{table.caption.46}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces ตารางอธิบายความหมายตาราง score\relax }}{34}{table.caption.47}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces ตารางอธิบายความหมายตาราง pre\_term\_in\_page\relax }}{35}{table.caption.48}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces ตารางอธิบายความหมายตาราง page\_in\_document\relax }}{35}{table.caption.49}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces ตารางอธิบายความหมายตาราง nodejs\_log\relax }}{35}{table.caption.50}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations\_lock\relax }}{36}{table.caption.51}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces ตารางอธิบายความหมายตาราง knex\_migrations\relax }}{36}{table.caption.52}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_document\relax }}{36}{table.caption.53}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_publisher\_email\_document\relax }}{36}{table.caption.54}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_issued\_date\_document\relax }}{37}{table.caption.55}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_orgname\_document\relax }}{37}{table.caption.56}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_creator\_document\relax }}{37}{table.caption.57}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_contributors\relax }}{37}{table.caption.58}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_document\relax }}{38}{table.caption.59}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces ตารางอธิบายความหมายตาราง indexing\_contributor\_role\_document\relax }}{38}{table.caption.60}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_type\relax }}{38}{table.caption.61}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_relation\relax }}{38}{table.caption.62}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางอธิบายความหมายตาราง dc\_keyword\relax }}{39}{table.caption.63}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางอธิบายความหมายตาราง document\relax }}{39}{table.3.20}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางประเมินการทำ OCR\relax }}{64}{table.caption.88}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces ตารางประเมินระบบการค้นหา\relax }}{65}{table.caption.89}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces ตารางประเมินความพึงพอใจการออกแบบ UX/UI\relax }}{65}{table.caption.90}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces ตารางประเมินการทำสอบเว็บไซต์\relax }}{66}{table.caption.91}%
 \addvspace {0em}
-\contentsline {table}{\numberline {4.1}{\ignorespaces ตารางประเมินการทำการเตรียมข้อมูลรูปภาพแบบที่ 1 \relax }}{69}{table.caption.93}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces ตารางประเมินการทำการเตรียมข้อมูลรูปภาพแบบที่ 2\relax }}{70}{table.caption.94}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1\relax }}{71}{table.caption.95}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 2\relax }}{71}{table.caption.96}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1 ที่ไม่ผ่านการแก้คำผิด\relax }}{72}{table.caption.97}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces ตารางประเมินความพึงพอใจการออกแบบ UX/UI\relax }}{73}{table.caption.98}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces ตารางประเมินการทำการเตรียมข้อมูลรูปภาพแบบที่ 1 \relax }}{68}{table.caption.93}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces ตารางประเมินการทำการเตรียมข้อมูลรูปภาพแบบที่ 2\relax }}{69}{table.caption.94}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1\relax }}{70}{table.caption.95}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 2\relax }}{70}{table.caption.96}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces ตารางประเมินข้อมูลชุดที่ 1 ที่ไม่ผ่านการแก้คำผิด\relax }}{71}{table.caption.97}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces ตารางประเมินความพึงพอใจการออกแบบ UX/UI\relax }}{72}{table.caption.98}%
 \addvspace {0em}
-\contentsline {table}{\numberline {5.1}{\ignorespaces ตารางสรุปผลลัพธ์การดำเนินงาน\relax }}{82}{table.caption.118}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces ตารางสรุปผลลัพธ์การดำเนินงาน\relax }}{81}{table.caption.118}%
