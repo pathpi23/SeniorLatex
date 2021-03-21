@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  20 MAR 2021 07:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  21 MAR 2021 16:13
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -396,7 +396,34 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@tables=\count311
 \c@LT@chunks=\count312
 \LT@p@ftn=\toks35
-) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionskip \sbox \@tempboxa {{\bf #1} #2}\ifdim \wd \@tempboxa >\hsize {\bf #1} #2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1139.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count313
+\c@continuedfloat=\count314
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
 Package: polyglossia 2020/12/08 v1.51 Modern multilingual typesetting with XeLaTeX and LuaLaTeX
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/makecmds\makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
@@ -583,17 +610,17 @@ Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
 (fontspec)             =1.0\fontdimen 4\font 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 28.
-\c@theorem=\count313
-\c@lemma=\count314
-\c@corollary=\count315
+(Font)              scaled to size 12.29996pt on input line 32.
+\c@theorem=\count315
+\c@lemma=\count316
+\c@corollary=\count317
 (SeniorLatex.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 12.29996pt on input line 19.
-\thai@year=\count316
+\thai@year=\count318
  (Chapter1.aux) (Chapter2.aux) (Chapter3.aux
 
 LaTeX Warning: Label `tbl:indexingpublisherdocument' multiply defined.
@@ -611,36 +638,36 @@ LaTeX Warning: Label `fig:webdel' multiply defined.
 ) (Chapter5.aux))
 \openout1 = `SeniorLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 126.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 130.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 126.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 126.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 130.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 130.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 126.
-LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -675,7 +702,7 @@ LaTeX Font Info:    ... okay on input line 126.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 126.
+Package hyperref Info: Link coloring ON on input line 130.
 (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -683,41 +710,43 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count317
+\c@section@level=\count319
 )
-LaTeX Info: Redefining \ref on input line 126.
-LaTeX Info: Redefining \pageref on input line 126.
-LaTeX Info: Redefining \nameref on input line 126.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
  (SeniorLatex.out) (SeniorLatex.out)
 \@outlinefile=\write3
 \openout3 = `SeniorLatex.out'.
 
-LaTeX Info: Redefining \rmfamily on input line 126.
-LaTeX Info: Redefining \sffamily on input line 126.
-LaTeX Info: Redefining \ttfamily on input line 126.
-LaTeX Info: Redefining \rmfamily on input line 126.
-LaTeX Info: Redefining \sffamily on input line 126.
-LaTeX Info: Redefining \ttfamily on input line 126.
-\thai@year=\count318
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \rmfamily on input line 130.
+LaTeX Info: Redefining \sffamily on input line 130.
+LaTeX Info: Redefining \ttfamily on input line 130.
+LaTeX Info: Redefining \rmfamily on input line 130.
+LaTeX Info: Redefining \sffamily on input line 130.
+LaTeX Info: Redefining \ttfamily on input line 130.
+\thai@year=\count320
 File: ./picture//logo02.jpg Graphic file (type bmp)
 <./picture//logo02.jpg>
  [1
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 139.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 139.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 135.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 139.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 135--135
+Underfull \hbox (badness 10000) in alignment at lines 139--139
 [] [] 
  []
 
@@ -726,114 +755,114 @@ Underfull \hbox (badness 10000) in alignment at lines 135--135
 Package hyperref Warning: bookmark level for unknown chapterx defaults to 0.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 12.29996pt on input line 140.
+(Font)              scaled to size 12.29996pt on input line 144.
 
-Underfull \hbox (badness 10000) in alignment at lines 162--164
+Underfull \hbox (badness 10000) in alignment at lines 166--168
 [][] 
  []
 
 [2]
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-\thai@year=\count319
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-\thai@year=\count320
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count321
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count322
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count323
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count324
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count325
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count326
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count327
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count328
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count329
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 \thai@year=\count330
-LaTeX Info: Redefining \rmfamily on input line 174.
-LaTeX Info: Redefining \sffamily on input line 174.
-LaTeX Info: Redefining \ttfamily on input line 174.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+\thai@year=\count331
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
+\thai@year=\count332
+LaTeX Info: Redefining \rmfamily on input line 178.
+LaTeX Info: Redefining \sffamily on input line 178.
+LaTeX Info: Redefining \ttfamily on input line 178.
 
-Underfull \hbox (badness 10000) in alignment at lines 196--200
+Underfull \hbox (badness 10000) in alignment at lines 200--204
 [][] 
  []
 
 [3]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 208.
+(Font)              scaled to size 14.75995pt on input line 212.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 208.
+(Font)              scaled to size 14.75995pt on input line 212.
  [4
 
 ] (SeniorLatex.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count331
+\thai@year=\count333
  [5
 
 ] [6] [7] [8])
@@ -844,7 +873,7 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count332
+\thai@year=\count334
  [10
 
 ])
@@ -855,7 +884,7 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count333
+\thai@year=\count335
  [12
 
 ] [13] [14])
@@ -960,7 +989,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 File: ./picture//systemoverview.png Graphic file (type bmp)
 <./picture//systemoverview.png>
 
-Overfull \hbox (24.73083pt too wide) in paragraph at lines 9--10
+Overfull \hbox (331.34242pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
@@ -972,152 +1001,152 @@ Overfull \hbox (24.73083pt too wide) in paragraph at lines 9--10
 ]
 File: ./picture//skippage2.png Graphic file (type bmp)
 <./picture//skippage2.png>
+ [15]
 File: ./picture//skippage.png Graphic file (type bmp)
 <./picture//skippage.png>
- [15]
 File: ./picture//rotate1.png Graphic file (type bmp)
 <./picture//rotate1.png>
 File: ./picture//rotate2.png Graphic file (type bmp)
 <./picture//rotate2.png>
+ [16]
 File: ./picture//rotate3.png Graphic file (type bmp)
 <./picture//rotate3.png>
- [16]
 File: ./picture//rotate4.png Graphic file (type bmp)
 <./picture//rotate4.png>
 File: ./picture//rotate5.png Graphic file (type bmp)
 <./picture//rotate5.png>
+ [17]
 File: ./picture//rotate6.png Graphic file (type bmp)
 <./picture//rotate6.png>
- [17]
 File: ./picture//rotate7.png Graphic file (type bmp)
 <./picture//rotate7.png>
 File: ./picture//rotate8.png Graphic file (type bmp)
 <./picture//rotate8.png>
+ [18]
 File: ./picture//rotate9.png Graphic file (type bmp)
 <./picture//rotate9.png>
- [18]
 File: ./picture//rotate11.png Graphic file (type bmp)
 <./picture//rotate11.png>
+ [19]
 File: ./picture//rotate10.png Graphic file (type bmp)
 <./picture//rotate10.png>
- [19]
+ [20]
 File: ./picture//removebg.png Graphic file (type bmp)
 <./picture//removebg.png>
- [20]
 File: ./picture//rem1.png Graphic file (type bmp)
 <./picture//rem1.png>
+ [21]
 File: ./picture//rem2.png Graphic file (type bmp)
 <./picture//rem2.png>
- [21]
 File: ./picture//rem3.png Graphic file (type bmp)
 <./picture//rem3.png>
+ [22]
 File: ./picture//rem4.png Graphic file (type bmp)
 <./picture//rem4.png>
- [22]
 File: ./picture//rem5.png Graphic file (type bmp)
 <./picture//rem5.png>
  [23] [24] [25] [26] [27]
 File: ./picture//er.png Graphic file (type bmp)
 <./picture//er.png>
 
-Overfull \hbox (7.11742pt too wide) in paragraph at lines 336--337
+Overfull \hbox (7.11742pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
 [28]
 File: ./picture//er1.png Graphic file (type bmp)
 <./picture//er1.png>
+File: ./picture//er2.jpg Graphic file (type bmp)
+<./picture//er2.jpg>
+File: ./picture//er3.jpg Graphic file (type bmp)
+<./picture//er3.jpg>
+ [29]
+File: ./picture//er4.jpg Graphic file (type bmp)
+<./picture//er4.jpg>
 
-Overfull \hbox (19.63527pt too wide) in paragraph at lines 342--343
+Overfull \hbox (41.55891pt too wide) in paragraph at lines 367--368
  [][] 
  []
 
-File: ./picture//er2.png Graphic file (type bmp)
-<./picture//er2.png>
+File: ./picture//er5.jpg Graphic file (type bmp)
+<./picture//er5.jpg>
 
-Overfull \hbox (19.07372pt too wide) in paragraph at lines 349--350
- [][] 
- []
-
-File: ./picture//er3.png Graphic file (type bmp)
-<./picture//er3.png>
-[29]
-File: ./picture//er4.png Graphic file (type bmp)
-<./picture//er4.png>
-
-Overfull \hbox (19.63527pt too wide) in paragraph at lines 364--365
- [][] 
- []
-
-File: ./picture//er5.png Graphic file (type bmp)
-<./picture//er5.png>
-File: ./picture//er6.png Graphic file (type bmp)
-<./picture//er6.png>
-
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 376--377
+Overfull \hbox (31.6217pt too wide) in paragraph at lines 373--374
  [][] 
  []
 
 [30]
-File: ./picture//er7.png Graphic file (type bmp)
-<./picture//er7.png>
+File: ./picture//er6.jpg Graphic file (type bmp)
+<./picture//er6.jpg>
 
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 384--385
+Overfull \hbox (14.00577pt too wide) in paragraph at lines 379--380
  [][] 
  []
 
-File: ./picture//er8.png Graphic file (type bmp)
-<./picture//er8.png>
+File: ./picture//er7.jpg Graphic file (type bmp)
+<./picture//er7.jpg>
 
-Overfull \hbox (26.95807pt too wide) in paragraph at lines 392--393
+Overfull \hbox (14.00577pt too wide) in paragraph at lines 387--388
  [][] 
  []
 
-File: ./picture//er9.png Graphic file (type bmp)
-<./picture//er9.png>
+File: ./picture//er8.jpg Graphic file (type bmp)
+<./picture//er8.jpg>
 
-Overfull \hbox (29.25768pt too wide) in paragraph at lines 400--401
- [][] 
- []
-
-File: ./picture//er10.png Graphic file (type bmp)
-<./picture//er10.png>
-
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 408--409
+Overfull \hbox (14.00577pt too wide) in paragraph at lines 395--396
  [][] 
  []
 
 [31]
-File: ./picture//er11.png Graphic file (type bmp)
-<./picture//er11.png>
-File: ./picture//er12.png Graphic file (type bmp)
-<./picture//er12.png>
- [32] [33] [34] [35] [36] [37] [38]
-Overfull \hbox (17.08633pt too wide) in alignment at lines 714--717
+File: ./picture//er9.jpg Graphic file (type bmp)
+<./picture//er9.jpg>
+
+Overfull \hbox (14.00577pt too wide) in paragraph at lines 403--404
+ [][] 
+ []
+
+File: ./picture//er10.jpg Graphic file (type bmp)
+<./picture//er10.jpg>
+
+Overfull \hbox (14.00577pt too wide) in paragraph at lines 411--412
+ [][] 
+ []
+
+File: ./picture//er11.jpg Graphic file (type bmp)
+<./picture//er11.jpg>
+
+Overfull \hbox (28.60574pt too wide) in paragraph at lines 419--420
+ [][] 
+ []
+
+File: ./picture//er12.jpg Graphic file (type bmp)
+<./picture//er12.jpg>
+[32] [33] [34] [35] [36] [37] [38] [39]
+Overfull \hbox (17.08633pt too wide) in alignment at lines 717--720
 [] [] [] 
  []
 
 
-Overfull \hbox (17.08633pt too wide) in alignment at lines 717--718
+Overfull \hbox (17.08633pt too wide) in alignment at lines 720--721
 [] [] [] 
  []
 
 
-Overfull \hbox (17.08633pt too wide) in alignment at lines 718--740
+Overfull \hbox (17.08633pt too wide) in alignment at lines 721--742
 [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 740
+Underfull \vbox (badness 10000) detected at line 742
  []
 
 
-Overfull \hbox (17.08633pt too wide) in alignment at lines 740--760
+Overfull \hbox (17.08633pt too wide) in alignment at lines 742--762
 [] [] [] 
  []
 
-[39]
-Overfull \hbox (17.08633pt too wide) in alignment at lines 760--761
+
+Overfull \hbox (17.08633pt too wide) in alignment at lines 762--764
 [] [] [] 
  []
 
@@ -1125,43 +1154,42 @@ Overfull \hbox (17.08633pt too wide) in alignment at lines 760--761
 File: ./picture//usecasediagram.png Graphic file (type bmp)
 <./picture//usecasediagram.png>
 
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 768--769
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 771--772
  [][] 
  []
 
-[41]
+[41] [42]
 File: ./picture//scene1.png Graphic file (type bmp)
 <./picture//scene1.png>
 
-Overfull \hbox (3.82405pt too wide) in paragraph at lines 793--794
+Overfull \hbox (3.82405pt too wide) in paragraph at lines 796--797
  [][] 
  []
 
-[42]
 File: ./picture//scene2.png Graphic file (type bmp)
 <./picture//scene2.png>
- [43]
+[43] [44]
 File: ./picture//scene3.png Graphic file (type bmp)
 <./picture//scene3.png>
 
-Overfull \hbox (6.83571pt too wide) in paragraph at lines 839--840
+Overfull \hbox (6.83571pt too wide) in paragraph at lines 842--843
  [][] 
  []
 
-[44]
+[45]
 File: ./picture//scene4.png Graphic file (type bmp)
 <./picture//scene4.png>
- [45]
+ [46]
 File: ./picture//scene5.png Graphic file (type bmp)
 <./picture//scene5.png>
- [46] [47]
+ [47]
 File: ./picture//scene6.png Graphic file (type bmp)
 <./picture//scene6.png>
  [48]
 File: ./picture//scene7.png Graphic file (type bmp)
 <./picture//scene7.png>
 
-Overfull \hbox (15.11778pt too wide) in paragraph at lines 928--929
+Overfull \hbox (15.11778pt too wide) in paragraph at lines 931--932
  [][] 
  []
 
@@ -1213,177 +1241,177 @@ File: ./picture//e3.png Graphic file (type bmp)
 File: ./picture//status.png Graphic file (type bmp)
 <./picture//status.png>
  [64]
-Overfull \hbox (4.83023pt too wide) in paragraph at lines 1082--1082
+Overfull \hbox (4.83023pt too wide) in paragraph at lines 1085--1085
 |[][]
  []
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1096
 []|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 1093--1093
+Underfull \hbox (badness 5022) in paragraph at lines 1096--1096
 []|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 1093--1093
+Underfull \hbox (badness 3219) in paragraph at lines 1096--1096
 \TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1096
 []|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 1093--1093
+Underfull \hbox (badness 1377) in paragraph at lines 1096--1096
 \TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1093
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1096
 \TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 1093--1093
+Underfull \hbox (badness 6094) in paragraph at lines 1096--1096
 []|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 1094--1094
+Underfull \hbox (badness 7759) in paragraph at lines 1097--1097
 []|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 1094--1094
+Underfull \hbox (badness 7558) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 และ การ เคลื่อน-
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 1094--1094
+Underfull \hbox (badness 2744) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 1094--1094
+Underfull \hbox (badness 4429) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 1094--1094
+Underfull \hbox (badness 2941) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 ของ เนื้อหา มี การ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 ไหว(animation)
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 1094--1094
+Underfull \hbox (badness 2875) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 1094--1094
+Underfull \hbox (badness 1622) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 การ ใช้ การ เคลื่อน-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 ไหว(animation)
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 1094--1094
+Underfull \hbox (badness 7759) in paragraph at lines 1097--1097
 []|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 สม และ ไม่มี การ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1094
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 \TU/THSarabunNew(0)/m/n/10 ไหว(animation)
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 1095--1095
+Underfull \hbox (badness 2237) in paragraph at lines 1098--1098
 \TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 1095--1095
+Underfull \hbox (badness 2547) in paragraph at lines 1098--1098
 \TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 1095--1095
+Underfull \hbox (badness 4084) in paragraph at lines 1098--1098
 \TU/THSarabunNew(0)/m/n/10 มาก หนึ่ง ลิ้งค์ หรือ
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 1095--1095
+Underfull \hbox (badness 2237) in paragraph at lines 1098--1098
 \TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 1095--1095
+Underfull \hbox (badness 2547) in paragraph at lines 1098--1098
 \TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 1096--1096
+Underfull \hbox (badness 7203) in paragraph at lines 1099--1099
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 1096--1096
+Underfull \hbox (badness 7203) in paragraph at lines 1099--1099
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 1096--1096
+Underfull \hbox (badness 7203) in paragraph at lines 1099--1099
 \TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
  []
 
 
-Overfull \hbox (3.67516pt too wide) in paragraph at lines 1088--1098
+Overfull \hbox (3.67516pt too wide) in paragraph at lines 1091--1101
 [][] 
  []
 
@@ -1397,229 +1425,386 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 1.
 
+File: ./picture//rotateres.png Graphic file (type bmp)
+<./picture//rotateres.png>
+
+Overfull \hbox (17.52026pt too wide) in paragraph at lines 12--13
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 25--25
+[]|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/THSarabunNew(0)/m/n/10 แปลง เป็น
+ []
+
+
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 23--38
+[][] 
+ []
+
 [68
 
 
 
 
-] [69]
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
+]
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 125--125
-[]|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
+Underfull \hbox (badness 3428) in paragraph at lines 46--46
+[]|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 125--125
-\TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\TU/THSarabunNew(0)/m/n/10 แปลง เป็น
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 125--125
-\TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 44--59
+[][] 
+ []
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-\TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
+Underfull \hbox (badness 3428) in paragraph at lines 69--69
+[]|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 125--125
-[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 126--126
-[]|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\TU/THSarabunNew(0)/m/n/10 แปลง เป็น
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
- []
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 และ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
- []
-
-
-Underfull \hbox (badness 4429) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 ของ เนื้อหา มี การ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 การ ใช้ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 126--126
-[]|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 สม และ ไม่มี การ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
-\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 127--127
-\TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 127--127
-\TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
- []
-
-
-Underfull \hbox (badness 4084) in paragraph at lines 127--127
-\TU/THSarabunNew(0)/m/n/10 มาก หนึ่ง ลิ้งค์ หรือ
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 127--127
-\TU/THSarabunNew(0)/m/n/10 ปุ่ม หรือ ย้าย ไป ยัง
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 127--127
-\TU/THSarabunNew(0)/m/n/10 หน้า ต่างๆ ได้ อย่าง
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 128--128
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 128--128
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 128--128
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
- []
-
-
-Overfull \hbox (3.67516pt too wide) in paragraph at lines 122--130
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 67--82
 [][] 
  []
 
 [70]
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 88--88
+[]|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\TU/THSarabunNew(0)/m/n/10 แปลง เป็น
+ []
+
+
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 86--101
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
+ []
+
+
+Underfull \hbox (badness 3428) in paragraph at lines 110--110
+[]|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+\TU/THSarabunNew(0)/m/n/10 แปลง เป็น
+ []
+
+
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 108--123
+[][] 
+ []
+
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 131--131
+[]|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 131--131
+\TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 131--131
+\TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 131--131
+[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 132--132
+[]|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 และ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 ของ เนื้อหา มี การ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 การ ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 132--132
+[]|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 สม และ ไม่มี การ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ สามารถ ใช้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/THSarabunNew(0)/m/n/10 งาน ปุ่ม หรือ ย้าย
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 133--133
+\TU/THSarabunNew(0)/m/n/10 ไป ยัง หน้า ต่างๆ ได้
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 133--133
+\TU/THSarabunNew(0)/m/n/10 ผิด หน้า อย่าง มาก
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ สามารถ ใช้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\TU/THSarabunNew(0)/m/n/10 งาน ปุ่ม หรือ ย้าย
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 133--133
+\TU/THSarabunNew(0)/m/n/10 ไป ยัง หน้า ต่างๆ ได้
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 133--133
+\TU/THSarabunNew(0)/m/n/10 ผิด หน้า อย่าง มาก
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 133--133
+[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ มี ความ สับสน
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 133--133
+\TU/THSarabunNew(0)/m/n/10 ใน การ ใช้ ปุ่ม หรือ
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 134--134
+\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 134--134
+\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 134--134
+\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+ []
+
+
+Overfull \hbox (3.67516pt too wide) in paragraph at lines 128--136
+[][] 
+ []
+
+[72]
 File: ./picture//web1.png Graphic file (type bmp)
 <./picture//web1.png>
- [71]
+ [73]
 File: ./picture//weblogin.png Graphic file (type bmp)
 <./picture//weblogin.png>
- [72]
+ [74]
 File: ./picture//webinsert.png Graphic file (type bmp)
 <./picture//webinsert.png>
 File: ./picture//webinsert2.png Graphic file (type bmp)
 <./picture//webinsert2.png>
 File: ./picture//webinsert3.png Graphic file (type bmp)
 <./picture//webinsert3.png>
- [73]
+ [75]
 File: ./picture//webinsert4.png Graphic file (type bmp)
 <./picture//webinsert4.png>
 File: ./picture//webcorrect.png Graphic file (type bmp)
 <./picture//webcorrect.png>
- [74]
+ [76]
 File: ./picture//websubmit.png Graphic file (type bmp)
 <./picture//websubmit.png>
 File: ./picture//webcheckout.png Graphic file (type bmp)
 <./picture//webcheckout.png>
- [75]
+ [77]
 File: ./picture//webtag.png Graphic file (type bmp)
 <./picture//webtag.png>
 File: ./picture//webstatus.png Graphic file (type bmp)
 <./picture//webstatus.png>
 File: ./picture//websearch.png Graphic file (type bmp)
 <./picture//websearch.png>
- [76]
+ [78]
 File: ./picture//webview.png Graphic file (type bmp)
 <./picture//webview.png>
 File: ./picture//webview2.png Graphic file (type bmp)
 <./picture//webview2.png>
- [77]
+ [79]
 File: ./picture//webman.png Graphic file (type bmp)
 <./picture//webman.png>
 File: ./picture//webdel.png Graphic file (type bmp)
 <./picture//webdel.png>
 File: ./picture//webman1.png Graphic file (type bmp)
 <./picture//webman1.png>
- [78]
+ [80]
 File: ./picture//webman3.png Graphic file (type bmp)
 <./picture//webman3.png>
 File: ./picture//webman4.png Graphic file (type bmp)
 <./picture//webman4.png>
-) [79]
+) [81]
 \openout2 = `Chapter5.aux'.
 
  (Chapter5.tex
@@ -1629,12 +1814,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 1.
 
-[80
+[82
 
 
 
 
-] [81]) [82] (SeniorLatex.bbl
+] [83]) [84] (SeniorLatex.bbl
 Underfull \hbox (badness 1412) in paragraph at lines 4--8
 []\TU/THSarabunNew(0)/m/n/10 Doxygen, 2020,  ``OpenCV,'' [][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [] [] [] [] [][] [] [][][] [] [][][][][][][][] [] [][] [] [][][][][][][][] []
  []
@@ -1710,7 +1895,7 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
- [83
+ [85
 
 
 
@@ -1718,21 +1903,21 @@ braces):
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
-\thai@year=\count334
+\thai@year=\count336
  (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Chapter5.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
-(rerunfilecheck)             Checksum: 542ABEA4E80505066A1E351D9F9A8DD5;23862.
+(rerunfilecheck)             Checksum: 8114342B6A45A19C92D166BB174C841B;24316.
  ) 
 Here is how much of TeX's memory you used:
- 18345 strings out of 411732
- 321832 string characters out of 2836994
- 751539 words of memory out of 3000000
- 38036 multiletter control sequences out of 15000+200000
+ 19639 strings out of 411732
+ 346662 string characters out of 2836994
+ 779762 words of memory out of 3000000
+ 39321 multiletter control sequences out of 15000+200000
  406015 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,19n,117p,1123b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (99 pages, 1182268 bytes).
+Output written on SeniorLatex.xdv (101 pages, 1212264 bytes).

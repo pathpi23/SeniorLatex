@@ -274,7 +274,16 @@
   \fi
   \vskip\belowcaptionskip}
 
-%\captionsetup[longtable]{hoptionsi}
+  \long\def\LT@makecaption#1#2{%
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{{\bf #1} #2}%
+  \ifdim \wd\@tempboxa >\hsize
+    {\bf #1} #2\par
+  \else
+    \global \@minipagefalse
+    \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+  \fi
+  \vskip\belowcaptionskip}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Define how the content lines show up in ToC when using
