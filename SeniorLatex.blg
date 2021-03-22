@@ -17,8 +17,8 @@ Reallocating 'name_of_file' (item size: 1) to 7 items.
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: string.bib
 Database file #2: cpe.bib
-Warning--empty year in nectec
 Warning--empty year in ritambhara
+Warning--empty year in nectec
 You've used 12 entries,
             2177 wiz_defined-function locations,
             833 strings with 9072 characters,
