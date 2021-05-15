@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  22 MAR 2021 12:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  15 MAY 2021 17:28
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -423,7 +423,231 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
-)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box64
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen182
+\pgf@y=\dimen183
+\pgf@xa=\dimen184
+\pgf@ya=\dimen185
+\pgf@xb=\dimen186
+\pgf@yb=\dimen187
+\pgf@xc=\dimen188
+\pgf@yc=\dimen189
+\pgf@xd=\dimen190
+\pgf@yd=\dimen191
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count315
+\c@pgf@countb=\count316
+\c@pgf@countc=\count317
+\c@pgf@countd=\count318
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count319
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-xetex.def
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-xetex.def
+File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)
+\pgfsys@objnum=\count320
+))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count321
+\pgfsyssoftpath@bigbuffer@items=\count322
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count323
+\pgfmath@box=\box65
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count324
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count325
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen267
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen271
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count326
+\pgf@shadingcount=\count327
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box69
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box70
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count328
+\pgfplotmarksize=\dimen277
+)
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikz@lastmovetox=\dimen282
+\tikz@lastmovetoy=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count329
+\tikznumberofchildren=\count330
+\tikznumberofcurrentchild=\count331
+\tikz@fig@count=\count332
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count333
+\pgfmatrixcurrentcolumn=\count334
+\pgf@matrix@numberofcolumns=\count335
+)
+\tikz@expandcount=\count336
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks48
+\t@pgfplots@tokb=\toks49
+\t@pgfplots@tokc=\toks50
+\pgfplots@tmpa=\dimen286
+\c@pgfplots@coordindex=\count337
+\c@pgfplots@scanlineindex=\count338
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count339
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count340
+\t@pgfplotstable@a=\toks51
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count341
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-xetex.def (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-dvipdfmx.def
+\c@pgfplotslibrarysurf@streamlen=\count342
+)))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen287
+\pgfdecoratedremainingdistance=\dimen288
+\pgfdecoratedinputsegmentcompleteddistance=\dimen289
+\pgfdecoratedinputsegmentremainingdistance=\dimen290
+\pgf@decorate@distancetomove=\dimen291
+\pgf@decorate@repeatstate=\count343
+\pgfdecorationsegmentamplitude=\dimen292
+\pgfdecorationsegmentlength=\dimen293
+)
+\tikz@lib@dec@box=\box75
+)
+(C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count344
+\pgfplots@xmin@reg=\dimen294
+\pgfplots@xmax@reg=\dimen295
+\pgfplots@ymin@reg=\dimen296
+\pgfplots@ymax@reg=\dimen297
+\pgfplots@zmin@reg=\dimen298
+\pgfplots@zmax@reg=\dimen299
+) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia.sty
 Package: polyglossia 2020/12/08 v1.51 Modern multilingual typesetting with XeLaTeX and LuaLaTeX
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/makecmds\makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
@@ -610,17 +834,17 @@ Package fontspec Info: Font family 'THSarabunNew(1)' created for font 'TH
 (fontspec)             =1.0\fontdimen 4\font 
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 33.
-\c@theorem=\count315
-\c@lemma=\count316
-\c@corollary=\count317
+(Font)              scaled to size 12.29996pt on input line 35.
+\c@theorem=\count345
+\c@lemma=\count346
+\c@corollary=\count347
 (SeniorLatex.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 12.29996pt on input line 19.
-\thai@year=\count318
+\thai@year=\count348
  (Chapter1.aux) (Chapter2.aux) (Chapter3.aux
 
 LaTeX Warning: Label `tbl:indexingpublisherdocument' multiply defined.
@@ -638,36 +862,36 @@ LaTeX Warning: Label `fig:webdel' multiply defined.
 ) (Chapter5.aux))
 \openout1 = `SeniorLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 133.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 131.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 131.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 133.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 133.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -702,7 +926,7 @@ LaTeX Font Info:    ... okay on input line 131.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 131.
+Package hyperref Info: Link coloring ON on input line 133.
 (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -710,43 +934,48 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count319
+\c@section@level=\count349
 )
-LaTeX Info: Redefining \ref on input line 131.
-LaTeX Info: Redefining \pageref on input line 131.
-LaTeX Info: Redefining \nameref on input line 131.
+LaTeX Info: Redefining \ref on input line 133.
+LaTeX Info: Redefining \pageref on input line 133.
+LaTeX Info: Redefining \nameref on input line 133.
  (SeniorLatex.out) (SeniorLatex.out)
-\@outlinefile=\write3
-\openout3 = `SeniorLatex.out'.
+\@outlinefile=\write4
+\openout4 = `SeniorLatex.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \rmfamily on input line 131.
-LaTeX Info: Redefining \sffamily on input line 131.
-LaTeX Info: Redefining \ttfamily on input line 131.
-LaTeX Info: Redefining \rmfamily on input line 131.
-LaTeX Info: Redefining \sffamily on input line 131.
-LaTeX Info: Redefining \ttfamily on input line 131.
-\thai@year=\count320
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
+ on input line 133.
+
+LaTeX Info: Redefining \rmfamily on input line 133.
+LaTeX Info: Redefining \sffamily on input line 133.
+LaTeX Info: Redefining \ttfamily on input line 133.
+LaTeX Info: Redefining \rmfamily on input line 133.
+LaTeX Info: Redefining \sffamily on input line 133.
+LaTeX Info: Redefining \ttfamily on input line 133.
+\thai@year=\count350
 File: ./picture//logo02.jpg Graphic file (type bmp)
 <./picture//logo02.jpg>
- [1
+[1
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 140.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 140.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 140.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 142.
  (C:\Users\Pa_Pa\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 140--140
+Underfull \hbox (badness 10000) in alignment at lines 142--142
 [] [] 
  []
 
@@ -755,141 +984,141 @@ Underfull \hbox (badness 10000) in alignment at lines 140--140
 Package hyperref Warning: bookmark level for unknown chapterx defaults to 0.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 12.29996pt on input line 145.
+(Font)              scaled to size 12.29996pt on input line 147.
 
-Underfull \hbox (badness 10000) in alignment at lines 167--169
+Underfull \hbox (badness 10000) in alignment at lines 176--178
 [][] 
  []
 
 [2]
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count321
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count322
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count323
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count324
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count325
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count326
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count327
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count328
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count329
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count330
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count331
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
-\thai@year=\count332
-LaTeX Info: Redefining \rmfamily on input line 179.
-LaTeX Info: Redefining \sffamily on input line 179.
-LaTeX Info: Redefining \ttfamily on input line 179.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count351
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count352
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count353
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count354
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count355
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count356
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count357
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count358
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count359
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count360
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count361
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+\thai@year=\count362
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
 
-Underfull \hbox (badness 10000) in alignment at lines 201--205
+Underfull \hbox (badness 10000) in alignment at lines 212--216
 [][] 
  []
 
 [3]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 213.
+(Font)              scaled to size 14.75995pt on input line 224.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 213.
+(Font)              scaled to size 14.75995pt on input line 224.
  [4
 
 ] (SeniorLatex.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count333
+\thai@year=\count363
  [5
 
 ] [6] [7] [8])
-\tf@toc=\write4
-\openout4 = `SeniorLatex.toc'.
+\tf@toc=\write5
+\openout5 = `SeniorLatex.toc'.
 
  [9] (SeniorLatex.lot
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count334
+\thai@year=\count364
  [10
 
 ])
-\tf@lot=\write5
-\openout5 = `SeniorLatex.lot'.
+\tf@lot=\write6
+\openout6 = `SeniorLatex.lot'.
 
  [11] (SeniorLatex.lof
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count335
+\thai@year=\count365
  [12
 
 ] [13] [14])
-\tf@lof=\write6
-\openout6 = `SeniorLatex.lof'.
+\tf@lof=\write7
+\openout7 = `SeniorLatex.lof'.
 
  [15]
 \openout2 = `Chapter1.aux'.
@@ -1234,12 +1463,7 @@ File: ./picture//e3.png Graphic file (type bmp)
  [62]
 File: ./picture//status.png Graphic file (type bmp)
 <./picture//status.png>
- [63]
-Overfull \hbox (4.83023pt too wide) in paragraph at lines 1085--1085
-|[][]
- []
-
-[64]
+ [63] [64]
 Underfull \hbox (badness 10000) in paragraph at lines 1096--1096
 []|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
  []
@@ -1422,32 +1646,32 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 File: ./picture//rotateres.png Graphic file (type bmp)
 <./picture//rotateres.png>
 
-Overfull \hbox (17.52026pt too wide) in paragraph at lines 12--13
+Overfull \hbox (17.52026pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 25--25
+Underfull \hbox (badness 3428) in paragraph at lines 29--29
 []|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 \TU/THSarabunNew(0)/m/n/10 แปลง เป็น
  []
 
 
-Overfull \hbox (29.20226pt too wide) in paragraph at lines 23--38
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 27--42
 [][] 
  []
 
@@ -1457,348 +1681,361 @@ Overfull \hbox (29.20226pt too wide) in paragraph at lines 23--38
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 46--46
+Underfull \hbox (badness 3428) in paragraph at lines 50--50
 []|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
 \TU/THSarabunNew(0)/m/n/10 แปลง เป็น
  []
 
 
-Overfull \hbox (29.20226pt too wide) in paragraph at lines 44--59
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 48--63
 [][] 
  []
 
 [68]
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 69--69
+Underfull \hbox (badness 3428) in paragraph at lines 83--83
 []|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \TU/THSarabunNew(0)/m/n/10 แปลง เป็น
  []
 
 
-Overfull \hbox (29.20226pt too wide) in paragraph at lines 67--82
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 81--96
 [][] 
  []
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 88--88
+Underfull \hbox (badness 3428) in paragraph at lines 102--102
 []|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 \TU/THSarabunNew(0)/m/n/10 แปลง เป็น
  []
 
 
-Overfull \hbox (29.20226pt too wide) in paragraph at lines 86--101
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
- []
-
-
-Underfull \hbox (badness 3428) in paragraph at lines 110--110
-[]|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
-\TU/THSarabunNew(0)/m/n/10 แปลง เป็น
- []
-
-
-Overfull \hbox (29.20226pt too wide) in paragraph at lines 108--123
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 100--115
 [][] 
  []
 
 [70]
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
-[]|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\TU/THSarabunNew(0)/m/n/10 ผิด ที่ ตรวจ
  []
 
 
-Underfull \hbox (badness 5022) in paragraph at lines 131--131
-[]|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
+Underfull \hbox (badness 3428) in paragraph at lines 128--128
+[]|\TU/THSarabunNew(0)/m/n/10 จำนวน คำ ที่
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 131--131
-\TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\TU/THSarabunNew(0)/m/n/10 ไม่ สามารถ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
-[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+\TU/THSarabunNew(0)/m/n/10 แปลง เป็น
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 131--131
-\TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
-\TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
- []
-
-
-Underfull \hbox (badness 6094) in paragraph at lines 131--131
-[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 132--132
-[]|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
- []
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 และ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
- []
-
-
-Underfull \hbox (badness 4429) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 ของ เนื้อหา มี การ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 การ ใช้ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 132--132
-[]|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 สม และ ไม่มี การ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
-\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ สามารถ ใช้
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/THSarabunNew(0)/m/n/10 งาน ปุ่ม หรือ ย้าย
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 133--133
-\TU/THSarabunNew(0)/m/n/10 ไป ยัง หน้า ต่างๆ ได้
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 133--133
-\TU/THSarabunNew(0)/m/n/10 ผิด หน้า อย่าง มาก
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ สามารถ ใช้
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\TU/THSarabunNew(0)/m/n/10 งาน ปุ่ม หรือ ย้าย
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 133--133
-\TU/THSarabunNew(0)/m/n/10 ไป ยัง หน้า ต่างๆ ได้
- []
-
-
-Underfull \hbox (badness 4673) in paragraph at lines 133--133
-\TU/THSarabunNew(0)/m/n/10 ผิด หน้า อย่าง มาก
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 133--133
-[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ มี ความ สับสน
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 133--133
-\TU/THSarabunNew(0)/m/n/10 ใน การ ใช้ ปุ่ม หรือ
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 134--134
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 134--134
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
- []
-
-
-Underfull \hbox (badness 7203) in paragraph at lines 134--134
-\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
- []
-
-
-Overfull \hbox (3.67516pt too wide) in paragraph at lines 128--136
+Overfull \hbox (29.20226pt too wide) in paragraph at lines 126--141
 [][] 
  []
 
 [71]
+File: ./picture//editcompare.png Graphic file (type bmp)
+<./picture//editcompare.png>
+ [72]
+File: ./picture//scoreword2vec.png Graphic file (type bmp)
+<./picture//scoreword2vec.png>
+
+Overfull \hbox (5.70634pt too wide) in paragraph at lines 215--216
+ [][] 
+ []
+
+File: ./picture//word2vecCompare.png Graphic file (type bmp)
+<./picture//word2vecCompare.png>
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+[]|\TU/THSarabunNew(0)/m/n/10 ความ สมบูรณ์ ของ
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 255--255
+[]|\TU/THSarabunNew(0)/m/n/10 ข้อมูล มี ความ สม-
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 255--255
+\TU/THSarabunNew(0)/m/n/10 บูรณ์ ชัดเจน ทำให้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ชัดเจน
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 255--255
+\TU/THSarabunNew(0)/m/n/10 และ แม่นยำ ใน บาง
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+\TU/THSarabunNew(0)/m/n/10 ครั้ง และ สามารถ
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 255--255
+[]|\TU/THSarabunNew(0)/m/n/10 มี ข้อมูล ที่ ไม่ ชัด-
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 256--256
+[]|\TU/THSarabunNew(0)/m/n/10 มี การ ออกแบบ ที่
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 เน้น ความ สำคัญ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 และ จัด วาง องค์
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 ประกอบ สี เสียง
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 และ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 องค์ ประกอบ ทำให้
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 เห็นใจ ความ สำคัญ
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 ของ เนื้อหา มี การ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 จัด องค์ ประกอบ มี
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 การ ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 256--256
+[]|\TU/THSarabunNew(0)/m/n/10 การ วาง หน้า และ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 มี ความ ไม่ เหมาะ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 สม และ ไม่มี การ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 ใช้ การ เคลื่อน-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+\TU/THSarabunNew(0)/m/n/10 ไหว(animation)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ สามารถ ใช้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+\TU/THSarabunNew(0)/m/n/10 งาน ปุ่ม หรือ ย้าย
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 257--257
+\TU/THSarabunNew(0)/m/n/10 ไป ยัง หน้า ต่างๆ ได้
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 257--257
+\TU/THSarabunNew(0)/m/n/10 ผิด หน้า อย่าง มาก
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ สามารถ ใช้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+\TU/THSarabunNew(0)/m/n/10 งาน ปุ่ม หรือ ย้าย
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 257--257
+\TU/THSarabunNew(0)/m/n/10 ไป ยัง หน้า ต่างๆ ได้
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 257--257
+\TU/THSarabunNew(0)/m/n/10 ผิด หน้า อย่าง มาก
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 257--257
+[]|\TU/THSarabunNew(0)/m/n/10 ผู้ ใช้ มี ความ สับสน
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 257--257
+\TU/THSarabunNew(0)/m/n/10 ใน การ ใช้ ปุ่ม หรือ
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 258--258
+\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 258--258
+\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 258--258
+\TU/THSarabunNew(0)/m/n/10 ภาษา ที่ ไม่ เหมาะ
+ []
+
+
+Overfull \hbox (3.67516pt too wide) in paragraph at lines 252--260
+[][] 
+ []
+
+[74]
 File: ./picture//web1.png Graphic file (type bmp)
 <./picture//web1.png>
- [72]
+ [75]
 File: ./picture//weblogin.png Graphic file (type bmp)
 <./picture//weblogin.png>
- [73]
 File: ./picture//webinsert.png Graphic file (type bmp)
 <./picture//webinsert.png>
 File: ./picture//webinsert2.png Graphic file (type bmp)
 <./picture//webinsert2.png>
+ [76]
 File: ./picture//webinsert3.png Graphic file (type bmp)
 <./picture//webinsert3.png>
- [74]
 File: ./picture//webinsert4.png Graphic file (type bmp)
 <./picture//webinsert4.png>
+ [77]
 File: ./picture//webcorrect.png Graphic file (type bmp)
 <./picture//webcorrect.png>
- [75]
 File: ./picture//websubmit.png Graphic file (type bmp)
 <./picture//websubmit.png>
+ [78]
 File: ./picture//webcheckout.png Graphic file (type bmp)
 <./picture//webcheckout.png>
- [76]
 File: ./picture//webtag.png Graphic file (type bmp)
 <./picture//webtag.png>
+ [79]
 File: ./picture//webstatus.png Graphic file (type bmp)
 <./picture//webstatus.png>
 File: ./picture//websearch.png Graphic file (type bmp)
 <./picture//websearch.png>
- [77]
+ [80]
 File: ./picture//webview.png Graphic file (type bmp)
 <./picture//webview.png>
 File: ./picture//webview2.png Graphic file (type bmp)
 <./picture//webview2.png>
- [78]
+ [81]
 File: ./picture//webman.png Graphic file (type bmp)
 <./picture//webman.png>
 File: ./picture//webdel.png Graphic file (type bmp)
 <./picture//webdel.png>
 File: ./picture//webman1.png Graphic file (type bmp)
 <./picture//webman1.png>
- [79]
+ [82]
 File: ./picture//webman3.png Graphic file (type bmp)
 <./picture//webman3.png>
 File: ./picture//webman4.png Graphic file (type bmp)
 <./picture//webman4.png>
-) [80]
+) [83]
 \openout2 = `Chapter5.aux'.
 
  (Chapter5.tex
@@ -1808,12 +2045,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 1.
 
-[81
+[84
 
 
 
 
-] [82]) [83] (SeniorLatex.bbl
+] [85]) [86] (SeniorLatex.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\TU/THSarabunNew(0)/m/n/10 Ritambhara,  ``Minimum edit distance of two strings,'' [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][] []
  []
@@ -1889,7 +2126,7 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
- [84
+ [87
 
 
 
@@ -1897,21 +2134,21 @@ braces):
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
-\thai@year=\count336
+\thai@year=\count366
  (Chapter1.aux) (Chapter2.aux) (Chapter3.aux) (Chapter4.aux) (Chapter5.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
-(rerunfilecheck)             Checksum: 8114342B6A45A19C92D166BB174C841B;24316.
+(rerunfilecheck)             Checksum: 94977A12473A03038328CDC7DFEC9110;25422.
  ) 
 Here is how much of TeX's memory you used:
- 19639 strings out of 411732
- 346662 string characters out of 2836994
- 779762 words of memory out of 3000000
- 39321 multiletter control sequences out of 15000+200000
+ 39370 strings out of 411732
+ 891829 string characters out of 2836994
+ 1390659 words of memory out of 3000000
+ 58731 multiletter control sequences out of 15000+200000
  406015 words of font info for 65 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,19n,117p,1123b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (100 pages, 1211952 bytes).
+Output written on SeniorLatex.xdv (103 pages, 1315876 bytes).
