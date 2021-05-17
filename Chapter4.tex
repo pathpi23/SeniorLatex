@@ -192,8 +192,6 @@ $Recall = \frac{TP}{(TP+FN)}$ , $Precision = \frac{TP}{(TP+FP)}$ , $Accuracy = \
 % \begin{math}
 %     Accuracy = \frac{(TP+TN)}{(TP+FP+FN+TN)}
 % \end{math}
-
-
 การทดสอบการค้นหาในครั้งนี้ไม่มีการช่วยแก้คำจากเจ้าหน้าที่
 บรรณารักษ์แต่เป็นการทดสอบโดยใช้ระบบทั้งหมด 
 ได้ผลลัพธ์ออกมาเป็นดังตาราง \ref{tbl:evasearch1}
@@ -207,8 +205,9 @@ $Recall = \frac{TP}{(TP+FN)}$ , $Precision = \frac{TP}{(TP+FP)}$ , $Accuracy = \
     NEGATIVE & 57   & 458   \\ \hline
     \end{tabular}
     \end{table}
+    $Recall = 18.57 \%$ , $Precision = 7.26 \%$ , $Accuracy = 67.87 \%$
 
-    หลังจากคำนวนค่าจากตารางได้ค่า Recall 18.57 \% ค่า Precision อยู่ที่ 7.26 \% และค่า Accuracy อยู่ที่ 67.86 \%  
+    หลังจากคำนวนค่าจากตารางได้ค่า Recall 18.57 \% ค่า Precision อยู่ที่ 7.26 \% และค่า Accuracy อยู่ที่ 67.87 \%  
     จากผลลัพธ์ดังกล่าวทำให้ผู้จัดทำได้ลองทำการทดสอบรอบที่ 2 เปรียบเทียบข้อมูลที่ได้รับการแก้คำจากผู้ใช้ 
     โดยจะใช้ชุดข้อมูลทั้งหมด 6 เล่ม และใช้คำค้นหาเดิม เปรียบเทียบระหว่างข้อมูล 6 ชุดที่ได้รับการแก้ไขคำ
     ในโมเดล Word2Vec และข้อมูล 6 เล่มที่ไม่ผ่านการแก้ไขคำในระบบ Word2Vec ซึ่งได้ผลลัพธ์ดังตารางที่ 
@@ -223,6 +222,7 @@ $Recall = \frac{TP}{(TP+FN)}$ , $Precision = \frac{TP}{(TP+FP)}$ , $Accuracy = \
     NEGATIVE & 8   & 51   \\ \hline
     \end{tabular}
     \end{table}
+    $Recall = 52.94 \%$ , $Precision = 24.32 \%$ , $Accuracy = 62.5 \%$
 
 \begin{table}[H]
     \caption{ตารางแสดงผลการค้นหาจากชุดข้อมูล 6 เล่มที่ผ่านการแก้ไขคำผิดจากมนุษย์}\label{tbl:evasearch3}
@@ -233,6 +233,7 @@ $Recall = \frac{TP}{(TP+FN)}$ , $Precision = \frac{TP}{(TP+FP)}$ , $Accuracy = \
     NEGATIVE & 2   & 44   \\ \hline
     \end{tabular}
     \end{table}
+    $Recall = 88.24 \%$ , $Precision = 30 \%$ , $Accuracy = 61.46 \%$
 
 \begin{figure}[H]
     \centering
@@ -275,7 +276,7 @@ Word2Vec และไม่ใช้ Word2Vec เข้ามาช่วย ไ
 
 นอกจากนี้ทางผู้จัดทำได้ทำการเปรียบเทียบประเภทของคำที่ใช้ในการค้นหากับการใช้โมเดล Word2Vec 
 พบว่าส่วนใหญ่จะเป็นข้อมูลที่เป็นคำเฉพาะที่มีการผิดพลาดเยอะ
-ซึ่งเมื่อได้ลองนำข้อมูลค้นหาที่เป็นคำเฉพาะออกพบว่า ค่า Accuracy เพิ่มขึ้นเป็น 79.17 \% ค่า recall 87.5 \% และค่า Precision 47.75 \% 
+ซึ่งเมื่อได้ลองนำข้อมูลค้นหาที่เป็นคำเฉพาะออกพบว่า ค่า Accuracy เพิ่มขึ้นเป็น 79.17 \% ค่า recall 87.5 \% และค่า Precision 43.75 \% 
 รวมถึงคำนวนจากตารางที่ \ref{tbl:evasearchnoname2} และเมื่อเปรียบเทียบกับตารางที่ \ref{tbl:evasearchnoname} จะเห็นได้ชัดว่าการแก้ไขคำผิดส่งผลกับการค้นหาเป็นอย่างมาก
 
 \begin{table}[H]
@@ -287,6 +288,7 @@ Word2Vec และไม่ใช้ Word2Vec เข้ามาช่วย ไ
     NEGATIVE & 4   & 27   \\ \hline
     \end{tabular}
     \end{table}
+    $Recall = 50 \%$ , $Precision = 23.53 \%$ , $Accuracy = 64.6 \%$
 
 \begin{table}[H]
     \caption{ตารางแสดงผลการค้นหาจากชุดข้อมูล 6 เล่มที่ไม่ผ่านการแก้ไขคำผิดจากมนุษย์แบบไม่มีคำเฉพาะ}\label{tbl:evasearchnoname2}
@@ -297,6 +299,7 @@ Word2Vec และไม่ใช้ Word2Vec เข้ามาช่วย ไ
     NEGATIVE & 1   & 31   \\ \hline
     \end{tabular}
     \end{table}
+    $Recall = 87.5 \%$ , $Precision = 43.75 \%$ , $Accuracy = 79.17 \%$
 
 
 
