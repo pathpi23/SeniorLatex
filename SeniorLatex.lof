@@ -68,27 +68,28 @@
 \contentsline {figure}{\numberline {3.56}{\ignorespaces ภาพแสดงขั้นตอนการแก้ไขหนังสือขั้นที่ 3\relax }}{63}{figure.caption.86}%
 \contentsline {figure}{\numberline {3.57}{\ignorespaces ภาพแสดงหน้าการโหลดข้อมูล\relax }}{64}{figure.caption.87}%
 \addvspace {0em}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ภาพแสดงผลลัพธ์การหมุนรูป\relax }}{67}{figure.caption.92}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces ภาพแสดงผลการเปรียบเทียบการใช้โมเดลที่ผ่านการแก้ไขคำผิด และไม่ผ่านการแก้ไขคำผิด\relax }}{72}{figure.caption.102}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces ภาพแสดงคะแนนการค้นหาคำเหมือนจากโมเดล word2vec\relax }}{73}{figure.caption.103}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ภาพแสดงผลการเปรียบเทียบการใช้ word2vec และไม่ใช้ word2vec\relax }}{74}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces ภาพแสดงหน้าเว็บหลัก\relax }}{76}{figure.caption.106}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces ภาพแสดงหน้าเข้าสู่ระบบ\relax }}{76}{figure.caption.107}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือขั้นตอนการเพิ่มไฟล์\relax }}{77}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 1\relax }}{77}{figure.caption.109}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 2\relax }}{77}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการเตรียมข้อมูล\relax }}{78}{figure.caption.111}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการแก้ไขคำผิด\relax }}{78}{figure.caption.112}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces ภาพแสดงหน้าต่างยืนยันการแก้คำ\relax }}{79}{figure.caption.113}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการสร้างคำสำคัญ\relax }}{79}{figure.caption.114}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการแก้ไขคำสำคัญ\relax }}{80}{figure.caption.115}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces ภาพแสดงสถานะของการเพิ่มข้อมูลเข้าสู่ระบบ\relax }}{80}{figure.caption.116}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces ภาพแสดงหน้าการค้นหา\relax }}{81}{figure.caption.117}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces ภาพแสดงหน้าแสดงหนังสือ\relax }}{81}{figure.caption.118}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces ภาพแสดงข้อมูลของหนังสือ\relax }}{82}{figure.caption.119}%
-\contentsline {figure}{\numberline {4.19}{\ignorespaces ภาพแสดงหน้าการค้นหาในหน้าการจัดการหนังสือ\relax }}{82}{figure.caption.120}%
-\contentsline {figure}{\numberline {4.20}{\ignorespaces ภาพแสดงหน้าการลบหนังสือ\relax }}{82}{figure.caption.121}%
-\contentsline {figure}{\numberline {4.21}{\ignorespaces ภาพแสดงหน้าการแก้ไขข้อมูลขั้นที่ 1\relax }}{83}{figure.caption.122}%
-\contentsline {figure}{\numberline {4.22}{\ignorespaces ภาพแสดงหน้าการแก้ไขข้อมูลขั้นที่ 2\relax }}{83}{figure.caption.123}%
-\contentsline {figure}{\numberline {4.23}{\ignorespaces ภาพแสดงหน้าการแก้ไขคำสำคัญ\relax }}{83}{figure.caption.124}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ภาพแสดงผลลัพธ์การหมุนรูปที่ถูกต้อง\relax }}{67}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ภาพแสดงผลลัพธ์การหมุนรูปที่ผิดพลาด\relax }}{67}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ภาพแสดงผลการเปรียบเทียบการใช้โมเดลที่ผ่านการแก้ไขคำผิด และไม่ผ่านการแก้ไขคำผิด\relax }}{73}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ภาพแสดงคะแนนการค้นหาคำเหมือนจากโมเดล word2vec\relax }}{73}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces ภาพแสดงผลการเปรียบเทียบการใช้ word2vec และไม่ใช้ word2vec\relax }}{74}{figure.caption.106}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces ภาพแสดงหน้าเว็บหลัก\relax }}{76}{figure.caption.111}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces ภาพแสดงหน้าเข้าสู่ระบบ\relax }}{77}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือขั้นตอนการเพิ่มไฟล์\relax }}{77}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 1\relax }}{78}{figure.caption.114}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นกรอกข้อมูลขั้นที่ 2\relax }}{78}{figure.caption.115}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการเตรียมข้อมูล\relax }}{78}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการแก้ไขคำผิด\relax }}{79}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces ภาพแสดงหน้าต่างยืนยันการแก้คำ\relax }}{79}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการสร้างคำสำคัญ\relax }}{79}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces ภาพแสดงขั้นตอนการเพิ่มหนังสือเข้าสู่ระบบขั้นการแก้ไขคำสำคัญ\relax }}{80}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces ภาพแสดงสถานะของการเพิ่มข้อมูลเข้าสู่ระบบ\relax }}{80}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces ภาพแสดงหน้าการค้นหา\relax }}{81}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces ภาพแสดงหน้าแสดงหนังสือ\relax }}{81}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces ภาพแสดงข้อมูลของหนังสือ\relax }}{82}{figure.caption.124}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces ภาพแสดงหน้าการค้นหาในหน้าการจัดการหนังสือ\relax }}{82}{figure.caption.125}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces ภาพแสดงหน้าการลบหนังสือ\relax }}{82}{figure.caption.126}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces ภาพแสดงหน้าการแก้ไขข้อมูลขั้นที่ 1\relax }}{83}{figure.caption.127}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces ภาพแสดงหน้าการแก้ไขข้อมูลขั้นที่ 2\relax }}{83}{figure.caption.128}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces ภาพแสดงหน้าการแก้ไขคำสำคัญ\relax }}{83}{figure.caption.129}%
 \addvspace {0em}
