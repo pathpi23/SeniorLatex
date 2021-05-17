@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  18 MAY 2021 01:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  18 MAY 2021 01:30
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -1627,7 +1627,7 @@ Overfull \hbox (8.01pt too wide) in paragraph at lines 530--531
 File: ./picture//usecasediagram.png Graphic file (type bmp)
 <./picture//usecasediagram.png>
 
-Overfull \hbox (18.88237pt too wide) in paragraph at lines 544--545
+Overfull \hbox (18.88237pt too wide) in paragraph at lines 543--544
  [][] 
  []
 
@@ -1635,7 +1635,7 @@ Overfull \hbox (18.88237pt too wide) in paragraph at lines 544--545
 File: ./picture//scene1.png Graphic file (type bmp)
 <./picture//scene1.png>
 
-Overfull \hbox (3.82405pt too wide) in paragraph at lines 569--570
+Overfull \hbox (3.82405pt too wide) in paragraph at lines 568--569
  [][] 
  []
 
@@ -1645,7 +1645,7 @@ File: ./picture//scene2.png Graphic file (type bmp)
 File: ./picture//scene3.png Graphic file (type bmp)
 <./picture//scene3.png>
 
-Overfull \hbox (6.83571pt too wide) in paragraph at lines 615--616
+Overfull \hbox (6.83571pt too wide) in paragraph at lines 614--615
  [][] 
  []
 
@@ -1662,7 +1662,7 @@ File: ./picture//scene6.png Graphic file (type bmp)
 File: ./picture//scene7.png Graphic file (type bmp)
 <./picture//scene7.png>
 
-Overfull \hbox (15.11778pt too wide) in paragraph at lines 704--705
+Overfull \hbox (15.11778pt too wide) in paragraph at lines 703--704
  [][] 
  []
 
@@ -1678,7 +1678,7 @@ File: ./picture//login.png Graphic file (type bmp)
 File: ./picture//i1.png Graphic file (type bmp)
 <./picture//i1.png>
  [49]
-Underfull \hbox (badness 1776) in paragraph at lines 740--741
+Underfull \hbox (badness 1776) in paragraph at lines 739--740
 []\TU/THSarabunNew(0)/m/n/10 หน้าเพิ่มหนังสือขั้นแรกจะเป็นการเลือกไฟล์หนังสือที่ต้องการโดยที่จะมีส่วนของการเพิ่มไฟล์ที่อยู่รูปของ pdf เพื่อทำ OCR จากนั้นจะ
  []
 
@@ -1691,33 +1691,33 @@ File: ./picture//i3.png Graphic file (type bmp)
 File: ./picture//i4.png Graphic file (type bmp)
 <./picture//i4.png>
  [52]
-Underfull \hbox (badness 1242) in paragraph at lines 764--765
+Underfull \hbox (badness 1242) in paragraph at lines 763--764
 []\TU/THSarabunNew(0)/m/n/10 หลังจากที่ทำการใส่ข้อมูลออกมาทั้งหมดแล้วมาถึงหน้าที่เป็นหน้าโหลดข้อมูลดังรูป 3.29 ที่ระบบจะทำการ OCR และทำการเตรียมชุด
  []
 
 File: ./picture//i5.png Graphic file (type bmp)
 <./picture//i5.png>
 [53]
-Underfull \hbox (badness 2229) in paragraph at lines 772--773
+Underfull \hbox (badness 2229) in paragraph at lines 771--772
 []\TU/THSarabunNew(0)/m/n/10 หลังจากโหลดและเตรียมข้อมูลเรียบร้อยแล้ว ระบบจะทำการแสดงข้อมูลที่ถูกแปลงมาโดยที่ผู้ใช้จะสามารถแก้ไขคำได้ดังรูป 3.30 หรือ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 772--773
+Underfull \hbox (badness 10000) in paragraph at lines 771--772
 \TU/THSarabunNew(0)/m/n/10 สามารถข้ามได้เลยเช่นกัน โดยเมื่อคลิกไปที่กล่องข้อความจะขึ้นให้แก้แต่ละคำและเมื่อเปลี่ยนหน้าจะทำการเก็บข้อมูลที่เปลี่ยนไว้ และ
  []
 
 File: ./picture//i6.png Graphic file (type bmp)
 <./picture//i6.png>
 [54]
-Underfull \hbox (badness 1655) in paragraph at lines 780--781
+Underfull \hbox (badness 1655) in paragraph at lines 779--780
 []\TU/THSarabunNew(0)/m/n/10 หน้าสุดท้ายของการเพิ่มหนังสือจะเป็นหน้าที่ให้ผู้ใช้สามารถจัดการกับ Keyword ได้ดังรูปที่ 3.31 โดยเมื่อผู้ใช้ต้องการใส่คำสำคัญเพิ่ม
  []
 
 File: ./picture//search.png Graphic file (type bmp)
 <./picture//search.png>
 [55]
-Underfull \hbox (badness 4752) in paragraph at lines 788--789
+Underfull \hbox (badness 4752) in paragraph at lines 787--788
 \TU/THSarabunNew(0)/m/n/10 โดยเรียงคะแนนของหนังสือที่เกี่ยวข้องกับคำค้นหามากที่สุดดังรูปที่ 3.32 เมื่อกดเข้าไปที่รายชื่อหนังสือจะทำการนำทางผู้ใช้ไปยังหน้าดู
  []
 
@@ -1736,289 +1736,289 @@ File: ./picture//e2.png Graphic file (type bmp)
 File: ./picture//e3.png Graphic file (type bmp)
 <./picture//e3.png>
  [60]
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
 \TU/THSarabunNew(0)/m/n/10 หนังสือและชื่อหนังสือคอยบอกว่ากำลังแก้ไขหนังสือเล่มไหนอยู่ และในทุกหน้าจะมีปุ่มสำหรับบันทึกในทุกหน้าเพื่อที่จะสามารถบันทึก
  []
 
 File: ./picture//status.png Graphic file (type bmp)
 <./picture//status.png>
 [61]
-Underfull \hbox (badness 7451) in paragraph at lines 833--834
+Underfull \hbox (badness 7451) in paragraph at lines 832--833
 []\TU/THSarabunNew(0)/m/n/10 จากรูป 3.38 สำหรับผู้ใช้ที่ทำการเพิ่มหนังสือเข้าสู่ระบบจะมีหน้าสำหรับโหลดกรณีที่กดออกมาหลังจากผ่านขั้นตอนการเพิ่มหนังสือขั้น
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
 []\TU/THSarabunNew(0)/m/n/10 ระบบการค้นหา จะเช็คโดยให้ผู้ใช้เป็นผู้ประเมินว่าได้รับหนังสือตรงตามที่ต้องการหรือไม่โดยจะให้เจ้าหน้าที่บรรณารักษ์คัดเลือกหนังสือ
  []
 
 [62]
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 []|\TU/THSarabunNew(0)/m/n/10 ความสมบูรณ์ของ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 []|\TU/THSarabunNew(0)/m/n/10 ข้อมูลมีความสมบูรณ์
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 \TU/THSarabunNew(0)/m/n/10 ชัดเจนทำให้เข้าใจ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 \TU/THSarabunNew(0)/m/n/10 ความหมายที่ต้องการ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 []|\TU/THSarabunNew(0)/m/n/10 มีข้อมูลที่ชัดเจน และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 \TU/THSarabunNew(0)/m/n/10 สามารถแสดงความ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 \TU/THSarabunNew(0)/m/n/10 หมายที่ต้องการจะสื่อ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 875--875
+Underfull \hbox (badness 10000) in paragraph at lines 874--874
 []|\TU/THSarabunNew(0)/m/n/10 ข้อมูลมีความแม่นยำ
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 875--875
+Underfull \hbox (badness 3460) in paragraph at lines 874--874
 []|\TU/THSarabunNew(0)/m/n/10 มีข้อมูลที่ไม่ชัดเจน ไม่
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 875--875
+Underfull \hbox (badness 1540) in paragraph at lines 874--874
 \TU/THSarabunNew(0)/m/n/10 ครบ สื่อความหมายได้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 []|\TU/THSarabunNew(0)/m/n/10 มีการออกแบบที่เน้น
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 ความสำคัญและจัด
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 วางองค์ประกอบ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 สี เสียง และการ
  []
 
 
-Overfull \hbox (2.06544pt too wide) in paragraph at lines 876--876
+Overfull \hbox (2.06544pt too wide) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 เคลื่อนไหว(animation)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 []|\TU/THSarabunNew(0)/m/n/10 มีการจัดหน้า และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 องค์ประกอบทำให้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 เห็นใจความสำคัญของ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 เนื้อหา มีการใช้การ
  []
 
 
-Overfull \hbox (2.06544pt too wide) in paragraph at lines 876--876
+Overfull \hbox (2.06544pt too wide) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 เคลื่อนไหว(animation)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 []|\TU/THSarabunNew(0)/m/n/10 การวางหน้า
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 และการจัดองค์
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 ประกอบมีความไม่
  []
 
 
-Overfull \hbox (2.06544pt too wide) in paragraph at lines 876--876
+Overfull \hbox (2.06544pt too wide) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 เคลื่อนไหว(animation)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 []|\TU/THSarabunNew(0)/m/n/10 การวางหน้าและการ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 จัดองค์ประกอบมี
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 ความไม่เหมาะสม
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 และไม่มีการใช้ การ
  []
 
 
-Overfull \hbox (2.06544pt too wide) in paragraph at lines 876--876
+Overfull \hbox (2.06544pt too wide) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 เคลื่อนไหว(animation)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--876
+Underfull \hbox (badness 10000) in paragraph at lines 875--875
 \TU/THSarabunNew(0)/m/n/10 เข้ามาช่วยในการใช้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 []|\TU/THSarabunNew(0)/m/n/10 ผู้ใช้สามารถใช้งาน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ปุ่มหรือย้ายไปยังหน้า
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ต่างๆได้อย่างง่ายดาย
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 แต่มีลิ้งค์ที่พาไปผิด
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 หน้าอย่างมากหนึ่งลิ้งค์
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 []|\TU/THSarabunNew(0)/m/n/10 ผู้ใช้สามารถใช้งาน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ปุ่มหรือย้ายไปยังหน้า
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ต่างๆได้อย่างง่ายดาย
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 แต่มีลิ้งค์ที่พาไปผิด
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 []|\TU/THSarabunNew(0)/m/n/10 ผู้ใช้มีความสับสนใน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ไปยังหน้าต่างๆ บาง
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 877--877
+Underfull \hbox (badness 2600) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ครั้ง และมีลิ้งค์ที่พาไป
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ผิดหน้าอย่างมากสา
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 []|\TU/THSarabunNew(0)/m/n/10 ผู้ใช้เกิดความสับสนใน
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 876--876
 \TU/THSarabunNew(0)/m/n/10 ปุ่มหรือลิ้งค์ที่ย้ายไป
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 []|\TU/THSarabunNew(0)/m/n/10 มีการใช้คำผิดหรือ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 \TU/THSarabunNew(0)/m/n/10 ภาษาที่ไม่เหมาะสมอ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 []|\TU/THSarabunNew(0)/m/n/10 มีการใช้คำผิดหรือ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 \TU/THSarabunNew(0)/m/n/10 ภาษาที่ไม่เหมาะสมอ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 []|\TU/THSarabunNew(0)/m/n/10 มีการใช้คำผิดหรือ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 \TU/THSarabunNew(0)/m/n/10 ภาษาที่ไม่เหมาะสมอ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 []|\TU/THSarabunNew(0)/m/n/10 มีการใช้คำผิดหรือ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 877--877
 \TU/THSarabunNew(0)/m/n/10 ภาษาที่ไม่เหมาะสม
  []
 
 
-Overfull \hbox (29.70454pt too wide) in paragraph at lines 870--880
+Overfull \hbox (29.70454pt too wide) in paragraph at lines 869--879
 [][] 
  []
 
@@ -2991,4 +2991,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  110i,17n,117p,1121b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (111 pages, 1466232 bytes).
+Output written on SeniorLatex.xdv (111 pages, 1466240 bytes).
