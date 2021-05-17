@@ -13,6 +13,13 @@ Saixiii,  2017,
   webservice},''
   \url{https://saixiii.com/what-is-restful/#:~:text=Representational%20state%20transfer%20%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%20REST,XML%2C%20HTML%2C%20JSON%20%E0%B9%82%E0%B8%94%E0%B8%A2%20response/}.
 
+\bibitem{ichi}
+ICHI.PRO,
+\newblock
+  ``{ชุดประมวลผลภาษาธรรมชาติ},''
+  \url{https://ichi.pro/th/chud-pramwl-phl-phas-a-thrrmchati-99851277240821},
+\newblock [Online;accessed 17 May 2021].
+
 \bibitem{doxygen}
 Doxygen,  2020,
 \newblock ``{OpenCV},''
@@ -30,26 +37,42 @@ Google,  2020,
   \url{https://opensource.google/projects/tesseract},
 \newblock [Online; accessed 22-November-2020].
 
-\bibitem{xin}
-Xin Rong,
-\newblock  2014, ``word2vec Parameter Learning Explained,''
-\newblock {\bf CoRR}, vol. abs/1411.2738, 2014.
+\bibitem{norvig}
+Peter Norvig,  2016,
+\newblock ``{Image Morphology},'' \url{https://norvig.com/spell-correct.html},
+\newblock [Online;accessed 17 May 2021].
 
-\bibitem{Goldberg}
-Y.~Goldberg and O.~Levy,  2014,
-\newblock ``{word2vec Explained: Deriving Mikolov et al.’s},''
-  \url{https://arxiv.org/pdf/1402.3722v1.pdf}.
+\bibitem{guten}
+Project Gutenberg,
+\newblock ``{ Project Gutenberg},'' \url{https://www.gutenberg.org/}.
 
-\bibitem{fasttext}
-Fasttext,  2018,
-\newblock ``{English word vectors},''
-  \url{https://fasttext.cc/docs/en/english-vectors.html}.
+\bibitem{wikitionary}
+Wikitionary,  2021,
+\newblock ``{ Wiktionary:Frequency lists},''
+  \url{https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists},
+\newblock [Online;accessed 17 May 2021].
 
-\bibitem{matthew}
-Matthew~E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
-  Kenton Lee, and Luke Zettlemoyer,
-\newblock  2018, ``Deep contextualized word representations,''
-\newblock {\bf CoRR}, vol. abs/1802.05365, 2018.
+\bibitem{kilgarriff}
+Adam Kilgarriff,  1995,
+\newblock ``{BNC database and word frequency lists},''
+  \url{http://www.kilgarriff.co.uk/bnc-readme.html},
+\newblock [Online;accessed 17 May 2021].
+
+\bibitem{pythainlp}
+Pythainlp,
+\newblock ``{PyThaiNLP},''
+  \url{https://pythainlp.github.io/docs/2.0/notes/getting_started.html}.
+
+\bibitem{pypi}
+PyPI,
+\newblock ``{pyspellchecker 0.6.2},''
+  \url{https://pypi.org/project/pyspellchecker/}.
+
+\bibitem{shortStoryForWord2Vec}
+Ria Kulshrestha,  2019,
+\newblock ``{NLP 101: Word2Vec — Skip-gram and CBOW},''
+  \url{https://towardsdatascience.com/nlp-101-word2vec-skip-gram-and-cbow-93512ee24314#:~:text=Continuous%20Bag%20of%20Words%20Model%20(CBOW)%20and%20Skip%2Dgram&text=In%20the%20CBOW%20model%2C%20the,used%20to%20predict%20the%20context%20.},
+\newblock [Online; accessed 17 May 2021].
 
 \bibitem{keiron}
 Keiron O'Shea and Ryan Nash,
