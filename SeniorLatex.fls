@@ -1354,6 +1354,8 @@ INPUT .\picture\\rotate11.png
 INPUT picture\\rotate11.png
 INPUT .\picture\\rotate10.png
 INPUT picture\\rotate10.png
+INPUT .\picture\\rotateres.png
+INPUT picture\\rotateres.png
 INPUT .\picture\\removebg.png
 INPUT picture\\removebg.png
 INPUT .\picture\\rem1.png
@@ -1468,8 +1470,6 @@ INPUT .\Chapter4.tex
 INPUT Chapter4.tex
 INPUT .\Chapter4.tex
 INPUT Chapter4.tex
-INPUT .\picture\\rotateres.png
-INPUT picture\\rotateres.png
 INPUT .\picture\\rotateErrror.png
 INPUT picture\\rotateErrror.png
 INPUT .\picture\\editcompare.png
