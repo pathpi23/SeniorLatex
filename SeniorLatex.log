@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  18 MAY 2021 11:38
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  18 MAY 2021 16:44
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -1335,12 +1335,12 @@ File: ./picture//httpreq.png Graphic file (type bmp)
 File: ./picture//httpres.png Graphic file (type bmp)
 <./picture//httpres.png>
 
-Underfull \hbox (badness 1281) in paragraph at lines 171--182
+Underfull \hbox (badness 1281) in paragraph at lines 174--185
 []\TU/THSarabunNew(0)/m/n/10 ทฤษฎี Word2Vec[[]] เป็นทฤษฎีที่ช่วยจัดการกับคำศัพท์ที่มีความหมายใกล้เคียงกัน หรือคำศัพท์ที่มีความสัมพันธ์อย่างคำตรงข้ามกัน
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 171--182
+Underfull \hbox (badness 1142) in paragraph at lines 174--185
 \TU/THSarabunNew(0)/m/n/10 เวกเตอร์ แน่นอนว่าการที่จะรู้ว่าแต่ละคำมีความสัมพันธ์ได้นั้น เราจำเป็นต้องสร้างประเภทของคำจากรูปประโยคอย่างเช่น “การ เลี้ยง
  []
 
@@ -1353,7 +1353,7 @@ File: ./picture//skipgram.png Graphic file (type bmp)
 File: ./picture//cbow.png Graphic file (type bmp)
 <./picture//cbow.png>
  [14]
-Overfull \hbox (0.27333pt too wide) in paragraph at lines 234--235
+Overfull \hbox (0.27333pt too wide) in paragraph at lines 237--238
 []\TU/THSarabunNew(0)/m/n/10 Python เป็นภาษาทางโปรแกรมมิ่งซึ่งเป็นภาษาทางคอมพิวเตอร์ระดับสูงที่ออกแบบมาให้ใกล้เคียงกับภาษามนุษย์มากที่สุดเพื่อให้สามารถ
  []
 
@@ -2974,15 +2974,15 @@ LaTeX Info: Redefining \ttfamily on input line 19.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
-(rerunfilecheck)             Checksum: 298E178B2BB9CF31CC73F59A7E03BAAC;26765.
+(rerunfilecheck)             Checksum: CF795F0BF082276740DF8694779E4703;26878.
  ) 
 Here is how much of TeX's memory you used:
  39563 strings out of 411732
  894813 string characters out of 2836994
- 1394111 words of memory out of 3000000
+ 1395227 words of memory out of 3000000
  58913 multiletter control sequences out of 15000+200000
  406031 words of font info for 67 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,17n,117p,1121b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (111 pages, 1466196 bytes).
+Output written on SeniorLatex.xdv (111 pages, 1466920 bytes).
