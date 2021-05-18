@@ -1377,7 +1377,6 @@ INPUT picture\\15x15.png
 INPUT .\picture\\25x25.png
 INPUT picture\\25x25.png
 INPUT .\picture\\ker15x15.png
-INPUT .\picture\\ker15x15.png
 INPUT picture\\ker15x15.png
 INPUT .\picture\\cosinCode.png
 INPUT picture\\cosinCode.png
