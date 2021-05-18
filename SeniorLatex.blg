@@ -25,45 +25,45 @@ Warning--empty year in nectec
 Warning--empty year in guten
 Warning--empty year in pythainlp
 Warning--empty year in pypi
-You've used 16 entries,
+You've used 20 entries,
             2177 wiz_defined-function locations,
-            854 strings with 9727 characters,
-and the built_in function-call counts, 3459 in all, are:
-= -- 354
-> -- 118
+            872 strings with 10203 characters,
+and the built_in function-call counts, 4536 in all, are:
+= -- 456
+> -- 183
 < -- 0
-+ -- 51
-- -- 34
-* -- 187
-:= -- 613
-add.period$ -- 16
-call.type$ -- 16
-change.case$ -- 49
++ -- 77
+- -- 56
+* -- 266
+:= -- 811
+add.period$ -- 20
+call.type$ -- 20
+change.case$ -- 68
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 115
-empty$ -- 320
-format.name$ -- 34
-if$ -- 727
+cite$ -- 26
+duplicate$ -- 149
+empty$ -- 398
+format.name$ -- 56
+if$ -- 944
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 1
-newline$ -- 78
-num.names$ -- 32
-pop$ -- 114
+int.to.str$ -- 20
+missing$ -- 3
+newline$ -- 96
+num.names$ -- 40
+pop$ -- 139
 preamble$ -- 1
-purify$ -- 49
+purify$ -- 68
 quote$ -- 0
-skip$ -- 117
+skip$ -- 148
 stack$ -- 0
-substring$ -- 81
-swap$ -- 16
+substring$ -- 101
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
+type$ -- 80
 warning$ -- 6
-while$ -- 32
-width$ -- 18
-write$ -- 178
+while$ -- 40
+width$ -- 22
+write$ -- 222
 (There were 6 warnings)

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  18 MAY 2021 16:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  18 MAY 2021 16:53
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -1335,12 +1335,17 @@ File: ./picture//httpreq.png Graphic file (type bmp)
 File: ./picture//httpres.png Graphic file (type bmp)
 <./picture//httpres.png>
 
-Underfull \hbox (badness 1281) in paragraph at lines 174--185
+Underfull \hbox (badness 1024) in paragraph at lines 171--174
+[]\TU/THSarabunNew(0)/m/n/10 เป็นวิธีการที่จะเปลี่ยนคำปกติเป็น vector ที่อยู่ในหลากหลายมิติและขนาดเพื่อให้สามารถเปรียบเทียบคำต่าง ๆ ว่ามีความสัมพันธ์ใกล้
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 176--187
 []\TU/THSarabunNew(0)/m/n/10 ทฤษฎี Word2Vec[[]] เป็นทฤษฎีที่ช่วยจัดการกับคำศัพท์ที่มีความหมายใกล้เคียงกัน หรือคำศัพท์ที่มีความสัมพันธ์อย่างคำตรงข้ามกัน
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 174--185
+Underfull \hbox (badness 1142) in paragraph at lines 176--187
 \TU/THSarabunNew(0)/m/n/10 เวกเตอร์ แน่นอนว่าการที่จะรู้ว่าแต่ละคำมีความสัมพันธ์ได้นั้น เราจำเป็นต้องสร้างประเภทของคำจากรูปประโยคอย่างเช่น “การ เลี้ยง
  []
 
@@ -1349,11 +1354,21 @@ File: ./picture//cbowskip.png Graphic file (type bmp)
 [12]
 File: ./picture//skipgram.png Graphic file (type bmp)
 <./picture//skipgram.png>
- [13]
+
+Overfull \hbox (0.63pt too wide) in paragraph at lines 196--204
+[]\TU/THSarabunNew(0)/m/n/10 Skip-gram[[]] เป็นโมเดลที่จะใช้หาความสัมพันธ์ของคำ โดยจะนำคำที่เข้าไปไปหาคำบริบทโดยรอบ โดยการที่โมเดลจะทำการอ่านประโยค
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 207--212
+[]\TU/THSarabunNew(0)/m/n/10 CBOW[[]] เป็นโมเดลที่จะใช้หาความสัมพันธ์ของคำแบบจะพิจารณาคำหลายๆคำเพื่อหาคำหนึ่งคำ ดังตัวอย่างในรูปที่ [][]2.11[][] โดยการที่
+ []
+
+[13]
 File: ./picture//cbow.png Graphic file (type bmp)
 <./picture//cbow.png>
  [14]
-Overfull \hbox (0.27333pt too wide) in paragraph at lines 237--238
+Overfull \hbox (0.27333pt too wide) in paragraph at lines 239--240
 []\TU/THSarabunNew(0)/m/n/10 Python เป็นภาษาทางโปรแกรมมิ่งซึ่งเป็นภาษาทางคอมพิวเตอร์ระดับสูงที่ออกแบบมาให้ใกล้เคียงกับภาษามนุษย์มากที่สุดเพื่อให้สามารถ
  []
 
@@ -2847,12 +2862,12 @@ Underfull \hbox (badness 1163) in paragraph at lines 62--65
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--76
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [] [] [][][][] [] [][][][][][][][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--76
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 [][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][][] [] [][][][][][] [] [][][][][][][] []
  []
 
@@ -2977,12 +2992,12 @@ Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
 (rerunfilecheck)             Checksum: CF795F0BF082276740DF8694779E4703;26878.
  ) 
 Here is how much of TeX's memory you used:
- 39563 strings out of 411732
- 894813 string characters out of 2836994
- 1395227 words of memory out of 3000000
- 58913 multiletter control sequences out of 15000+200000
+ 39567 strings out of 411732
+ 894847 string characters out of 2836994
+ 1395345 words of memory out of 3000000
+ 58917 multiletter control sequences out of 15000+200000
  406031 words of font info for 67 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,17n,117p,1121b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (111 pages, 1466920 bytes).
+Output written on SeniorLatex.xdv (111 pages, 1479428 bytes).

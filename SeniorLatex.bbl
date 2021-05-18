@@ -68,6 +68,27 @@ PyPI,
 \newblock ``{pyspellchecker 0.6.2},''
   \url{https://pypi.org/project/pyspellchecker/}.
 
+\bibitem{xin}
+Xin Rong,
+\newblock  2014, ``word2vec Parameter Learning Explained,''
+\newblock {\bf CoRR}, vol. abs/1411.2738, 2014.
+
+\bibitem{Goldberg}
+Y.~Goldberg and O.~Levy,  2014,
+\newblock ``{word2vec Explained: Deriving Mikolov et al.’s},''
+  \url{https://arxiv.org/pdf/1402.3722v1.pdf}.
+
+\bibitem{fasttext}
+Fasttext,  2018,
+\newblock ``{English word vectors},''
+  \url{https://fasttext.cc/docs/en/english-vectors.html}.
+
+\bibitem{matthew}
+Matthew~E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark,
+  Kenton Lee, and Luke Zettlemoyer,
+\newblock  2018, ``Deep contextualized word representations,''
+\newblock {\bf CoRR}, vol. abs/1802.05365, 2018.
+
 \bibitem{shortStoryForWord2Vec}
 Ria Kulshrestha,  2019,
 \newblock ``{NLP 101: Word2Vec — Skip-gram and CBOW},''
