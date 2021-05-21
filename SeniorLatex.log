@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  21 MAY 2021 16:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  21 MAY 2021 16:42
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -2984,7 +2984,7 @@ LaTeX Info: Redefining \ttfamily on input line 19.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
-(rerunfilecheck)             Checksum: 012903DA2563B41C1B967CBD54180E4F;26894.
+(rerunfilecheck)             Checksum: DF75ABF3F9D9C0473D6AB7D8E9E32276;26894.
  ) 
 Here is how much of TeX's memory you used:
  39567 strings out of 411732
@@ -2995,4 +2995,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  110i,17n,117p,1121b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (111 pages, 1480320 bytes).
+Output written on SeniorLatex.xdv (111 pages, 1481512 bytes).

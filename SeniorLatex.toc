@@ -122,6 +122,6 @@
 \contentsline {subsection}{\numberline {5.3.4}ปัญหาเรื่องระยะเวลาในการเพิ่มข้อมูลหนังสือ}{84}{subsection.5.3.4}%
 \contentsline {subsection}{\numberline {5.3.5}ปัญหาของการหาคำเหมือนของโมเดล Word2Vec}{85}{subsection.5.3.5}%
 \contentsline {section}{\numberline {5.4}ข้อจำกัดและข้อเสนอแนะ}{85}{section.5.4}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{86}{Item.125}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{87}{Item.125}%
-\contentsline {apdx}{A\hskip 1em Database Dictionary}{88}{Item.125}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{86}{Item.126}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{87}{Item.126}%
+\contentsline {apdx}{A\hskip 1em Database Dictionary}{88}{Item.126}%
