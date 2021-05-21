@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  21 MAY 2021 17:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  21 MAY 2021 18:17
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -2722,18 +2722,13 @@ Underfull \hbox (badness 1968) in paragraph at lines 4--8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
 []|\TU/THSarabunNew(0)/m/n/10 นำข้อมูลที่เก็บไว้มาทำการตัดแบ่งคำภาษาไทยและทำการสร้างคำ
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 38--48
-\TU/THSarabunNew(0)/m/n/10 เนื่องจากการลบเส้นตรงทั้งแนวนอนและแนวตั้งทำ ให้มีการลบตัวอักษรบางส่วนไปส่งผลให้เกิดการอ่านที่ยากขึ้น และการลบรูปภาพยัง
- []
-
-
-Underfull \hbox (badness 6236) in paragraph at lines 38--48
-\TU/THSarabunNew(0)/m/n/10 มีความผิดพลาดทำให้ลบเนื้อหาที่เป็นตัวอักษรบางส่วนไป ดังนั้น วิธีการลบพื้นหลังจึงมีประสิทธิ์ภาพมากกว่าเนื่องจากไม่ได้ทำให้ข้อมูล
+Underfull \hbox (badness 3503) in paragraph at lines 37--47
+\TU/THSarabunNew(0)/m/n/10 รียมรูปภาพแบบไหนให้ประสิทธิ์ภาพออกมาได้ดีกว่ากัน โดยที่เราเลือกใช้การเตรียมข้อมูลรูปภาพด้วยวิธีที่ 2 ซึ่งก็คือวิธีการลบพื้นหลัง
  []
 
 [82
@@ -2742,87 +2737,87 @@ Underfull \hbox (badness 6236) in paragraph at lines 38--48
 
 
 ]
-Underfull \hbox (badness 2158) in paragraph at lines 65--75
+Underfull \hbox (badness 2158) in paragraph at lines 64--74
 \TU/THSarabunNew(0)/m/n/10 เลือกหนังสือที่ตรงกับคำที่ต้องการค้นหา แต่เนื่องจากระบบค้นหาภายในโปรเจคยังไม่สามารถระบุหน้าที่มีคำค้นหาได้จึงทำ ให้ถ้าเปรียบ
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 65--75
+Underfull \hbox (badness 1281) in paragraph at lines 64--74
 \TU/THSarabunNew(0)/m/n/10 เทียบให้บุคคลธรรมดาเปิดหาหน้าที่มีคำค้นหาคนที่ 1 จะใช้เวลา 10 นาที และคนที่สองใช้เวลา 12 นาที และในส่วนของเจ้าหน้าที่
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 65--75
+Underfull \hbox (badness 4254) in paragraph at lines 64--74
 \TU/THSarabunNew(0)/m/n/10 บรรณารักษ์ ที่ใช้วิธีการปกติจึงใช้เวลาไป 11 นาที เท่าเดิมเนื่องจากต้องเปิดเจอคำค้นหาก่อนถึงจะสามารถระบุหนังสือที่เกี่ยวข้องได้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--75
+Underfull \hbox (badness 10000) in paragraph at lines 64--74
 \TU/THSarabunNew(0)/m/n/10 และจากผลลัพธ์พบว่าการที่เจ้าหน้า ที่บรรณารักษ์ใช้เวลาส่วนใหญ่ในการค้นหาหนังสือที่เกี่ยวข้องเนื่องจากการที่สุ่มหยิบหนังสือแต่ไม่มี
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 78--81
+Underfull \hbox (badness 3029) in paragraph at lines 77--80
 []\TU/THSarabunNew(0)/m/n/10 จากผลลัพธ์การประเมินจากเจ้าหน้าที่บรรณารักษ์ผู้ใช้งานจริงได้ประเมินผลลัพธ์ค่อนข้างออกมาเป็นที่น่าพึงพอใจ แต่ยังมีบางส่วนที่ถ้าใช้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 \TU/THSarabunNew(0)/m/n/10 เพียงแค่ไอคอนรูปภาพสื่อความหมายเจ้าหน้าที่บรรณารักษ์อาจจะ ยังไม่เข้าใจนักจึงต้องการเพิ่มเติมในส่วนของคำอธิบายเพิ่มประกอบ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 77--80
 \TU/THSarabunNew(0)/m/n/10 ไปด้วยซึ่งทางเราได้ปรับปรุงเพิ่มคำอธิบายและสิ่งที่ผู้ใช้ไม่เข้าใจเรียบร้อยแล้ว และการออกแบบการทำงานของเว็ตไซต์แพลฟอร์มโดยใช้
  []
 
 [83]
-Overfull \hbox (1.08514pt too wide) in paragraph at lines 84--85
+Overfull \hbox (1.08514pt too wide) in paragraph at lines 83--84
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจากหนังสือแต่ละเล่มมีลักษณะที่แตกต่างกันในเรื่องของสีของกระดาษและตัวอักษร ลักษณะการสแกนรูปภาพจึงทำให้การนำประโยค
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 90--91
+Underfull \hbox (badness 1609) in paragraph at lines 89--90
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจากภาษาไทยมีสระวรรณยุกต์ด้านบนต่อกันสูงสุดต่อกันถึง 2 ชั้นนอกจากนั้นยังมีสระวรรณยุกต์ด้านล่างทำให้บางทีไม่สามารถแยก
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 94--95
+Underfull \hbox (badness 2189) in paragraph at lines 93--94
 []\TU/THSarabunNew(0)/m/n/10 ทำการแก้ไขกระบวนการการเตรียมข้อมูลรูปภาพ ปรับเปลี่ยนวิธีการหมุนเป็นการหา Arctan ที่จุดขอบด้านบนที่ทำให้การหมุนมีข้อผิด
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 102--103
+Underfull \hbox (badness 5245) in paragraph at lines 101--102
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจากการเพิ่มข้อมูลมีขั้นตอนจำนวนมากและใช้เวลานานผู้จัดทำจึงออกแบบโครงสร้างเป็นระบบ Thread เพื่อที่จะให้เซิฟเวอร์ตอบ
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 110--114
+Underfull \hbox (badness 2173) in paragraph at lines 109--113
 \TU/THSarabunNew(0)/m/n/10 และโมเดลที่มีข้อมูล 6 เล่ม ซึ่งจำนวนข้อมูลที่นำมาใช้งานยังมีไม่มากพอที่จะทำให้หาความสัมพันธ์ที่ดี นอกจากนั้นปัญหาเรี่องคำที่ผิด
  []
 
 [84]
-Underfull \hbox (badness 1515) in paragraph at lines 115--117
+Underfull \hbox (badness 1515) in paragraph at lines 114--116
 []$[]$ \TU/THSarabunNew(0)/m/n/10 หาหนังสือที่มีลักษณะการเขียนหนังสือแบบนี้เพิ่มเติมเข้ามาใช้ในการสร้างโมเดล นอกจากนั้นการแก้ไขคำผิดให้ถูกต้องทั้งหมด
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 []\TU/THSarabunNew(0)/m/n/10 การแก้ไขคำเฉพาะยังไม่สามารถทำได้ถึงแม้จะมีการเพิ่มคำศัพท์เฉพาะลงไปก็ตามแต่ก็ยังต้องให้มนุษย์เป็นผู้ตรวจสอบอีกรอบเพื่อ
  []
 
 
-Overfull \hbox (13.61296pt too wide) in paragraph at lines 121--122
+Overfull \hbox (13.61296pt too wide) in paragraph at lines 120--121
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจากลักษณะหนังสือแต่และเล่มแตกต่างกันทำให้การเตรียมข้อมูลรูปภาพที่อาจจะไม่ได้ส่งผลลัพธ์ที่ดีที่สุดให้กับหนังสือทุกประเภท
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 []\TU/THSarabunNew(0)/m/n/10 ลักษณะแสงของการสแกนหนังสือเนื่องจากไฟล์ที่ได้รับมาไม่มีการควบคุมในการสแกนหนังสือเข้ามาจึงทำให้ไฟล์มีความสว่างที่ไม่
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 []\TU/THSarabunNew(0)/m/n/10 การพัฒนาระบบการค้นหาด้วยการใช้ความสัมพันธ์ของลำดับรูปประโยค เนื่องจากรูปประโยคจะประกอบด้วยคำศัพท์มารวมกัน
  []
 
@@ -3000,4 +2995,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  110i,17n,117p,1121b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (111 pages, 1483212 bytes).
+Output written on SeniorLatex.xdv (111 pages, 1483236 bytes).
