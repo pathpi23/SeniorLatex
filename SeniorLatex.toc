@@ -94,7 +94,7 @@
 \contentsline {subsection}{\numberline {4.1.1}ผลลัพธ์ที่ได้จากประสิทธิภาพของการหมุน}{65}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}ผลการเปรียบเทียบประสิทธิภาพในการทำ OCR ของ การทำการเตรียมข้อมูลรูปภาพ แต่ละแบบ}{65}{subsection.4.1.2}%
 \contentsline {subsubsection}{\numberline {4.1.2.1}แบบที่ 1 การใช้การคัดเลือกข้อมูล,การหมุน,การลบรูปภาพ,การลบเส้น และการจัดกลุ่ม}{66}{subsubsection.4.1.2.1}%
-\contentsline {subsubsection}{\numberline {4.1.2.2}แบบที่ 2 ใช้การลบพื้นหลัง}{67}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}แบบที่ 2 ใช้การลบพื้นหลัง และการจัดกลุ่ม}{67}{subsubsection.4.1.2.2}%
 \contentsline {subsection}{\numberline {4.1.3}ผลการเปรียบเทียบข้อมูล training set 2 ชุดสำหรับการทำ OCR}{67}{subsection.4.1.3}%
 \contentsline {subsection}{\numberline {4.1.4}ประสิทธิภาพการแก้ไขคำผิด}{69}{subsection.4.1.4}%
 \contentsline {section}{\numberline {4.2}ผลลัพธ์จากการค้นหา}{69}{section.4.2}%
