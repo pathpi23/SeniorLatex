@@ -20,50 +20,52 @@ A level-1 auxiliary file: Appendix.aux
 Database file #1: string.bib
 Database file #2: cpe.bib
 Warning--empty year in ritambhara
+Warning--empty year in lukkid
+Warning--empty year in sasiwut
 Warning--empty year in ichi
 Warning--empty year in nectec
 Warning--empty year in guten
 Warning--empty year in pythainlp
 Warning--empty year in pypi
-You've used 20 entries,
+You've used 22 entries,
             2177 wiz_defined-function locations,
-            872 strings with 10203 characters,
-and the built_in function-call counts, 4536 in all, are:
-= -- 456
-> -- 183
+            880 strings with 10615 characters,
+and the built_in function-call counts, 4948 in all, are:
+= -- 496
+> -- 197
 < -- 0
-+ -- 77
-- -- 56
-* -- 266
-:= -- 811
-add.period$ -- 20
-call.type$ -- 20
-change.case$ -- 68
++ -- 83
+- -- 60
+* -- 288
+:= -- 881
+add.period$ -- 22
+call.type$ -- 22
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 149
-empty$ -- 398
-format.name$ -- 56
-if$ -- 944
+cite$ -- 30
+duplicate$ -- 163
+empty$ -- 438
+format.name$ -- 60
+if$ -- 1030
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 22
 missing$ -- 3
-newline$ -- 96
-num.names$ -- 40
-pop$ -- 139
+newline$ -- 104
+num.names$ -- 44
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 74
 quote$ -- 0
-skip$ -- 148
+skip$ -- 166
 stack$ -- 0
-substring$ -- 101
-swap$ -- 20
+substring$ -- 111
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
-warning$ -- 6
-while$ -- 40
-width$ -- 22
-write$ -- 222
-(There were 6 warnings)
+type$ -- 88
+warning$ -- 8
+while$ -- 44
+width$ -- 24
+write$ -- 240
+(There were 8 warnings)

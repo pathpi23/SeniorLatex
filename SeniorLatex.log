@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  21 MAY 2021 18:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  27 MAY 2021 17:18
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -1203,74 +1203,63 @@ Overfull \hbox (6.70615pt too wide) in paragraph at lines 11--12
 
 
 ]
-Underfull \hbox (badness 1596) in paragraph at lines 36--37
-[]\TU/THSarabunNew(0)/m/n/10 สร้าง web platform เพื่อทำการค้นหาหนังสือจากคำค้น และพัฒนาเครื่องมือสนับสนุนการทำงานของบรรณารักษ์ประจำหอ
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 37--38
-[]\TU/THSarabunNew(0)/m/n/10 สร้างระบบการค้นหาโดยการใช้วิธีการ อินฟอเมชันรีทีฟวอล ซึ่งวัดความใกล้เคียงกันระหว่างคำค้นและข้อมูลในฐานข้อมูลโดยวิธี
- []
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 43--44
+Underfull \hbox (badness 1325) in paragraph at lines 47--48
 []\TU/THSarabunNew(0)/m/n/10 ระบบแปลงข้อมูลจากหนังสือและหนังสือเก่า รองรับเฉพาะหนังสือที่เป็นตัวอักษรแบบพิมพ์ และรองรับไฟล์หนังสือเฉพาะ PDF
  []
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []|\TU/THSarabunNew(0)/m/n/10 ศึกษาค้นคว้าหาปัญหาของ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\TU/THSarabunNew(0)/m/n/10 ศึกษาและหาข้อมูลเกี่ยวกับ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []|\TU/THSarabunNew(0)/m/n/10 ประเมินความเป็นไปได้และ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 \TU/THSarabunNew(0)/m/n/10 กำหนดขอบเขตของโปร
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
 []|\TU/THSarabunNew(0)/m/n/10 แปลงรูปภาพให้อยู่ในรูป
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 []|\TU/THSarabunNew(0)/m/n/10 นำข้อมูลที่เก็บไว้มาทำการ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \TU/THSarabunNew(0)/m/n/10 ตัดแบ่งคำภาษาไทยและ
  []
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 124--124
+Underfull \hbox (badness 6332) in paragraph at lines 123--123
 \TU/THSarabunNew(0)/m/n/10 ทำการสร้างคำสำคัญ โดย
  []
 
 
-Overfull \hbox (24.25952pt too wide) in paragraph at lines 111--128
+Overfull \hbox (24.25952pt too wide) in paragraph at lines 110--127
 [][] 
  []
 
-
-Overfull \hbox (18.27997pt too wide) in paragraph at lines 132--143
+[3]
+Overfull \hbox (18.27997pt too wide) in paragraph at lines 131--142
 [][] 
  []
 
-[4]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 13.52995pt on input line 145.
-) [5]
+(Font)              scaled to size 13.52995pt on input line 144.
+[4]) [5]
 \openout2 = `Chapter2.aux'.
 
  (Chapter2.tex
@@ -1330,44 +1319,53 @@ File: ./picture//httpreq.png Graphic file (type bmp)
 File: ./picture//httpres.png Graphic file (type bmp)
 <./picture//httpres.png>
 
-Underfull \hbox (badness 1024) in paragraph at lines 172--175
-[]\TU/THSarabunNew(0)/m/n/10 เป็นวิธีการที่จะเปลี่ยนคำปกติเป็น vector ที่อยู่ในหลากหลายมิติและขนาดเพื่อให้สามารถเปรียบเทียบคำต่าง ๆ ว่ามีความสัมพันธ์ใกล้
+Overfull \hbox (5.96819pt too wide) in paragraph at lines 172--178
+\TU/THSarabunNew(0)/m/n/10 ดังภาพที่ [][]2.9[][]) ว่ามีความสัมพันธ์ใกล้เคียงกับคำไหนบ้างในระบบโดยมาจากการ dot กันระหว่างเวกเตอร์ของคำ ซึ่งมิติใน word embedding
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 177--188
+Underfull \hbox (badness 1184) in paragraph at lines 172--178
+\TU/THSarabunNew(0)/m/n/10 นั้นจะเป็นการแสดงถึงการจำแนกประเภทของคำเหล่านี้ โดยที่เราจะสามารถกำหนดตัวเลขขึ้นมาและโมเดลจะทำการสร้างมิติ โดยมีการ
+ []
+
+File: ./picture//embedgraph.png Graphic file (type bmp)
+<./picture//embedgraph.png>
+File: ./picture//7Dto2D.png Graphic file (type bmp)
+<./picture//7Dto2D.png>
+[12]
+Underfull \hbox (badness 1281) in paragraph at lines 196--207
 []\TU/THSarabunNew(0)/m/n/10 ทฤษฎี Word2Vec[[]] เป็นทฤษฎีที่ช่วยจัดการกับคำศัพท์ที่มีความหมายใกล้เคียงกัน หรือคำศัพท์ที่มีความสัมพันธ์อย่างคำตรงข้ามกัน
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 177--188
+Underfull \hbox (badness 1142) in paragraph at lines 196--207
 \TU/THSarabunNew(0)/m/n/10 เวกเตอร์ แน่นอนว่าการที่จะรู้ว่าแต่ละคำมีความสัมพันธ์ได้นั้น เราจำเป็นต้องสร้างประเภทของคำจากรูปประโยคอย่างเช่น “การ เลี้ยง
  []
 
 File: ./picture//cbowskip.png Graphic file (type bmp)
 <./picture//cbowskip.png>
-[12]
+[13]
 File: ./picture//skipgram.png Graphic file (type bmp)
 <./picture//skipgram.png>
 
-Overfull \hbox (0.63pt too wide) in paragraph at lines 197--205
+Overfull \hbox (0.63pt too wide) in paragraph at lines 216--224
 []\TU/THSarabunNew(0)/m/n/10 Skip-gram[[]] เป็นโมเดลที่จะใช้หาความสัมพันธ์ของคำ โดยจะนำคำที่เข้าไปไปหาคำบริบทโดยรอบ โดยการที่โมเดลจะทำการอ่านประโยค
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 208--213
-[]\TU/THSarabunNew(0)/m/n/10 CBOW[[]] เป็นโมเดลที่จะใช้หาความสัมพันธ์ของคำแบบจะพิจารณาคำหลายๆคำเพื่อหาคำหนึ่งคำ ดังตัวอย่างในรูปที่ [][]2.11[][] โดยการที่
+Underfull \hbox (badness 1874) in paragraph at lines 227--232
+[]\TU/THSarabunNew(0)/m/n/10 CBOW[[]] เป็นโมเดลที่จะใช้หาความสัมพันธ์ของคำแบบจะพิจารณาคำหลายๆคำเพื่อหาคำหนึ่งคำ ดังตัวอย่างในรูปที่ [][]2.13[][] โดยการที่
  []
 
-[13]
+[14]
 File: ./picture//cbow.png Graphic file (type bmp)
 <./picture//cbow.png>
- [14]
-Overfull \hbox (0.27333pt too wide) in paragraph at lines 240--241
+ [15]
+Overfull \hbox (0.27333pt too wide) in paragraph at lines 259--260
 []\TU/THSarabunNew(0)/m/n/10 Python เป็นภาษาทางโปรแกรมมิ่งซึ่งเป็นภาษาทางคอมพิวเตอร์ระดับสูงที่ออกแบบมาให้ใกล้เคียงกับภาษามนุษย์มากที่สุดเพื่อให้สามารถ
  []
 
-) [15]
+) [16]
 \openout2 = `Chapter3.aux'.
 
  (Chapter3.tex
@@ -1399,7 +1397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--31
 \TU/THSarabunNew(0)/m/n/10 เราได้นำค่าความถี่ของหน้าที่มีพื้นหลังสีมาพล็อตเพื่อหาความแตกต่างจะเห็นได้ว่าถ้าหน้าที่มีพื้นหลังสี หลายสีนั้นจะมีค่าความถี่กระจาย
  []
 
-[16
+[17
 
 
 
@@ -1414,7 +1412,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 []\TU/THSarabunNew(0)/m/n/10 ในส่วนของการหมุนรูปนั้นจัดทำขึ้นมาเพื่อแก้ไขข้อมูลรูปภาพที่เกิดความผิดพลาดจากการสแกนส่งผลให้รูปที่ได้นั้นมีความเอียงและทำให้
  []
 
-[17]
+[18]
 File: ./picture//rotate1.png Graphic file (type bmp)
 <./picture//rotate1.png>
 File: ./picture//rotate2.png Graphic file (type bmp)
@@ -1423,7 +1421,7 @@ File: ./picture//rotate3.png Graphic file (type bmp)
 <./picture//rotate3.png>
 File: ./picture//rotate4.png Graphic file (type bmp)
 <./picture//rotate4.png>
- [18]
+ [19]
 Underfull \hbox (badness 1571) in paragraph at lines 91--96
 []\TU/THSarabunNew(0)/m/n/10 ทำการหา Mask เพื่อใช้ในการลบรูปภาพและคำนวณองศาของข้อความแต่ละบรรทัดภายในคอนทัว (Contour) ของภาพที่ถูก
  []
@@ -1434,14 +1432,14 @@ File: ./picture//rotate6.png Graphic file (type bmp)
 <./picture//rotate6.png>
 File: ./picture//rotate7.png Graphic file (type bmp)
 <./picture//rotate7.png>
-[19]
+[20]
 File: ./picture//rotate8.png Graphic file (type bmp)
 <./picture//rotate8.png>
 File: ./picture//rotate9.png Graphic file (type bmp)
 <./picture//rotate9.png>
 File: ./picture//rotate11.png Graphic file (type bmp)
 <./picture//rotate11.png>
- [20]
+ [21]
 Underfull \hbox (badness 2626) in paragraph at lines 138--144
 \TU/THSarabunNew(0)/m/n/10 อาจจะทำให้ได้องศาในแนวตั้งมาได้ จึงต้องทำการกรองว่าองศาที่ได้ว่าตั้งฉากหรือไม่ตั้งฉากถ้าเป็นองศาตั้งฉากให้หาการเอียงจาก
  []
@@ -1455,42 +1453,42 @@ Overfull \hbox (17.52026pt too wide) in paragraph at lines 153--154
  [][] 
  []
 
-[21]
+[22]
 File: ./picture//removebg.png Graphic file (type bmp)
 <./picture//removebg.png>
 File: ./picture//rem1.png Graphic file (type bmp)
 <./picture//rem1.png>
- [22]
+ [23]
 File: ./picture//rem2.png Graphic file (type bmp)
 <./picture//rem2.png>
 File: ./picture//rem3.png Graphic file (type bmp)
 <./picture//rem3.png>
- [23]
+ [24]
 File: ./picture//rem4.png Graphic file (type bmp)
 <./picture//rem4.png>
 File: ./picture//rem5.png Graphic file (type bmp)
 <./picture//rem5.png>
- [24]
+ [25]
 File: ./picture//3x3.png Graphic file (type bmp)
 <./picture//3x3.png>
 File: ./picture//5x5.png Graphic file (type bmp)
 <./picture//5x5.png>
- [25]
+ [26]
 File: ./picture//7x7.png Graphic file (type bmp)
 <./picture//7x7.png>
 File: ./picture//15x15.png Graphic file (type bmp)
 <./picture//15x15.png>
 File: ./picture//25x25.png Graphic file (type bmp)
 <./picture//25x25.png>
- [26]
+ [27]
 File: ./picture//ker15x15.png Graphic file (type bmp)
 <./picture//ker15x15.png>
- [27]
+ [28]
 Underfull \hbox (badness 10000) in paragraph at lines 257--263
 []\TU/THSarabunNew(0)/m/n/10 สำหรับการเตรียมข้อมูลตัวอักษรจัดทำเพื่อให้ข้อมูลเหมาะสมสำหรับการค้นหาเพื่อสร้างคำสำคัญของหนังสือ โดยเราจะนำหลักการของ
  []
 
-[28]
+[29]
 Underfull \hbox (badness 2591) in paragraph at lines 291--294
 \TU/THSarabunNew(0)/m/n/10 จะคำนวณคะแนนในช่วงเวลากลางคืนเพื่อไม่ให้ส่งผลกระทบกับผู้ใช้งาน และในส่วนการเพิ่มข้อมูลเข้ามาใหม่คำที่อยู่ภายในหนังสือนั้นจะ
  []
@@ -1527,7 +1525,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
 File: ./picture//cosinCode.png Graphic file (type bmp)
 <./picture//cosinCode.png>
-[29]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 326--329
 []\TU/THSarabunNew(0)/m/n/10 โดยเราได้เตรียมข้อมูลที่จะนำมาสร้างโมเดลเป็นข้อมูลหนังสือกตเวทิตาและรายงานประจำปีของมหาวิทยาลัยเทคโนโลยีพระจอมเกล้า
  []
@@ -1552,12 +1550,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--346
 \TU/THSarabunNew(0)/m/n/10 หนังสือในระบบผู้ใช้งานสามารถลบหนังสือภายในระบบได้โดยการค้นหาหนังสือที่ต้องการและกดลบหนังสือนั้นออกจากระบบโดยเมื่อมี
  []
 
-[30]
+[31]
 Underfull \hbox (badness 6110) in paragraph at lines 349--350
 []\TU/THSarabunNew(0)/m/n/10 ผู้ใช้งานสามารถเข้าสู่ระบบเพื่อใช้งานฟังก์ชั่นต่าง ๆภายในระบบโดยเมื่อผู้ใช้งานทำการเข้าสู่ระบบด้วยชื่อผู้ใช้งานและรหัสผ่านแล้วจะได้
  []
 
-[31]
+[32]
 File: ./picture//er.jpg Graphic file (type bmp)
 <./picture//er.jpg>
 
@@ -1565,10 +1563,10 @@ Overfull \hbox (30.39041pt too wide) in paragraph at lines 421--422
  [][] 
  []
 
-[32]
+[33]
 File: ./picture//er1.png Graphic file (type bmp)
 <./picture//er1.png>
- [33]
+ [34]
 File: ./picture//er2.jpg Graphic file (type bmp)
 <./picture//er2.jpg>
 File: ./picture//er3.jpg Graphic file (type bmp)
@@ -1587,7 +1585,7 @@ Overfull \hbox (13.29065pt too wide) in paragraph at lines 455--456
  [][] 
  []
 
-[34]
+[35]
 File: ./picture//er6.jpg Graphic file (type bmp)
 <./picture//er6.jpg>
 
@@ -1616,7 +1614,7 @@ Overfull \hbox (14.00577pt too wide) in paragraph at lines 485--486
  [][] 
  []
 
-[35]
+[36]
 File: ./picture//er10.jpg Graphic file (type bmp)
 <./picture//er10.jpg>
 
@@ -1633,7 +1631,7 @@ Overfull \hbox (28.60574pt too wide) in paragraph at lines 501--502
 
 File: ./picture//er12.jpg Graphic file (type bmp)
 <./picture//er12.jpg>
-[36] [37]
+[37] [38]
 Overfull \hbox (8.01pt too wide) in paragraph at lines 536--537
 []\TU/THSarabunNew(0)/m/n/10 รูปที่ [][]3.40[][] จะเป็นสองตารางที่บันทึกการจัดการฐานข้อมูลของเครื่องมือที่ชื่อว่า Knex ที่จะทำการจัดการสร้างฐานข้อมูล ด้วยคำสั่ง Migration
  []
@@ -1645,7 +1643,7 @@ Overfull \hbox (18.88237pt too wide) in paragraph at lines 549--550
  [][] 
  []
 
-[38] [39]
+[39] [40]
 File: ./picture//scene1.png Graphic file (type bmp)
 <./picture//scene1.png>
 
@@ -1655,7 +1653,7 @@ Overfull \hbox (3.82405pt too wide) in paragraph at lines 574--575
 
 File: ./picture//scene2.png Graphic file (type bmp)
 <./picture//scene2.png>
-[40] [41]
+[41] [42]
 File: ./picture//scene3.png Graphic file (type bmp)
 <./picture//scene3.png>
 
@@ -1663,16 +1661,16 @@ Overfull \hbox (6.83571pt too wide) in paragraph at lines 620--621
  [][] 
  []
 
-[42]
+[43]
 File: ./picture//scene4.png Graphic file (type bmp)
 <./picture//scene4.png>
- [43]
+ [44]
 File: ./picture//scene5.png Graphic file (type bmp)
 <./picture//scene5.png>
- [44]
+ [45]
 File: ./picture//scene6.png Graphic file (type bmp)
 <./picture//scene6.png>
- [45]
+ [46]
 File: ./picture//scene7.png Graphic file (type bmp)
 <./picture//scene7.png>
 
@@ -1682,36 +1680,36 @@ Overfull \hbox (15.11778pt too wide) in paragraph at lines 709--710
 
 File: ./picture//hp.png Graphic file (type bmp)
 <./picture//hp.png>
-[46]
+[47]
 File: ./picture//hp2.png Graphic file (type bmp)
 <./picture//hp2.png>
- [47]
+ [48]
 File: ./picture//login.png Graphic file (type bmp)
 <./picture//login.png>
- [48]
+ [49]
 File: ./picture//i1.png Graphic file (type bmp)
 <./picture//i1.png>
- [49]
+ [50]
 Underfull \hbox (badness 1776) in paragraph at lines 745--746
 []\TU/THSarabunNew(0)/m/n/10 หน้าเพิ่มหนังสือขั้นแรกจะเป็นการเลือกไฟล์หนังสือที่ต้องการโดยที่จะมีส่วนของการเพิ่มไฟล์ที่อยู่รูปของ pdf เพื่อทำ OCR จากนั้นจะ
  []
 
 File: ./picture//i2.png Graphic file (type bmp)
 <./picture//i2.png>
-[50]
+[51]
 File: ./picture//i3.png Graphic file (type bmp)
 <./picture//i3.png>
- [51]
+ [52]
 File: ./picture//i4.png Graphic file (type bmp)
 <./picture//i4.png>
- [52]
+ [53]
 Underfull \hbox (badness 1242) in paragraph at lines 769--770
 []\TU/THSarabunNew(0)/m/n/10 หลังจากที่ทำการใส่ข้อมูลออกมาทั้งหมดแล้วมาถึงหน้าที่เป็นหน้าโหลดข้อมูลดังรูป 3.29 ที่ระบบจะทำการ OCR และทำการเตรียมชุด
  []
 
 File: ./picture//i5.png Graphic file (type bmp)
 <./picture//i5.png>
-[53]
+[54]
 Underfull \hbox (badness 2229) in paragraph at lines 777--778
 []\TU/THSarabunNew(0)/m/n/10 หลังจากโหลดและเตรียมข้อมูลเรียบร้อยแล้ว ระบบจะทำการแสดงข้อมูลที่ถูกแปลงมาโดยที่ผู้ใช้จะสามารถแก้ไขคำได้ดังรูป 3.30 หรือ
  []
@@ -1723,40 +1721,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 777--778
 
 File: ./picture//i6.png Graphic file (type bmp)
 <./picture//i6.png>
-[54]
+[55]
 Underfull \hbox (badness 1655) in paragraph at lines 785--786
 []\TU/THSarabunNew(0)/m/n/10 หน้าสุดท้ายของการเพิ่มหนังสือจะเป็นหน้าที่ให้ผู้ใช้สามารถจัดการกับ Keyword ได้ดังรูปที่ 3.31 โดยเมื่อผู้ใช้ต้องการใส่คำสำคัญเพิ่ม
  []
 
 File: ./picture//search.png Graphic file (type bmp)
 <./picture//search.png>
-[55]
+[56]
 Underfull \hbox (badness 4752) in paragraph at lines 793--794
 \TU/THSarabunNew(0)/m/n/10 โดยเรียงคะแนนของหนังสือที่เกี่ยวข้องกับคำค้นหามากที่สุดดังรูปที่ 3.32 เมื่อกดเข้าไปที่รายชื่อหนังสือจะทำการนำทางผู้ใช้ไปยังหน้าดู
  []
 
 File: ./picture//lookupp.png Graphic file (type bmp)
 <./picture//lookupp.png>
-[56]
+[57]
 File: ./picture//man1.png Graphic file (type bmp)
 <./picture//man1.png>
- [57]
+ [58]
 File: ./picture//e1.png Graphic file (type bmp)
 <./picture//e1.png>
- [58]
+ [59]
 File: ./picture//e2.png Graphic file (type bmp)
 <./picture//e2.png>
- [59]
+ [60]
 File: ./picture//e3.png Graphic file (type bmp)
 <./picture//e3.png>
- [60]
+ [61]
 Underfull \hbox (badness 10000) in paragraph at lines 830--831
 \TU/THSarabunNew(0)/m/n/10 หนังสือและชื่อหนังสือคอยบอกว่ากำลังแก้ไขหนังสือเล่มไหนอยู่ และในทุกหน้าจะมีปุ่มสำหรับบันทึกในทุกหน้าเพื่อที่จะสามารถบันทึก
  []
 
 File: ./picture//status.png Graphic file (type bmp)
 <./picture//status.png>
-[61]
+[62]
 Underfull \hbox (badness 7451) in paragraph at lines 838--839
 []\TU/THSarabunNew(0)/m/n/10 จากรูป 3.38 สำหรับผู้ใช้ที่ทำการเพิ่มหนังสือเข้าสู่ระบบจะมีหน้าสำหรับโหลดกรณีที่กดออกมาหลังจากผ่านขั้นตอนการเพิ่มหนังสือขั้น
  []
@@ -1766,7 +1764,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 855--856
 []\TU/THSarabunNew(0)/m/n/10 ระบบการค้นหา จะเช็คโดยให้ผู้ใช้เป็นผู้ประเมินว่าได้รับหนังสือตรงตามที่ต้องการหรือไม่โดยจะให้เจ้าหน้าที่บรรณารักษ์คัดเลือกหนังสือ
  []
 
-[62]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 880--880
 []|\TU/THSarabunNew(0)/m/n/10 ความสมบูรณ์ของ
  []
@@ -2036,7 +2034,7 @@ Overfull \hbox (29.70454pt too wide) in paragraph at lines 875--885
 [][] 
  []
 
-[63]) [64]
+[64]) [65]
 \openout2 = `Chapter4.aux'.
 
  (Chapter4.tex
@@ -2108,7 +2106,7 @@ Overfull \hbox (29.20226pt too wide) in paragraph at lines 31--46
 [][] 
  []
 
-[65
+[66
 
 
 
@@ -2163,7 +2161,7 @@ Overfull \hbox (29.20226pt too wide) in paragraph at lines 52--67
 [][] 
  []
 
-[66]
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 69--74
 []\TU/THSarabunNew(0)/m/n/10 ซึ่งจำนวนคำต่างๆในตารางนั้นถูกบันทึกและตรวจพบด้วยคน ส่วนจำนวนคำเกินนั้นจะเป็นคำที่คาดว่าเกิดจากกาอ่านพยัญชนะแยกกับ
  []
@@ -2223,7 +2221,7 @@ Overfull \hbox (29.20226pt too wide) in paragraph at lines 87--102
 [][] 
  []
 
-[67]
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 108--108
 []|\TU/THSarabunNew(0)/m/n/10 จำนวนคำผิด
  []
@@ -2273,7 +2271,7 @@ Overfull \hbox (29.20226pt too wide) in paragraph at lines 106--121
 [][] 
  []
 
-[68]
+[69]
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\TU/THSarabunNew(0)/m/n/10 จำนวนคำผิด
  []
@@ -2328,10 +2326,10 @@ Underfull \hbox (badness 3471) in paragraph at lines 150--153
 []\TU/THSarabunNew(0)/m/n/10 ในการประเมินการค้นหา ผู้จัดทำได้ทำการเปลี่ยนการประเมินการจากตารางประเมินระบบการค้นหา เป็นการประเมินโดยการใช้ตาราง
  []
 
-[69]
+[70]
 File: ./picture//editcompare.png Graphic file (type bmp)
 <./picture//editcompare.png>
- [70]
+ [71]
 File: ./picture//scoreword2vec.png Graphic file (type bmp)
 <./picture//scoreword2vec.png>
 
@@ -2341,12 +2339,12 @@ Overfull \hbox (5.70634pt too wide) in paragraph at lines 254--255
 
 File: ./picture//word2vecCompare.png Graphic file (type bmp)
 <./picture//word2vecCompare.png>
-[71]
+[72]
 Underfull \hbox (badness 3492) in paragraph at lines 276--280
 []\TU/THSarabunNew(0)/m/n/10 นอกจากนี้ทางผู้จัดทำได้ทำการเปรียบเทียบประเภทของคำที่ใช้ในการค้นหากับการใช้โมเดล Word2Vec พบว่าส่วนใหญ่จะเป็นข้อมูลที่
  []
 
-[72]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 328--328
 []|\TU/THSarabunNew(0)/m/n/10 1. สามารถเข้าสู่ระบบและออกจาก
  []
@@ -2626,12 +2624,12 @@ Overfull \hbox (29.70454pt too wide) in paragraph at lines 344--352
 []  
  []
 
-[73]
+[74]
 File: ./picture//web1.png Graphic file (type bmp)
 <./picture//web1.png>
 File: ./picture//weblogin.png Graphic file (type bmp)
 <./picture//weblogin.png>
- [74]
+ [75]
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจากการเพิ่มหนังสือเข้าสู่ระบบมีขั้นตอนจำนวนมากและใช้เวลานานจึงแบ่งการรอประมวลผลเป็นส่วนของการเพิ่มข้อมูลของหนังสือ
  []
@@ -2652,7 +2650,7 @@ File: ./picture//webinsert2.png Graphic file (type bmp)
 <./picture//webinsert2.png>
 File: ./picture//webinsert3.png Graphic file (type bmp)
 <./picture//webinsert3.png>
-[75]
+[76]
 File: ./picture//webinsert4.png Graphic file (type bmp)
 <./picture//webinsert4.png>
 
@@ -2662,7 +2660,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
 File: ./picture//webcorrect.png Graphic file (type bmp)
 <./picture//webcorrect.png>
-[76]
+[77]
 File: ./picture//websubmit.png Graphic file (type bmp)
 <./picture//websubmit.png>
 File: ./picture//webcheckout.png Graphic file (type bmp)
@@ -2682,31 +2680,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \TU/THSarabunNew(0)/m/n/10 เล่มนี้ในระบบได้อีกโดยถ้ายืนยันแล้วระบบจะทำการเพิ่มคำเหล่านี้เข้าสู่ระบบและทำการคำนวนคะแนน TF-IDF ของคำเหล่านี้ก่อนจะ
  []
 
-[77]
+[78]
 File: ./picture//webtag.png Graphic file (type bmp)
 <./picture//webtag.png>
 File: ./picture//webstatus.png Graphic file (type bmp)
 <./picture//webstatus.png>
 File: ./picture//websearch.png Graphic file (type bmp)
 <./picture//websearch.png>
- [78]
+ [79]
 File: ./picture//webview.png Graphic file (type bmp)
 <./picture//webview.png>
 File: ./picture//webview2.png Graphic file (type bmp)
 <./picture//webview2.png>
- [79]
+ [80]
 File: ./picture//webman.png Graphic file (type bmp)
 <./picture//webman.png>
 File: ./picture//webdel.png Graphic file (type bmp)
 <./picture//webdel.png>
 File: ./picture//webman1.png Graphic file (type bmp)
 <./picture//webman1.png>
- [80]
+ [81]
 File: ./picture//webman3.png Graphic file (type bmp)
 <./picture//webman3.png>
 File: ./picture//webman4.png Graphic file (type bmp)
 <./picture//webman4.png>
-) [81]
+) [82]
 \openout2 = `Chapter5.aux'.
 
  (Chapter5.tex
@@ -2731,7 +2729,7 @@ Underfull \hbox (badness 3503) in paragraph at lines 37--47
 \TU/THSarabunNew(0)/m/n/10 รียมรูปภาพแบบไหนให้ประสิทธิ์ภาพออกมาได้ดีกว่ากัน โดยที่เราเลือกใช้การเตรียมข้อมูลรูปภาพด้วยวิธีที่ 2 ซึ่งก็คือวิธีการลบพื้นหลัง
  []
 
-[82
+[83
 
 
 
@@ -2771,7 +2769,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--80
 \TU/THSarabunNew(0)/m/n/10 ไปด้วยซึ่งทางเราได้ปรับปรุงเพิ่มคำอธิบายและสิ่งที่ผู้ใช้ไม่เข้าใจเรียบร้อยแล้ว และการออกแบบการทำงานของเว็ตไซต์แพลฟอร์มโดยใช้
  []
 
-[83]
+[84]
 Overfull \hbox (1.08514pt too wide) in paragraph at lines 83--84
 []\TU/THSarabunNew(0)/m/n/10 เนื่องจากหนังสือแต่ละเล่มมีลักษณะที่แตกต่างกันในเรื่องของสีของกระดาษและตัวอักษร ลักษณะการสแกนรูปภาพจึงทำให้การนำประโยค
  []
@@ -2796,7 +2794,7 @@ Underfull \hbox (badness 2173) in paragraph at lines 109--113
 \TU/THSarabunNew(0)/m/n/10 และโมเดลที่มีข้อมูล 6 เล่ม ซึ่งจำนวนข้อมูลที่นำมาใช้งานยังมีไม่มากพอที่จะทำให้หาความสัมพันธ์ที่ดี นอกจากนั้นปัญหาเรี่องคำที่ผิด
  []
 
-[84]
+[85]
 Underfull \hbox (badness 1515) in paragraph at lines 114--116
 []$[]$ \TU/THSarabunNew(0)/m/n/10 หาหนังสือที่มีลักษณะการเขียนหนังสือแบบนี้เพิ่มเติมเข้ามาใช้ในการสร้างโมเดล นอกจากนั้นการแก้ไขคำผิดให้ถูกต้องทั้งหมด
  []
@@ -2821,7 +2819,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 []\TU/THSarabunNew(0)/m/n/10 การพัฒนาระบบการค้นหาด้วยการใช้ความสัมพันธ์ของลำดับรูปประโยค เนื่องจากรูปประโยคจะประกอบด้วยคำศัพท์มารวมกัน
  []
 
-) [85] (SeniorLatex.bbl
+) [86] (SeniorLatex.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\TU/THSarabunNew(0)/m/n/10 Ritambhara,  ``Minimum edit distance of two strings,'' [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][] []
  []
@@ -2842,31 +2840,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--22
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][][][][][][][][][][][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--33
 []\TU/THSarabunNew(0)/m/n/10 ICHI.PRO,  ``ชุดประมวลผลภาษาธรรมชาติ,'' [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 24--28
+Underfull \hbox (badness 1412) in paragraph at lines 35--39
 []\TU/THSarabunNew(0)/m/n/10 Doxygen, 2020,  ``OpenCV,'' [][]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [] [] [] [] [][] [] [][][] [] [][][][][][][][] [] [][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 62--65
+Underfull \hbox (badness 1163) in paragraph at lines 73--76
 []\TU/THSarabunNew(0)/m/n/10 Pythainlp,  ``PyThaiNLP,'' [][]$[][][][][] [] [] [] [][][][][][][][][] [] [][][][][][] [] [][] [] [][][][] [] [] [] [] [] [][][][][] [] [][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 [][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [] [] [] [][][][] [] [][][][][][][][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 [][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][][] [] [][][][][][] [] [][][][][][][] []
  []
 
-) [86
+) [87
 
 
 
@@ -2878,7 +2881,7 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 21.25432pt on input line 1.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 (Font)              scaled to size 21.25432pt on input line 1.
- [87
+ [88
 
 ]
 
@@ -2894,7 +2897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[88] [89] [90] [91] [92]
+[89] [90] [91] [92] [93]
 Overfull \hbox (17.08633pt too wide) in alignment at lines 257--260
 [] [] [] 
  []
@@ -2918,12 +2921,12 @@ Overfull \hbox (17.08633pt too wide) in alignment at lines 282--302
 [] [] [] 
  []
 
-[93]
+[94]
 Overfull \hbox (17.08633pt too wide) in alignment at lines 302--304
 [] [] [] 
  []
 
-[94]) [95]
+[95]) [96]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2984,15 +2987,15 @@ LaTeX Info: Redefining \ttfamily on input line 19.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
-(rerunfilecheck)             Checksum: 68369F9F871E9DE9B8BE7A452FDEE8AA;27014.
+(rerunfilecheck)             Checksum: D0B0D7DB595833BB3E664BE7B1044567;27014.
  ) 
 Here is how much of TeX's memory you used:
- 39567 strings out of 411732
- 894847 string characters out of 2836994
- 1395486 words of memory out of 3000000
- 58917 multiletter control sequences out of 15000+200000
+ 39591 strings out of 411732
+ 895262 string characters out of 2836994
+ 1402766 words of memory out of 3000000
+ 58941 multiletter control sequences out of 15000+200000
  406031 words of font info for 67 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,17n,117p,1121b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (111 pages, 1483236 bytes).
+Output written on SeniorLatex.xdv (112 pages, 1493728 bytes).
