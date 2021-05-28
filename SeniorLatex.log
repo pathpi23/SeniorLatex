@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  27 MAY 2021 17:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (MiKTeX 21.2) (preloaded format=xelatex 2021.2.23)  28 MAY 2021 11:59
 entering extended mode
 **d:/Senior/SeniorLatex/SeniorLatex.tex
 (d:/Senior/SeniorLatex/SeniorLatex.tex
@@ -1319,41 +1319,36 @@ File: ./picture//httpreq.png Graphic file (type bmp)
 File: ./picture//httpres.png Graphic file (type bmp)
 <./picture//httpres.png>
 
-Overfull \hbox (5.96819pt too wide) in paragraph at lines 172--178
-\TU/THSarabunNew(0)/m/n/10 ดังภาพที่ [][]2.9[][]) ว่ามีความสัมพันธ์ใกล้เคียงกับคำไหนบ้างในระบบโดยมาจากการ dot กันระหว่างเวกเตอร์ของคำ ซึ่งมิติใน word embedding
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 172--178
-\TU/THSarabunNew(0)/m/n/10 นั้นจะเป็นการแสดงถึงการจำแนกประเภทของคำเหล่านี้ โดยที่เราจะสามารถกำหนดตัวเลขขึ้นมาและโมเดลจะทำการสร้างมิติ โดยมีการ
- []
-
-File: ./picture//embedgraph.png Graphic file (type bmp)
-<./picture//embedgraph.png>
-File: ./picture//7Dto2D.png Graphic file (type bmp)
-<./picture//7Dto2D.png>
-[12]
-Underfull \hbox (badness 1281) in paragraph at lines 196--207
+Underfull \hbox (badness 1281) in paragraph at lines 180--188
 []\TU/THSarabunNew(0)/m/n/10 ทฤษฎี Word2Vec[[]] เป็นทฤษฎีที่ช่วยจัดการกับคำศัพท์ที่มีความหมายใกล้เคียงกัน หรือคำศัพท์ที่มีความสัมพันธ์อย่างคำตรงข้ามกัน
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 196--207
+Underfull \hbox (badness 1142) in paragraph at lines 180--188
 \TU/THSarabunNew(0)/m/n/10 เวกเตอร์ แน่นอนว่าการที่จะรู้ว่าแต่ละคำมีความสัมพันธ์ได้นั้น เราจำเป็นต้องสร้างประเภทของคำจากรูปประโยคอย่างเช่น “การ เลี้ยง
  []
 
 File: ./picture//cbowskip.png Graphic file (type bmp)
 <./picture//cbowskip.png>
-[13]
-File: ./picture//skipgram.png Graphic file (type bmp)
-<./picture//skipgram.png>
 
-Overfull \hbox (0.63pt too wide) in paragraph at lines 216--224
+Underfull \hbox (badness 10000) in paragraph at lines 189--196
+[]\TU/THSarabunNew(0)/m/n/10 นอกจากส่วนการใช้คำข้างเคียงมาช่วยในการทำ Word2Vec แล้วยังมีส่วนของรูปแบบการสร้างโมเดลเพื่อหาคำที่มีความสัมพันธ์กันอีก
+ []
+
+[12]
+File: ./picture//embedgraph.png Graphic file (type bmp)
+<./picture//embedgraph.png>
+File: ./picture//7Dto2D.png Graphic file (type bmp)
+<./picture//7Dto2D.png>
+ [13]
+Overfull \hbox (0.63pt too wide) in paragraph at lines 224--228
 []\TU/THSarabunNew(0)/m/n/10 Skip-gram[[]] เป็นโมเดลที่จะใช้หาความสัมพันธ์ของคำ โดยจะนำคำที่เข้าไปไปหาคำบริบทโดยรอบ โดยการที่โมเดลจะทำการอ่านประโยค
  []
 
+File: ./picture//skipgram.png Graphic file (type bmp)
+<./picture//skipgram.png>
 
-Underfull \hbox (badness 1874) in paragraph at lines 227--232
+Underfull \hbox (badness 1874) in paragraph at lines 236--241
 []\TU/THSarabunNew(0)/m/n/10 CBOW[[]] เป็นโมเดลที่จะใช้หาความสัมพันธ์ของคำแบบจะพิจารณาคำหลายๆคำเพื่อหาคำหนึ่งคำ ดังตัวอย่างในรูปที่ [][]2.13[][] โดยการที่
  []
 
@@ -1361,7 +1356,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 227--232
 File: ./picture//cbow.png Graphic file (type bmp)
 <./picture//cbow.png>
  [15]
-Overfull \hbox (0.27333pt too wide) in paragraph at lines 259--260
+Overfull \hbox (0.27333pt too wide) in paragraph at lines 268--269
 []\TU/THSarabunNew(0)/m/n/10 Python เป็นภาษาทางโปรแกรมมิ่งซึ่งเป็นภาษาทางคอมพิวเตอร์ระดับสูงที่ออกแบบมาให้ใกล้เคียงกับภาษามนุษย์มากที่สุดเพื่อให้สามารถ
  []
 
@@ -2840,13 +2835,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--20
-[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][][][][][][][][][][][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+Underfull \hbox (badness 10000) in paragraph at lines 17--22
+[]\TU/THSarabunNew(0)/m/n/10 ICHI.PRO,  ``ชุดประมวลผลภาษาธรรมชาติ,'' [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--33
-[]\TU/THSarabunNew(0)/m/n/10 ICHI.PRO,  ``ชุดประมวลผลภาษาธรรมชาติ,'' [][]$[][][][][] [] [] [] [][][][] [] [][][] [] [][] []
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][][][][][][][][][][][][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
  []
 
 
@@ -2869,11 +2864,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--108
 [][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][][][] [] [][][][] [] [][] [] [][][][][] [] [][][][][][] [] [][][][][][][] []
  []
 
-) [87
+[87
 
 
 
-]
+]) [88]
 \openout2 = `Appendix.aux'.
 
  (Appendix.tex
@@ -2881,7 +2876,7 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 21.25432pt on input line 1.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 (Font)              scaled to size 21.25432pt on input line 1.
- [88
+ [89
 
 ]
 
@@ -2897,7 +2892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[89] [90] [91] [92] [93]
+[90] [91] [92] [93] [94]
 Overfull \hbox (17.08633pt too wide) in alignment at lines 257--260
 [] [] [] 
  []
@@ -2921,12 +2916,12 @@ Overfull \hbox (17.08633pt too wide) in alignment at lines 282--302
 [] [] [] 
  []
 
-[94]
+[95]
 Overfull \hbox (17.08633pt too wide) in alignment at lines 302--304
 [] [] [] 
  []
 
-[95]) [96]
+[96]) [97]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2990,12 +2985,12 @@ Package rerunfilecheck Info: File `SeniorLatex.out' has not changed.
 (rerunfilecheck)             Checksum: D0B0D7DB595833BB3E664BE7B1044567;27014.
  ) 
 Here is how much of TeX's memory you used:
- 39591 strings out of 411732
- 895262 string characters out of 2836994
- 1402766 words of memory out of 3000000
- 58941 multiletter control sequences out of 15000+200000
+ 39593 strings out of 411732
+ 895275 string characters out of 2836994
+ 1402836 words of memory out of 3000000
+ 58943 multiletter control sequences out of 15000+200000
  406031 words of font info for 67 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  110i,17n,117p,1121b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorLatex.xdv (112 pages, 1493728 bytes).
+Output written on SeniorLatex.xdv (113 pages, 1501900 bytes).

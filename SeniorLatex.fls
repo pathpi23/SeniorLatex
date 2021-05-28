@@ -1306,12 +1306,12 @@ INPUT .\picture\\httpreq.png
 INPUT picture\\httpreq.png
 INPUT .\picture\\httpres.png
 INPUT picture\\httpres.png
+INPUT .\picture\\cbowskip.png
+INPUT picture\\cbowskip.png
 INPUT .\picture\\embedgraph.png
 INPUT picture\\embedgraph.png
 INPUT .\picture\\7Dto2D.png
 INPUT picture\\7Dto2D.png
-INPUT .\picture\\cbowskip.png
-INPUT picture\\cbowskip.png
 INPUT .\picture\\skipgram.png
 INPUT picture\\skipgram.png
 INPUT .\picture\\cbow.png

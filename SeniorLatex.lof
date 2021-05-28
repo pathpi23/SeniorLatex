@@ -9,9 +9,9 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces ตัวอย่างตารางการทำ Minimum edit distance \cite {ritambhara}\relax }}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces แสดงถึงโครงสร้างของ HTTP Request \cite {Saixiii}\relax }}{11}{figure.caption.10}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces แสดงถึงโครงสร้างของ HTTP Response \cite {Saixiii}\relax }}{12}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces ภาพแสดงการหาความสัมพันธ์ระหว่างคำโดยใช้วิธีการทาง word embedded \cite {lukkid}\relax }}{12}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces ภาพแสดงการหาความสัมพันธ์ระหว่างคำโดยใช้วิธีการทาง word embedded \cite {sasiwut}\relax }}{13}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces ภาพแสดงโมเดล Skip-gram และ CBOW \cite {ichi}\relax }}{14}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces ภาพแสดงโมเดล Skip-gram และ CBOW \cite {ichi}\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ภาพแสดงการหาความสัมพันธ์ระหว่างคำโดยใช้วิธีการทาง Word embedded แบบ Word2Vec \cite {lukkid}\relax }}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces ภาพแสดงการลดมิติของ word embedded แบบ Word2Vec ให้อยู่ในรูป 2 มิติ\cite {sasiwut}\relax }}{14}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces แสดงการทำงานของ Skip-gram \cite {ichi}\relax }}{14}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces แสดงการทำงานของ CBOW \cite {ichi}\relax }}{15}{figure.caption.16}%
 \addvspace {0em}

@@ -13,6 +13,13 @@ Saixiii,  2017,
   webservice},''
   \url{https://saixiii.com/what-is-restful/#:~:text=Representational%20state%20transfer%20%E0%B8%AB%E0%B8%A3%E0%B8%B7%E0%B8%AD%20REST,XML%2C%20HTML%2C%20JSON%20%E0%B9%82%E0%B8%94%E0%B8%A2%20response/}.
 
+\bibitem{ichi}
+ICHI.PRO,
+\newblock
+  ``{ชุดประมวลผลภาษาธรรมชาติ},''
+  \url{https://ichi.pro/th/chud-pramwl-phl-phas-a-thrrmchati-99851277240821},
+\newblock [Online;accessed 17 May 2021].
+
 \bibitem{lukkid}
 lukkiddd,
 \newblock ``Word Embedding และ Word2Vec คืออะไร,''
@@ -23,13 +30,6 @@ Sasiwut Chaiyadecha,
 \newblock ``News classification 2: รู้จักกับ Word embedding
   และ Word2Vec,''
   \url{https://lengyi.medium.com/word-embedding-word2vec-nlp-model-dbc4c892dfb9}.
-
-\bibitem{ichi}
-ICHI.PRO,
-\newblock
-  ``{ชุดประมวลผลภาษาธรรมชาติ},''
-  \url{https://ichi.pro/th/chud-pramwl-phl-phas-a-thrrmchati-99851277240821},
-\newblock [Online;accessed 17 May 2021].
 
 \bibitem{doxygen}
 Doxygen,  2020,
@@ -105,6 +105,16 @@ Ria Kulshrestha,  2019,
 \newblock ``{NLP 101: Word2Vec — Skip-gram and CBOW},''
   \url{https://towardsdatascience.com/nlp-101-word2vec-skip-gram-and-cbow-93512ee24314#:~:text=Continuous%20Bag%20of%20Words%20Model%20(CBOW)%20and%20Skip%2Dgram&text=In%20the%20CBOW%20model%2C%20the,used%20to%20predict%20the%20context%20.},
 \newblock [Online; accessed 17 May 2021].
+
+\bibitem{PCA}
+Pimporn Pimpim,
+\newblock ``02 การลดมิติข้อมูล Dimensionality
+  Reduction,'' \url{https://bit.ly/3uvcnGq}.
+
+\bibitem{PCAeng}
+Sujin Jang,
+\newblock ``Basics and Examples of Principal Component Analysis (PCA),''
+  \url{https://www.projectrhea.org/rhea/index.php/PCA_Theory_Examples}.
 
 \bibitem{keiron}
 Keiron O'Shea and Ryan Nash,
